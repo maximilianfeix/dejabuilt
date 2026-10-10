@@ -18,6 +18,7 @@ from .search import repo_from_api
 
 RELEASES_TO_READ = 10
 MAX_ASSET_NAMES = 40
+"""How many asset names are kept for display. Platform hints use all of them."""
 README_CHARS = 200_000
 
 FROM_ASSET = "release-asset"
@@ -64,14 +65,15 @@ def inspect_repo(client: Client, full_name: str) -> Inspection:
     releases = _releases(client, full_name, errors)
     headings = _readme_headings(client, full_name, errors)
     asset_names = _asset_names(releases)
+    hints = platform_hints(asset_names, headings)
     latest = releases[0] if releases else {}
     return Inspection(
         release_tag=clean(latest.get("tag_name"), 60) or None,
         release_at=clean(latest.get("published_at"), 40) or None,
         release_is_prerelease=bool(latest.get("prerelease")),
         releases_seen=len(releases),
-        asset_names=asset_names,
-        platforms=platform_hints(asset_names, headings),
+        asset_names=asset_names[:MAX_ASSET_NAMES],
+        platforms=hints,
         errors=tuple(errors),
     )
 
@@ -126,4 +128,4 @@ def _asset_names(releases: Sequence[Mapping[str, Any]]) -> tuple[str, ...]:
                 name = clean(asset.get("name"), 100)
                 if name:
                     names.setdefault(name)
-    return tuple(names)[:MAX_ASSET_NAMES]
+    return tuple(names)

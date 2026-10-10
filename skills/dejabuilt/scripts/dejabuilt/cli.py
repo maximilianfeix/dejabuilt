@@ -121,7 +121,7 @@ def _inspect(args: argparse.Namespace, deps: Deps) -> int:
     state = _read_state(args.source)
     client = deps.make_client(deps.env)
     repos = {repo.full_name.lower(): repo for repo in state.repos}
-    fetch_errors = dict(state.fetch_errors)
+    fetch_errors = {name.lower(): error for name, error in state.fetch_errors.items()}
     problems: list[str] = []
     named = list(dict.fromkeys(validate_full_name(name) for name in args.repo))
 
@@ -130,10 +130,10 @@ def _inspect(args: argparse.Namespace, deps: Deps) -> int:
             try:
                 repos[name.lower()] = fetch_repo(client, name)
             except GitHubError as error:
-                fetch_errors[name] = str(error)
+                fetch_errors[name.lower()] = str(error)
                 problems.append(f"{name}: {error}")
                 continue
-        fetch_errors.pop(name, None)
+        fetch_errors.pop(name.lower(), None)
 
     wanted = [repos[name.lower()] for name in named if name.lower() in repos]
     wanted += [repo for repo in state.repos[: args.top] if repo not in wanted]

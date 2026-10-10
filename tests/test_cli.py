@@ -166,6 +166,18 @@ class TestInspectCommand:
         saved = json.loads(state.read_text(encoding="utf-8"))
         assert saved["fetch_errors"] == {"gone/repo": "not_found: not found"}
 
+    def test_error_is_cleared_whatever_case_the_name_is_typed_in(self, tmp_path: Path) -> None:
+        state = tmp_path / "state.json"
+        Run({"/search/repositories": found()})("search", "-q", "alpha", "--out", state)
+        Run()("inspect", "--from", state, "--repo", "Late/Repo")
+        assert json.loads(state.read_text(encoding="utf-8"))["fetch_errors"]
+        routes = {
+            "/repos/late/repo": api_repo("Late/Repo", repo_id=9),
+            "/repos/Late/Repo/releases": [],
+        }
+        assert Run(routes)("inspect", "--from", state, "--repo", "late/repo") == EXIT_OK
+        assert json.loads(state.read_text(encoding="utf-8"))["fetch_errors"] == {}
+
     def test_unloadable_repo_makes_an_absence_verdict_inconclusive(self, tmp_path: Path) -> None:
         routes = {"/search/repositories": found(), "/repos/known/rival": json_response({}, 500)}
         state = tmp_path / "state.json"
