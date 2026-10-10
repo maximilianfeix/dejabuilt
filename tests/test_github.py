@@ -219,6 +219,39 @@ class TestRateLimits:
             client.get_json("/x")
 
 
+class TestStopsAfterRepeatingFailures:
+    def test_no_request_is_sent_after_an_exhausted_rate_limit(self) -> None:
+        limited = json_response({}, 429, {"Retry-After": "30"})
+        client, transport, clock = make_client({"/a": limited, "/b": {"ok": True}})
+        with pytest.raises(GitHubError):
+            client.get_json("/a")
+        calls, slept = len(transport.calls), sum(clock.sleeps)
+        with pytest.raises(GitHubError) as caught:
+            client.get_json("/b")
+        assert str(caught.value) == "skipped after secondary_rate_limit: request not sent"
+        assert len(transport.calls) == calls == 3
+        assert sum(clock.sleeps) == slept == 60.0
+
+    @pytest.mark.parametrize(
+        "failure",
+        [json_response({}, 401), GitHubError("network", "could not reach GitHub")],
+    )
+    def test_auth_and_network_failures_also_stop(self, failure: object) -> None:
+        client, transport, _ = make_client({"/a": failure, "/b": {"ok": True}})
+        with pytest.raises(GitHubError):
+            client.get_json("/a")
+        with pytest.raises(GitHubError, match="skipped after"):
+            client.get_json("/b")
+        assert len(transport.calls) == 1
+
+    @pytest.mark.parametrize("status", [404, 422, 500])
+    def test_other_failures_do_not_stop(self, status: int) -> None:
+        client, _, _ = make_client({"/a": json_response({}, status), "/b": {"ok": True}})
+        with pytest.raises(GitHubError):
+            client.get_json("/a")
+        assert client.get_json("/b") == {"ok": True}
+
+
 class TestTokenNeverLeaks:
     @pytest.mark.parametrize("status", [401, 403, 404, 422, 429, 500, 302])
     def test_not_in_error_text_even_if_github_echoes_it(self, status: int) -> None:

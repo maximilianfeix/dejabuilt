@@ -110,8 +110,8 @@ class TestSearch:
         assert len(transport.calls) == 2
         assert queries[1].error is not None
         assert kind in queries[1].error
-        assert queries[2].error == f"skipped after {kind}"
-        assert queries[3].error == f"skipped after {kind}"
+        assert queries[2].error == f"skipped after {kind}: request not sent"
+        assert queries[3].error == f"skipped after {kind}: request not sent"
         assert len(repos) == 1
 
     def test_items_without_a_name_are_dropped(self) -> None:

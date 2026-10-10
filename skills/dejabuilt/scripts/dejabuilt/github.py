@@ -28,6 +28,9 @@ MAX_BODY_BYTES = 2_000_000
 JSON = "application/vnd.github+json"
 RAW = "application/vnd.github.raw+json"
 
+STOP_KINDS = frozenset({"auth", "rate_limit", "secondary_rate_limit", "network"})
+"""After one of these, the next request would fail the same way, so none is sent."""
+
 
 class GitHubError(Exception):
     """A request failed. `kind` is stable and safe to show; so is the message."""
@@ -122,6 +125,7 @@ class Client:
         self._max_retries = max_retries
         self._max_wait = max_wait
         self._timeout = timeout
+        self._stopped_by: str | None = None
 
     @property
     def authenticated(self) -> bool:
@@ -140,6 +144,8 @@ class Client:
 
     def _request(self, path: str, params: Mapping[str, str | int] | None, accept: str) -> Response:
         url = build_url(path, params)
+        if self._stopped_by:
+            raise GitHubError(f"skipped after {self._stopped_by}", "request not sent")
         headers = {
             "Accept": accept,
             "User-Agent": USER_AGENT,
@@ -150,15 +156,24 @@ class Client:
 
         attempt = 0
         while True:
-            response = self._transport(url, headers, self._timeout)
+            try:
+                response = self._transport(url, headers, self._timeout)
+            except GitHubError as error:
+                raise self._final(error) from None
             if 200 <= response.status < 300:
                 return response
             error = self._to_error(response)
             wait = self._retry_wait(response, error)
             if wait is None or attempt >= self._max_retries:
-                raise error
+                raise self._final(error)
             attempt += 1
             self._sleep(wait)
+
+    def _final(self, error: GitHubError) -> GitHubError:
+        """Remember a failure that would repeat, so later requests are not sent."""
+        if error.kind in STOP_KINDS:
+            self._stopped_by = error.kind
+        return error
 
     def _retry_wait(self, response: Response, error: GitHubError) -> float | None:
         """Seconds to wait before retrying, or None if this failure is final."""

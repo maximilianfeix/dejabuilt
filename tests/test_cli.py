@@ -203,6 +203,20 @@ class TestInspectCommand:
         assert saved["fetch_errors"] == {}
         assert "late/repo" in saved["inspections"]
 
+    def test_persistent_rate_limit_stops_instead_of_retrying_every_repo(
+        self, tmp_path: Path
+    ) -> None:
+        state = tmp_path / "state.json"
+        Run(ROUTES)("search", "-q", "alpha", "--out", state)
+        limited = json_response({}, 429, {"Retry-After": "40"})
+        run = Run({"/repos": limited})
+        assert run("inspect", "--from", state) == EXIT_PARTIAL
+        assert len(run.transport.calls) == 3
+        saved = json.loads(state.read_text(encoding="utf-8"))
+        errors = [e for seen in saved["inspections"].values() for e in seen["errors"]]
+        assert len(saved["inspections"]) == 3
+        assert sum("skipped after secondary_rate_limit" in e for e in errors) == 5
+
     def test_repo_named_twice_is_inspected_once(self, tmp_path: Path) -> None:
         state = tmp_path / "state.json"
         Run(ROUTES)("search", "-q", "alpha", "--out", state)

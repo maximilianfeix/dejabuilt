@@ -14,9 +14,6 @@ MAX_QUERIES = 20
 MAX_QUERY_LENGTH = 256
 MAX_LIMIT = 100
 
-_STOP_AFTER = frozenset({"auth", "rate_limit", "secondary_rate_limit", "network"})
-"""After one of these, further queries would fail the same way; skip them."""
-
 
 def normalize_queries(queries: Sequence[str]) -> tuple[str, ...]:
     """Trim, drop blanks and duplicates, and check GitHub's limits."""
@@ -54,17 +51,15 @@ def search(
     """Run each query once, sorted by stars, and merge the results by repository id.
 
     A failed query is recorded, never raised: results gathered so far are kept.
+    After a failure that would repeat (see `github.STOP_KINDS`) the client sends
+    nothing more, and the remaining queries are recorded as skipped.
     """
     if not 1 <= limit <= MAX_LIMIT:
         raise InvalidInput(f"limit must be between 1 and {MAX_LIMIT}")
     results: list[QueryResult] = []
     merged: dict[int, Repo] = {}
-    stopped_by: str | None = None
 
     for query in normalize_queries(queries):
-        if stopped_by:
-            results.append(QueryResult(query=query, error=f"skipped after {stopped_by}"))
-            continue
         try:
             payload = client.get_json(
                 "/search/repositories",
@@ -73,8 +68,6 @@ def search(
             items = _items(payload)
         except GitHubError as error:
             results.append(QueryResult(query=query, error=str(error)))
-            if error.kind in _STOP_AFTER:
-                stopped_by = error.kind
             continue
         results.append(
             QueryResult(
