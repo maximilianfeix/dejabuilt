@@ -2,6 +2,13 @@
 
 Notable changes to this project. Versions follow [Semantic Versioning](https://semver.org).
 
+## 0.2.0 - 2026-10-10
+
+- The plugin now lives in `plugin/`. An installation carries the skill, a short
+  README, the licence and the icon, and no longer the tests, examples and CI
+  files. Installing by hand copies `plugin/skills/dejabuilt`.
+- Listing fields in the manifest: icon, documentation and support links.
+
 ## 0.1.1 - 2026-10-10
 
 - Privacy policy (`PRIVACY.md`), linked from the plugin manifest and the README.

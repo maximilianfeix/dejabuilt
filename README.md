@@ -122,7 +122,7 @@ npx skills add maximilianfeix/dejabuilt
 
 ```bash
 git clone https://github.com/maximilianfeix/dejabuilt.git
-cp -r dejabuilt/skills/dejabuilt ~/.claude/skills/
+cp -r dejabuilt/plugin/skills/dejabuilt ~/.claude/skills/
 ```
 
 The skill folder is self-contained. It needs Python 3.10 or newer and nothing
@@ -138,7 +138,7 @@ other requests an hour) are enough for a few checks an hour.
 The script is an ordinary command-line tool.
 
 ```bash
-cd skills/dejabuilt/scripts
+cd plugin/skills/dejabuilt/scripts
 
 python run.py search -q "markdown slides cli" -q "notes to presentation" --out state.json
 python run.py inspect --from state.json --top 8

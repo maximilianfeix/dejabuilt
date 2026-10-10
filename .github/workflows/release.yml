@@ -23,7 +23,7 @@ jobs:
 
       - name: Check that the tag matches the version
         run: |
-          version="$(python -c 'import json; print(json.load(open(".claude-plugin/plugin.json"))["version"])')"
+          version="$(python -c 'import json; print(json.load(open("plugin/.claude-plugin/plugin.json"))["version"])')"
           if [ "v${version}" != "${GITHUB_REF_NAME}" ]; then
             echo "Tag ${GITHUB_REF_NAME} does not match plugin version ${version}" >&2
             exit 1
@@ -31,9 +31,9 @@ jobs:
 
       - name: Build the skill archive
         run: |
-          cd skills
-          zip -r "../dejabuilt-${GITHUB_REF_NAME}.zip" dejabuilt -x '*/__pycache__/*' '*.pyc'
-          cd ..
+          cd plugin/skills
+          zip -r "../../dejabuilt-${GITHUB_REF_NAME}.zip" dejabuilt -x '*/__pycache__/*' '*.pyc'
+          cd ../..
           sha256sum "dejabuilt-${GITHUB_REF_NAME}.zip" > SHA256SUMS
 
       - name: Check that the archive runs on its own

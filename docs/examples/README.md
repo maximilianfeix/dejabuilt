@@ -5,7 +5,7 @@ returned), the marks (the relevance judgement) and the report. The report can be
 rebuilt from the two JSON files without a network connection:
 
 ```bash
-python skills/dejabuilt/scripts/run.py verdict \
+python plugin/skills/dejabuilt/scripts/run.py verdict \
   --from docs/examples/<folder>/state.json \
   --marks docs/examples/<folder>/marks.json
 ```

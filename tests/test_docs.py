@@ -14,7 +14,7 @@ from dejabuilt.verdict import Verdict
 
 ROOT = Path(__file__).resolve().parent.parent
 EXAMPLE = ROOT / "docs" / "examples" / "windows-agent-companion"
-DOCUMENTS = ["README.md", "skills/dejabuilt/SKILL.md", "docs/DESIGN.md"]
+DOCUMENTS = ["README.md", "plugin/README.md", "plugin/skills/dejabuilt/SKILL.md", "docs/DESIGN.md"]
 
 
 def read(relative: str) -> str:

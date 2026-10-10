@@ -70,23 +70,31 @@ Every input yields exactly one verdict. `LOW_TRACTION` states what was observed
 
 ## Architecture
 
-The skill folder is self-contained, because installers copy only that folder.
+`plugin/` is what people install: the manifest, a short README, the licence, the
+icon and the skill. Tests, examples and these notes live outside it, so an
+installation carries only what it runs. The skill folder inside is
+self-contained too, because some installers copy only that folder.
 
 ```
-skills/dejabuilt/
-  SKILL.md               the procedure the agent follows
-  scripts/
-    run.py               entry point
-    dejabuilt/
-      models.py          dataclasses shared by all modules
-      policy.py          thresholds and policy version
-      verdict.py         pure: candidates and evidence -> verdict
-      sanitize.py        pure: untrusted text -> safe text
-      render.py          pure: report -> JSON or Markdown
-      github.py          HTTP client: credentials, requests, errors, rate limits
-      search.py          run queries, merge and dedupe
-      inspect.py         releases, assets, platform hints, activity
-      cli.py             argument parsing, wiring, exit codes
+plugin/
+  .claude-plugin/plugin.json
+  README.md              shown as the directory listing
+  LICENSE
+  icon.svg
+  skills/dejabuilt/
+    SKILL.md               the procedure the agent follows
+    scripts/
+      run.py               entry point
+      dejabuilt/
+        models.py          dataclasses shared by all modules
+        policy.py          thresholds and policy version
+        verdict.py         pure: candidates and evidence -> verdict
+        sanitize.py        pure: untrusted text -> safe text
+        render.py          pure: report -> JSON or Markdown
+        github.py          HTTP client: credentials, requests, errors, rate limits
+        search.py          run queries, merge and dedupe
+        inspection.py      releases, assets, platform hints, activity
+        cli.py             argument parsing, wiring, exit codes
 ```
 
 Rules:

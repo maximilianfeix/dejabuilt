@@ -5,7 +5,7 @@ it again, because GitHub changes.
 
 ```bash
 E=docs/examples/windows-agent-companion
-R=skills/dejabuilt/scripts/run.py
+R=plugin/skills/dejabuilt/scripts/run.py
 
 python $R search --limit 10 --out $E/state.json \
   -q "notch claude codex" \

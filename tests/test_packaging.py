@@ -14,7 +14,8 @@ import pytest
 from dejabuilt import __version__
 
 ROOT = Path(__file__).resolve().parent.parent
-SKILL = ROOT / "skills" / "dejabuilt"
+PLUGIN = ROOT / "plugin"
+SKILL = PLUGIN / "skills" / "dejabuilt"
 
 
 def run(script: Path, *args: str, cwd: Path) -> subprocess.CompletedProcess[str]:
@@ -100,7 +101,16 @@ def test_runtime_uses_only_the_standard_library() -> None:
 
 
 def test_versions_agree() -> None:
-    plugin = json.loads((ROOT / ".claude-plugin" / "plugin.json").read_text(encoding="utf-8"))
+    plugin = json.loads((PLUGIN / ".claude-plugin" / "plugin.json").read_text(encoding="utf-8"))
     pyproject = (ROOT / "pyproject.toml").read_text(encoding="utf-8")
     assert plugin["version"] == __version__
     assert f'version = "{__version__}"' in pyproject
+
+
+def test_plugin_licence_is_a_copy_of_the_repository_licence() -> None:
+    assert (PLUGIN / "LICENSE").read_bytes() == (ROOT / "LICENSE").read_bytes()
+
+
+def test_plugin_folder_carries_nothing_but_the_plugin() -> None:
+    top_level = sorted(path.name for path in PLUGIN.iterdir() if path.name != "__pycache__")
+    assert top_level == [".claude-plugin", "LICENSE", "README.md", "icon.svg", "skills"]
