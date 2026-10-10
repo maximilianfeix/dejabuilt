@@ -44,8 +44,12 @@ _HEADING_PATTERNS: tuple[tuple[str, re.Pattern[str]], ...] = (
 
 
 def validate_full_name(name: str) -> str:
-    """Accept only `owner/name` made of the characters GitHub allows."""
-    if not _FULL_NAME.match(name) or ".." in name:
+    """Accept only `owner/name` made of the characters GitHub allows.
+
+    The pattern admits no slash beyond the one separator, so the only way to walk
+    out of `/repos/owner/name` would be a name of `.` or `..`.
+    """
+    if not _FULL_NAME.match(name) or name.split("/")[-1] in (".", ".."):
         raise InvalidInput(f"not a repository name of the form owner/name: {name[:60]!r}")
     return name
 

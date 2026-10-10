@@ -35,13 +35,29 @@ def readme(text: str) -> Response:
 
 
 class TestValidateFullName:
-    @pytest.mark.parametrize("name", ["a/b", "Louis-CFM/coucou", "x_y.z/re.po-1"])
+    @pytest.mark.parametrize(
+        "name", ["a/b", "Louis-CFM/coucou", "x_y.z/re.po-1", "a/foo..bar", "a/.github", "a/..."]
+    )
     def test_accepts_real_names(self, name: str) -> None:
         assert validate_full_name(name) == name
 
     @pytest.mark.parametrize(
         "name",
-        ["", "noslash", "a/b/c", "a/../b", "../etc", "a/b?x", "a b/c", "a/b#x", "/a/b", "a/"],
+        [
+            "",
+            "noslash",
+            "a/b/c",
+            "a/../b",
+            "../etc",
+            "a/..",
+            "a/.",
+            "./a",
+            "a/b?x",
+            "a b/c",
+            "a/b#x",
+            "/a/b",
+            "a/",
+        ],
     )
     def test_rejects_everything_else(self, name: str) -> None:
         with pytest.raises(InvalidInput):

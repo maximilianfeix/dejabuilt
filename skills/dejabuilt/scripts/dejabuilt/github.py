@@ -25,6 +25,7 @@ from typing import Any
 API_BASE = "https://api.github.com"
 USER_AGENT = "dejabuilt"
 MAX_BODY_BYTES = 2_000_000
+MAX_DETAIL_CHARS = 200
 JSON = "application/vnd.github+json"
 RAW = "application/vnd.github.raw+json"
 
@@ -158,14 +159,14 @@ class Client:
         while True:
             try:
                 response = self._transport(url, headers, self._timeout)
-            except GitHubError as error:
-                raise self._final(error) from None
+            except GitHubError as unreachable:
+                raise self._final(unreachable) from None
             if 200 <= response.status < 300:
                 return response
-            error = self._to_error(response)
-            wait = self._retry_wait(response, error)
+            failure = self._to_error(response)
+            wait = self._retry_wait(response, failure)
             if wait is None or attempt >= self._max_retries:
-                raise self._final(error)
+                raise self._final(failure)
             attempt += 1
             self._sleep(wait)
 
@@ -191,7 +192,7 @@ class Client:
 
     def _to_error(self, response: Response) -> GitHubError:
         status = response.status
-        detail = self._redact(_api_message(response.body))
+        detail = self._redact(_api_message(response.body))[:MAX_DETAIL_CHARS]
         if 300 <= status < 400:
             return GitHubError(
                 "redirect", "GitHub answered with a redirect; it was refused", status
@@ -236,13 +237,17 @@ def build_url(path: str, params: Mapping[str, str | int] | None = None) -> str:
 
 
 def _api_message(body: bytes) -> str:
-    """The `message` field of a GitHub error body, shortened; empty if there is none."""
+    """The `message` field of a GitHub error body on one line; empty if there is none.
+
+    Not shortened here: the caller must redact the token first, or a token cut in
+    half by the limit would no longer match and its first half would be shown.
+    """
     try:
         payload = json.loads(body.decode("utf-8"))
     except (UnicodeDecodeError, json.JSONDecodeError):
         return ""
     message = payload.get("message") if isinstance(payload, dict) else None
-    return " ".join(str(message).split())[:200] if isinstance(message, str) else ""
+    return " ".join(message.split()) if isinstance(message, str) else ""
 
 
 def _number(value: str | None) -> float | None:

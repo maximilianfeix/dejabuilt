@@ -263,6 +263,16 @@ class TestTokenNeverLeaks:
         assert TOKEN not in str(caught.value)
         assert TOKEN not in repr(caught.value)
 
+    @pytest.mark.parametrize("padding", [0, 150, 180, 199, 200, 260])
+    def test_not_even_partly_when_the_message_is_cut_at_the_limit(self, padding: int) -> None:
+        body = {"message": "x" * padding + TOKEN + " rejected"}
+        client, _, _ = make_client({"/x": json_response(body, 422)})
+        with pytest.raises(GitHubError) as caught:
+            client.get_json("/x")
+        shown = str(caught.value)
+        assert all(TOKEN[:size] not in shown for size in range(6, len(TOKEN) + 1))
+        assert len(shown) < 260
+
     def test_not_in_the_client_repr(self) -> None:
         client = Client(token=TOKEN, transport=FakeTransport())
         assert TOKEN not in repr(client)
