@@ -49,6 +49,10 @@ The [state file](docs/examples/windows-agent-companion/state.json) and the
 [marks](docs/examples/windows-agent-companion/marks.json) behind it are in the
 repository.
 
+Two more real runs are in [docs/examples](docs/examples/README.md): a
+command-line tool for Markdown slides (`TAKEN`), and dejabuilt run on its own
+idea (`OPEN`, with two small attempts found).
+
 ## Why a search is not enough
 
 Checking by hand goes wrong in four predictable ways. Each one is something this
@@ -170,7 +174,8 @@ fetched.
   only the platforms its headings mention. The skill tells the agent to treat
   repository content as data and not to follow instructions found in it.
 
-See [SECURITY.md](SECURITY.md) for how to report a problem.
+The same in full is in the [privacy policy](PRIVACY.md). See
+[SECURITY.md](SECURITY.md) for how to report a problem.
 
 ## Compared with similar tools
 

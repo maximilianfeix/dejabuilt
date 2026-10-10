@@ -1,6 +1,6 @@
 [project]
 name = "dejabuilt"
-version = "0.1.0"
+version = "0.1.1"
 description = "An agent skill that checks GitHub before you build."
 readme = "README.md"
 license = { text = "MIT" }

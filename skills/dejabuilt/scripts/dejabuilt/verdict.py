@@ -127,6 +127,14 @@ def decide(
     )
 
 
+def _found(count: int) -> str:
+    if count == 0:
+        return "No repository doing the same thing was found"
+    if count == 1:
+        return "Only 1 repository doing the same thing was found"
+    return f"Only {count} repositories doing the same thing were found"
+
+
 def _most_starred(repos: Sequence[Repo]) -> Repo | None:
     return max(repos, key=lambda repo: (repo.stars, repo.full_name), default=None)
 
@@ -179,12 +187,11 @@ def _classify(
             ],
         )
 
-    found = "No repository" if not same else f"Only {len(same)}"
     return (
         Verdict.OPEN,
         best,
         [
-            f"{found} doing the same thing was found, none with {policy.traction_stars} stars.",
+            f"{_found(len(same))}, none with {policy.traction_stars} stars.",
             "This is not proof that nothing exists: only the listed queries were run.",
         ],
     )
