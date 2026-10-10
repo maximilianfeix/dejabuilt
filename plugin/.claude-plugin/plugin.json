@@ -1,7 +1,7 @@
 {
   "name": "dejabuilt",
   "description": "Checks GitHub before you build: several search phrasings, a closer look at the strongest candidates, and one verdict with the numbers behind it.",
-  "version": "0.2.0",
+  "version": "0.2.1",
   "author": {
     "name": "maximilianfeix",
     "url": "https://github.com/maximilianfeix"

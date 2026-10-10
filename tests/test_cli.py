@@ -354,6 +354,22 @@ class TestVerdictCommand:
         assert Run()("verdict", "--from", state, "--marks", marks) == EXIT_INVALID
 
 
+def test_only_the_two_token_variables_are_read_from_the_environment(
+    monkeypatch: pytest.MonkeyPatch,
+) -> None:
+    monkeypatch.setenv("GH_TOKEN", "one")
+    monkeypatch.setenv("GITHUB_TOKEN", "two")
+    monkeypatch.setenv("AWS_SECRET_ACCESS_KEY", "must-not-be-read")
+    monkeypatch.setenv("OPENAI_API_KEY", "must-not-be-read")
+    assert Deps().env == {"GH_TOKEN": "one", "GITHUB_TOKEN": "two"}
+
+
+def test_no_token_variables_means_an_empty_environment(monkeypatch: pytest.MonkeyPatch) -> None:
+    monkeypatch.delenv("GH_TOKEN", raising=False)
+    monkeypatch.delenv("GITHUB_TOKEN", raising=False)
+    assert Deps().env == {}
+
+
 def test_default_dependencies_build_a_real_client() -> None:
     deps = Deps(env={"GH_TOKEN": "abc"})
     client = deps.make_client(deps.env)

@@ -27,7 +27,7 @@ these requests under the
   is kept in memory for the duration of the run and is never printed, logged or
   written to a file.
 
-It does not read your source code, your conversation with the agent, the
+It reads no other environment variable. It does not read your source code, your conversation with the agent, the
 agent's memory or any other file on your machine.
 
 ## What it stores

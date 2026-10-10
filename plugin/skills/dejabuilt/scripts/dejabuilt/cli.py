@@ -17,7 +17,7 @@ from pathlib import Path
 from typing import Any, TextIO
 
 from . import __version__
-from .github import Client, GitHubError, discover_token
+from .github import TOKEN_VARIABLES, Client, GitHubError, discover_token
 from .inspection import fetch_repo, inspect_repo, validate_full_name
 from .models import MARKS, Candidate, Inspection, InvalidInput, Repo, State
 from .policy import Policy
@@ -37,6 +37,11 @@ def _utc_now() -> datetime:
     return datetime.now(timezone.utc)
 
 
+def _token_environment() -> dict[str, str]:
+    """The two token variables, if set. Nothing else from the environment is read."""
+    return {name: os.environ[name] for name in TOKEN_VARIABLES if name in os.environ}
+
+
 def _default_client(env: Mapping[str, str]) -> Client:
     return Client(token=discover_token(env))
 
@@ -45,7 +50,7 @@ def _default_client(env: Mapping[str, str]) -> Client:
 class Deps:
     """Everything the CLI takes from the outside world, replaceable in tests."""
 
-    env: Mapping[str, str] = field(default_factory=lambda: dict(os.environ))
+    env: Mapping[str, str] = field(default_factory=_token_environment)
     make_client: Callable[[Mapping[str, str]], Client] = _default_client
     now: Callable[[], datetime] = _utc_now
     stdout: TextIO = field(default_factory=lambda: sys.stdout)
