@@ -1,0 +1,171 @@
+{
+  "schema_version": 1,
+  "observed_at": "2026-10-10T12:00:00Z",
+  "idea": "A Windows taskbar companion that shows what coding agents are doing",
+  "verdict": "TAKEN",
+  "headline": "Someone already owns this idea.",
+  "reasons": [
+    "Louis-CFM/coucou has 4,646 stars and is active.",
+    "It owns this idea today. Building the same thing means competing with it."
+  ],
+  "warnings": [],
+  "leader": "Louis-CFM/coucou",
+  "same_count": 2,
+  "policy": {
+    "policy_version": 1,
+    "big_stars": 2000,
+    "traction_stars": 200,
+    "active_days": 180,
+    "dormant_days": 365,
+    "crowd_count": 3
+  },
+  "candidates": [
+    {
+      "repo": {
+        "id": 1,
+        "full_name": "Louis-CFM/coucou",
+        "url": "https://github.com/Louis-CFM/coucou",
+        "description": "A thing",
+        "stars": 4646,
+        "forks": 0,
+        "open_issues": 0,
+        "archived": false,
+        "created_at": "2025-09-05T12:00:00Z",
+        "pushed_at": "2026-10-10T12:00:00Z",
+        "language": null,
+        "matched_queries": []
+      },
+      "state": "active",
+      "inspection": {
+        "release_tag": "windows-v0.3.0",
+        "release_at": "2026-10-08T12:00:00Z",
+        "release_is_prerelease": false,
+        "releases_seen": 10,
+        "asset_names": [
+          "Coucou-Windows-0.3.0-setup.exe",
+          "Coucou.zip"
+        ],
+        "platforms": [
+          {
+            "platform": "windows",
+            "source": "release-asset"
+          },
+          {
+            "platform": "linux",
+            "source": "readme-heading"
+          }
+        ],
+        "errors": []
+      },
+      "mark": "same",
+      "reason": "Shows agent status and approvals; ships Windows installers"
+    },
+    {
+      "repo": {
+        "id": 2,
+        "full_name": "Im-Midi/codenotch-windows",
+        "url": "https://github.com/Im-Midi/codenotch-windows",
+        "description": "A thing",
+        "stars": 10,
+        "forks": 0,
+        "open_issues": 0,
+        "archived": false,
+        "created_at": "2025-09-05T12:00:00Z",
+        "pushed_at": "2026-09-14T12:00:00Z",
+        "language": null,
+        "matched_queries": []
+      },
+      "state": "active",
+      "inspection": {
+        "release_tag": null,
+        "release_at": null,
+        "release_is_prerelease": false,
+        "releases_seen": 0,
+        "asset_names": [],
+        "platforms": [],
+        "errors": []
+      },
+      "mark": "same",
+      "reason": "does the same thing"
+    },
+    {
+      "repo": {
+        "id": 3,
+        "full_name": "graykode/abtop",
+        "url": "https://github.com/graykode/abtop",
+        "description": "A thing",
+        "stars": 3710,
+        "forks": 0,
+        "open_issues": 0,
+        "archived": false,
+        "created_at": "2025-09-05T12:00:00Z",
+        "pushed_at": "2026-10-09T12:00:00Z",
+        "language": null,
+        "matched_queries": []
+      },
+      "state": "active",
+      "inspection": {
+        "release_tag": null,
+        "release_at": null,
+        "release_is_prerelease": false,
+        "releases_seen": 0,
+        "asset_names": [],
+        "platforms": [],
+        "errors": []
+      },
+      "mark": "adjacent",
+      "reason": "does the same thing"
+    },
+    {
+      "repo": {
+        "id": 4,
+        "full_name": "x/unrelated",
+        "url": "https://github.com/x/unrelated",
+        "description": "A thing",
+        "stars": 99999,
+        "forks": 0,
+        "open_issues": 0,
+        "archived": false,
+        "created_at": "2025-09-05T12:00:00Z",
+        "pushed_at": "2026-10-09T12:00:00Z",
+        "language": null,
+        "matched_queries": []
+      },
+      "state": "active",
+      "inspection": {
+        "release_tag": null,
+        "release_at": null,
+        "release_is_prerelease": false,
+        "releases_seen": 0,
+        "asset_names": [],
+        "platforms": [],
+        "errors": []
+      },
+      "mark": "unrelated",
+      "reason": "does the same thing"
+    }
+  ],
+  "queries": [
+    {
+      "query": "notch claude codex windows",
+      "total_count": 14,
+      "returned": 14,
+      "incomplete": false,
+      "error": null
+    },
+    {
+      "query": "agent status tray windows",
+      "total_count": 420,
+      "returned": 20,
+      "incomplete": false,
+      "error": null
+    }
+  ],
+  "uninspected": 12,
+  "not_checked": [
+    "Code hosts other than GitHub (GitLab, Codeberg, Bitbucket).",
+    "Closed-source products, app stores and package registries.",
+    "Repositories that describe the idea in words none of the queries used.",
+    "Private repositories and work that has not been published yet."
+  ]
+}
