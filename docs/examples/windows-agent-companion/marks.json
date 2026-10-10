@@ -1,0 +1,37 @@
+{
+  "idea": "A Windows companion app that shows what coding agents are doing and lets you approve their requests",
+  "marks": {
+    "Louis-CFM/coucou": {
+      "mark": "same",
+      "reason": "Agent status and approvals; described as a Mac app but ships Windows installers"
+    },
+    "rohitg00/awesome-claude-code-toolkit": {
+      "mark": "unrelated",
+      "reason": "A collection of agents and commands, not a companion app"
+    },
+    "wxtsky/CodeIsland": {
+      "mark": "adjacent",
+      "reason": "Same idea, macOS only"
+    },
+    "nimbalyst/nimbalyst": {
+      "mark": "adjacent",
+      "reason": "A visual workspace for agents, not a status companion"
+    },
+    "erha19/ping-island": {
+      "mark": "adjacent",
+      "reason": "Same idea for macOS and Linux, no Windows build"
+    },
+    "sk-ruban/notchi": {
+      "mark": "adjacent",
+      "reason": "Same idea, macOS only"
+    },
+    "MioMioOS/MioIsland": {
+      "mark": "adjacent",
+      "reason": "Same idea, macOS only"
+    },
+    "ericjypark/codex-island": {
+      "mark": "adjacent",
+      "reason": "Usage limits in the MacBook notch, macOS only"
+    }
+  }
+}

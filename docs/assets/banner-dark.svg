@@ -1,0 +1,18 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 1100 260" width="1100" height="260" role="img" aria-labelledby="t d">
+<title id="t">dejabuilt</title>
+<desc id="d">Check GitHub before you build. Six verdicts: taken, contested, orphaned, low traction, open, inconclusive.</desc>
+<text x="48" y="104" font-family="ui-monospace, SFMono-Regular, 'SF Mono', Menlo, Consolas, 'Liberation Mono', monospace" font-size="76" font-weight="700" fill="#f0f6fc">dejabuilt</text>
+<text x="50" y="150" font-family="-apple-system, BlinkMacSystemFont, 'Segoe UI', 'Noto Sans', Helvetica, Arial, sans-serif" font-size="27" fill="#9198a1">Check GitHub before you build.</text>
+<rect x="48" y="184" width="92" height="38" rx="19" fill="none" stroke="#ff7b72" stroke-width="1.5"/>
+<text x="94" y="210" text-anchor="middle" font-family="ui-monospace, SFMono-Regular, 'SF Mono', Menlo, Consolas, 'Liberation Mono', monospace" font-size="20" font-weight="600" fill="#ff7b72">TAKEN</text>
+<rect x="152" y="184" width="140" height="38" rx="19" fill="none" stroke="#ffa657" stroke-width="1.5"/>
+<text x="222" y="210" text-anchor="middle" font-family="ui-monospace, SFMono-Regular, 'SF Mono', Menlo, Consolas, 'Liberation Mono', monospace" font-size="20" font-weight="600" fill="#ffa657">CONTESTED</text>
+<rect x="304" y="184" width="128" height="38" rx="19" fill="none" stroke="#d2a8ff" stroke-width="1.5"/>
+<text x="368" y="210" text-anchor="middle" font-family="ui-monospace, SFMono-Regular, 'SF Mono', Menlo, Consolas, 'Liberation Mono', monospace" font-size="20" font-weight="600" fill="#d2a8ff">ORPHANED</text>
+<rect x="444" y="184" width="176" height="38" rx="19" fill="none" stroke="#e3b341" stroke-width="1.5"/>
+<text x="532" y="210" text-anchor="middle" font-family="ui-monospace, SFMono-Regular, 'SF Mono', Menlo, Consolas, 'Liberation Mono', monospace" font-size="20" font-weight="600" fill="#e3b341">LOW_TRACTION</text>
+<rect x="632" y="184" width="80" height="38" rx="19" fill="none" stroke="#56d364" stroke-width="1.5"/>
+<text x="672" y="210" text-anchor="middle" font-family="ui-monospace, SFMono-Regular, 'SF Mono', Menlo, Consolas, 'Liberation Mono', monospace" font-size="20" font-weight="600" fill="#56d364">OPEN</text>
+<rect x="724" y="184" width="176" height="38" rx="19" fill="none" stroke="#9198a1" stroke-width="1.5"/>
+<text x="812" y="210" text-anchor="middle" font-family="ui-monospace, SFMono-Regular, 'SF Mono', Menlo, Consolas, 'Liberation Mono', monospace" font-size="20" font-weight="600" fill="#9198a1">INCONCLUSIVE</text>
+</svg>
