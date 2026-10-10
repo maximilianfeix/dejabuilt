@@ -2,6 +2,11 @@
 
 Notable changes to this project. Versions follow [Semantic Versioning](https://semver.org).
 
+## 0.2.1 - 2026-10-10
+
+- The script no longer copies the whole environment. It reads `GH_TOKEN` and
+  `GITHUB_TOKEN` and nothing else, and a test enforces that.
+
 ## 0.2.0 - 2026-10-10
 
 - The plugin now lives in `plugin/`. An installation carries the skill, a short

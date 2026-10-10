@@ -100,6 +100,18 @@ def test_runtime_uses_only_the_standard_library() -> None:
                 assert module in allowed or module == "", f"{source.name}: {line}"
 
 
+def test_environment_is_read_in_exactly_one_place() -> None:
+    """`os.environ` appears once, in the helper that picks the two token variables."""
+    hits = [
+        f"{source.name}:{number}"
+        for source in sorted((SKILL / "scripts").rglob("*.py"))
+        for number, line in enumerate(source.read_text(encoding="utf-8").splitlines(), 1)
+        if "os.environ" in line or "getenv" in line
+    ]
+    assert len(hits) == 1, hits
+    assert hits[0].startswith("cli.py:")
+
+
 def test_versions_agree() -> None:
     plugin = json.loads((PLUGIN / ".claude-plugin" / "plugin.json").read_text(encoding="utf-8"))
     pyproject = (ROOT / "pyproject.toml").read_text(encoding="utf-8")

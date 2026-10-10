@@ -29,6 +29,9 @@ MAX_DETAIL_CHARS = 200
 JSON = "application/vnd.github+json"
 RAW = "application/vnd.github.raw+json"
 
+TOKEN_VARIABLES = ("GH_TOKEN", "GITHUB_TOKEN")
+"""The only environment variables this tool ever reads."""
+
 STOP_KINDS = frozenset({"auth", "rate_limit", "secondary_rate_limit", "network"})
 """After one of these, the next request would fail the same way, so none is sent."""
 
@@ -84,7 +87,7 @@ def discover_token(
     run: Runner = subprocess.run,
 ) -> str | None:
     """Find a token: GH_TOKEN, GITHUB_TOKEN, then the GitHub CLI. None if there is none."""
-    for name in ("GH_TOKEN", "GITHUB_TOKEN"):
+    for name in TOKEN_VARIABLES:
         value = env.get(name, "").strip()
         if value:
             return value
