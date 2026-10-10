@@ -1,0 +1,1252 @@
+{
+  "schema_version": 1,
+  "observed_at": "2026-10-10T17:34:22Z",
+  "queries": [
+    {
+      "query": "notch claude codex",
+      "total_count": 204,
+      "returned": 10,
+      "incomplete": false,
+      "error": null
+    },
+    {
+      "query": "coding agent status island",
+      "total_count": 22,
+      "returned": 10,
+      "incomplete": false,
+      "error": null
+    },
+    {
+      "query": "claude code notch windows",
+      "total_count": 40,
+      "returned": 10,
+      "incomplete": false,
+      "error": null
+    },
+    {
+      "query": "agent approvals menu bar",
+      "total_count": 12,
+      "returned": 10,
+      "incomplete": false,
+      "error": null
+    },
+    {
+      "query": "claude code companion app",
+      "total_count": 134,
+      "returned": 10,
+      "incomplete": false,
+      "error": null
+    },
+    {
+      "query": "dynamic island coding agents",
+      "total_count": 65,
+      "returned": 10,
+      "incomplete": false,
+      "error": null
+    }
+  ],
+  "repos": [
+    {
+      "id": 1391438314,
+      "full_name": "Louis-CFM/coucou",
+      "url": "https://github.com/Louis-CFM/coucou",
+      "description": "A tiny friend in your Mac's notch and on your iPhone that keeps an eye on your AI coding agents: Claude Code, Codex, Cursor, Gemini CLI, Antigravity and more. Approve from the notch or your Lock Scre…",
+      "stars": 4655,
+      "forks": 775,
+      "open_issues": 243,
+      "archived": false,
+      "created_at": "2026-09-27T21:54:12Z",
+      "pushed_at": "2026-10-10T17:33:53Z",
+      "language": "Swift",
+      "matched_queries": [
+        "notch claude codex",
+        "claude code notch windows"
+      ]
+    },
+    {
+      "id": 1150071903,
+      "full_name": "rohitg00/awesome-claude-code-toolkit",
+      "url": "https://github.com/rohitg00/awesome-claude-code-toolkit",
+      "description": "The most comprehensive toolkit for Claude Code -- 135 agents, 35 curated skills, 42 commands, 176+ plugins, 20 hooks, 15 rules, 7 templates, 14 MCP configs, 26 companion apps, 52 ecosystem entries, a…",
+      "stars": 2686,
+      "forks": 1009,
+      "open_issues": 359,
+      "archived": false,
+      "created_at": "2026-02-04T21:09:33Z",
+      "pushed_at": "2026-05-12T07:18:34Z",
+      "language": "JavaScript",
+      "matched_queries": [
+        "claude code companion app"
+      ]
+    },
+    {
+      "id": 1202555904,
+      "full_name": "wxtsky/CodeIsland",
+      "url": "https://github.com/wxtsky/CodeIsland",
+      "description": "Real-time AI coding agent status panel in your MacBook notch — live status, approvals & replies for 30+ AI coding tools, with iPhone & Apple Watch companions",
+      "stars": 2487,
+      "forks": 307,
+      "open_issues": 2,
+      "archived": false,
+      "created_at": "2026-04-06T06:29:27Z",
+      "pushed_at": "2026-10-10T00:33:51Z",
+      "language": "Swift",
+      "matched_queries": [
+        "coding agent status island"
+      ]
+    },
+    {
+      "id": 1086756757,
+      "full_name": "nimbalyst/nimbalyst",
+      "url": "https://github.com/nimbalyst/nimbalyst",
+      "description": "Nimbalyst - The open-source visual workspace for Claude Code, Codex, and OpenCode. Run multiple coding agents in parallel, edit their work visually in markdown, mockups, and diagrams, and track tasks…",
+      "stars": 1863,
+      "forks": 296,
+      "open_issues": 769,
+      "archived": false,
+      "created_at": "2025-10-30T21:28:59Z",
+      "pushed_at": "2026-10-10T17:24:17Z",
+      "language": "TypeScript",
+      "matched_queries": [
+        "claude code companion app"
+      ]
+    },
+    {
+      "id": 1200530675,
+      "full_name": "erha19/ping-island",
+      "url": "https://github.com/erha19/ping-island",
+      "description": "A Dynamic Island-style command center for managing all your AI coding agents on macOS.",
+      "stars": 1127,
+      "forks": 126,
+      "open_issues": 6,
+      "archived": false,
+      "created_at": "2026-04-03T14:22:16Z",
+      "pushed_at": "2026-09-21T14:44:32Z",
+      "language": "Swift",
+      "matched_queries": [
+        "dynamic island coding agents"
+      ]
+    },
+    {
+      "id": 1146022095,
+      "full_name": "sk-ruban/notchi",
+      "url": "https://github.com/sk-ruban/notchi",
+      "description": "notch app for claude code & codex",
+      "stars": 1040,
+      "forks": 79,
+      "open_issues": 15,
+      "archived": false,
+      "created_at": "2026-01-30T14:19:52Z",
+      "pushed_at": "2026-10-04T18:23:17Z",
+      "language": "Swift",
+      "matched_queries": [
+        "notch claude codex"
+      ]
+    },
+    {
+      "id": 1198068829,
+      "full_name": "MioMioOS/MioIsland",
+      "url": "https://github.com/MioMioOS/MioIsland",
+      "description": "macOS Dynamic Island for AI coding agents. Monitor, approve, and jump to Claude Code sessions from the notch.",
+      "stars": 539,
+      "forks": 67,
+      "open_issues": 14,
+      "archived": false,
+      "created_at": "2026-04-01T05:10:53Z",
+      "pushed_at": "2026-08-14T06:29:48Z",
+      "language": "Swift",
+      "matched_queries": [
+        "dynamic island coding agents"
+      ]
+    },
+    {
+      "id": 1224278666,
+      "full_name": "ericjypark/codex-island",
+      "url": "https://github.com/ericjypark/codex-island",
+      "description": "CodexIsland - AI usage limits in your MacBook notch",
+      "stars": 351,
+      "forks": 59,
+      "open_issues": 23,
+      "archived": false,
+      "created_at": "2026-04-29T06:04:24Z",
+      "pushed_at": "2026-10-01T06:50:10Z",
+      "language": "Swift",
+      "matched_queries": [
+        "notch claude codex"
+      ]
+    },
+    {
+      "id": 1128485253,
+      "full_name": "AppGram/agentnotch",
+      "url": "https://github.com/AppGram/agentnotch",
+      "description": "AgentNotch is a sleek macOS menu bar app that lives in your Mac's notch, providing real-time visibility into your AI coding assistants. Watch as Claude Code and OpenAI Codex think, read files, and ex…",
+      "stars": 216,
+      "forks": 16,
+      "open_issues": 5,
+      "archived": false,
+      "created_at": "2026-01-05T17:51:41Z",
+      "pushed_at": "2026-01-19T13:56:53Z",
+      "language": "Swift",
+      "matched_queries": [
+        "notch claude codex"
+      ]
+    },
+    {
+      "id": 1221576836,
+      "full_name": "shirenchuang/agentbro",
+      "url": "https://github.com/shirenchuang/agentbro",
+      "description": "A macOS Dynamic Island for AI coding agents: Claude Code, Codex, Gemini CLI, Cursor, hooks, skills, and local agent management.",
+      "stars": 203,
+      "forks": 30,
+      "open_issues": 6,
+      "archived": false,
+      "created_at": "2026-04-26T12:03:15Z",
+      "pushed_at": "2026-10-01T10:07:15Z",
+      "language": "Rust",
+      "matched_queries": [
+        "dynamic island coding agents"
+      ]
+    },
+    {
+      "id": 1390765751,
+      "full_name": "botbus-io/botbus-protocol",
+      "url": "https://github.com/botbus-io/botbus-protocol",
+      "description": "The BotBus protocol: how a menu bar app on your computer and the companion apps on your phone and watch stay in sync — with public fixtures. BotBus lets you follow, approve and start Codex and Claude…",
+      "stars": 184,
+      "forks": 7,
+      "open_issues": 1,
+      "archived": false,
+      "created_at": "2026-09-27T12:14:40Z",
+      "pushed_at": "2026-10-09T10:22:08Z",
+      "language": "Swift",
+      "matched_queries": [
+        "claude code companion app"
+      ]
+    },
+    {
+      "id": 1200257911,
+      "full_name": "vibeislandapp/vibe-island",
+      "url": "https://github.com/vibeislandapp/vibe-island",
+      "description": "Vibe Island — macOS notch panel for 25 AI coding agents: Claude Code, Codex, Cursor, Gemini CLI & more. Monitor, approve, and jump back from the notch. Community home: bug reports & feature requests.",
+      "stars": 152,
+      "forks": 5,
+      "open_issues": 96,
+      "archived": false,
+      "created_at": "2026-04-03T07:50:41Z",
+      "pushed_at": "2026-09-02T06:17:37Z",
+      "language": null,
+      "matched_queries": [
+        "notch claude codex"
+      ]
+    },
+    {
+      "id": 1138354564,
+      "full_name": "edwluo/vibe-island-updates",
+      "url": "https://github.com/edwluo/vibe-island-updates",
+      "description": "Vibe Island releases & update feed — download the latest DMG of the macOS notch panel for 25 AI coding agents (Claude Code, Codex, Cursor & more).",
+      "stars": 92,
+      "forks": 2,
+      "open_issues": 5,
+      "archived": false,
+      "created_at": "2026-01-20T15:10:25Z",
+      "pushed_at": "2026-10-10T08:32:12Z",
+      "language": "HTML",
+      "matched_queries": [
+        "notch claude codex"
+      ]
+    },
+    {
+      "id": 1203126050,
+      "full_name": "itmesneha/agentrocky",
+      "url": "https://github.com/itmesneha/agentrocky",
+      "description": "Inspired by Project Hail Mary, a macOS desktop companion app that puts an animated pixel-art character on your screen — powered by Claude Code. Rocky walks back and forth along the top of your Dock.…",
+      "stars": 71,
+      "forks": 15,
+      "open_issues": 2,
+      "archived": false,
+      "created_at": "2026-04-06T18:42:07Z",
+      "pushed_at": "2026-05-05T06:00:08Z",
+      "language": "Swift",
+      "matched_queries": [
+        "claude code companion app"
+      ]
+    },
+    {
+      "id": 1223511885,
+      "full_name": "Notchly/Notchly",
+      "url": "https://github.com/Notchly/Notchly",
+      "description": "Lightweight Dynamic Island for macOS with AI coding agent notifications",
+      "stars": 53,
+      "forks": 6,
+      "open_issues": 2,
+      "archived": false,
+      "created_at": "2026-04-28T11:50:47Z",
+      "pushed_at": "2026-08-11T18:26:15Z",
+      "language": "Swift",
+      "matched_queries": [
+        "dynamic island coding agents"
+      ]
+    },
+    {
+      "id": 1241483596,
+      "full_name": "rawsun007/claude-notch",
+      "url": "https://github.com/rawsun007/claude-notch",
+      "description": "Approve Claude Code from your Mac's notch. A native SwiftUI menu-bar app that surfaces Claude Code permission prompts, questions, cost and context usage, no tabbing back to the terminal.",
+      "stars": 51,
+      "forks": 3,
+      "open_issues": 0,
+      "archived": false,
+      "created_at": "2026-05-17T12:56:10Z",
+      "pushed_at": "2026-10-10T07:26:31Z",
+      "language": "Swift",
+      "matched_queries": [
+        "notch claude codex"
+      ]
+    },
+    {
+      "id": 1204562963,
+      "full_name": "kaorii-ako/Shiori-v1",
+      "url": "https://github.com/kaorii-ako/Shiori-v1",
+      "description": "Open-source AI study companion — Google Classroom sync, Gemini AI plans, SRS flashcards, GPA predictor, AI quiz, MCP server for Claude Code. Try demo at shiori-v1.vercel.app",
+      "stars": 45,
+      "forks": 4,
+      "open_issues": 7,
+      "archived": false,
+      "created_at": "2026-04-08T05:54:33Z",
+      "pushed_at": "2026-07-25T10:24:26Z",
+      "language": "JavaScript",
+      "matched_queries": [
+        "claude code companion app"
+      ]
+    },
+    {
+      "id": 1305828240,
+      "full_name": "DevLab-Technologies/agent-isle",
+      "url": "https://github.com/DevLab-Technologies/agent-isle",
+      "description": "A Dynamic Island for your coding agents — a native macOS notch monitor for Claude Code, Grok, Copilot and more. Monitor, approve, and jump back without leaving your flow.",
+      "stars": 44,
+      "forks": 4,
+      "open_issues": 5,
+      "archived": false,
+      "created_at": "2026-07-19T15:44:09Z",
+      "pushed_at": "2026-09-09T20:31:12Z",
+      "language": "Swift",
+      "matched_queries": [
+        "dynamic island coding agents"
+      ]
+    },
+    {
+      "id": 1284247955,
+      "full_name": "eyadhammouda/pookify",
+      "url": "https://github.com/eyadhammouda/pookify",
+      "description": "A Dynamic Island style notch status indicator for Claude Code on macOS.",
+      "stars": 41,
+      "forks": 5,
+      "open_issues": 1,
+      "archived": false,
+      "created_at": "2026-06-29T17:07:05Z",
+      "pushed_at": "2026-07-09T15:47:03Z",
+      "language": "Swift",
+      "matched_queries": [
+        "notch claude codex"
+      ]
+    },
+    {
+      "id": 1398669593,
+      "full_name": "Rikinshah787/dotpals",
+      "url": "https://github.com/Rikinshah787/dotpals",
+      "description": "See what your coding agent actually did. A desktop pal and notch for Claude Code, Codex, Cursor, Gemini CLI and any agent: test results read from the output, faked passes caught, Claude Code sent bac…",
+      "stars": 39,
+      "forks": 5,
+      "open_issues": 4,
+      "archived": false,
+      "created_at": "2026-09-30T19:43:43Z",
+      "pushed_at": "2026-10-08T09:43:10Z",
+      "language": "JavaScript",
+      "matched_queries": [
+        "notch claude codex"
+      ]
+    },
+    {
+      "id": 1288703620,
+      "full_name": "stevemcqueenz/claude-notch-tracker",
+      "url": "https://github.com/stevemcqueenz/claude-notch-tracker",
+      "description": "Live Claude, Codex, Antigravity, DeepSeek and opencode-go usage limits in your Mac's notch.",
+      "stars": 36,
+      "forks": 13,
+      "open_issues": 1,
+      "archived": false,
+      "created_at": "2026-07-03T22:01:31Z",
+      "pushed_at": "2026-10-06T21:31:18Z",
+      "language": "Swift",
+      "matched_queries": [
+        "notch claude codex"
+      ]
+    },
+    {
+      "id": 1216082712,
+      "full_name": "phun333/pi-island",
+      "url": "https://github.com/phun333/pi-island",
+      "description": "Windows and macOS Dynamic Island for the pi coding agent, see what pi is doing, pinned to the top of your screen",
+      "stars": 30,
+      "forks": 8,
+      "open_issues": 5,
+      "archived": false,
+      "created_at": "2026-04-20T14:48:52Z",
+      "pushed_at": "2026-04-28T15:52:09Z",
+      "language": "Swift",
+      "matched_queries": [
+        "dynamic island coding agents"
+      ]
+    },
+    {
+      "id": 1149149931,
+      "full_name": "jwintz/pi-island",
+      "url": "https://github.com/jwintz/pi-island",
+      "description": "A native macOS dynamic island interface for the Pi coding agent. Real-time session monitoring, ambient notifications, and seamless multi-session management - all from your notch.",
+      "stars": 29,
+      "forks": 3,
+      "open_issues": 0,
+      "archived": false,
+      "created_at": "2026-02-03T19:24:37Z",
+      "pushed_at": "2026-02-08T20:57:07Z",
+      "language": "Swift",
+      "matched_queries": [
+        "dynamic island coding agents"
+      ]
+    },
+    {
+      "id": 1262331855,
+      "full_name": "patheonsceo/openagentisland",
+      "url": "https://github.com/patheonsceo/openagentisland",
+      "description": "macOS-style Dynamic Island desktop for Hyprland (Quickshell/QML on end-4) with live Claude Code agent status + Allow/Deny permission approval from the notch",
+      "stars": 18,
+      "forks": 2,
+      "open_issues": 0,
+      "archived": false,
+      "created_at": "2026-06-07T21:40:05Z",
+      "pushed_at": "2026-09-08T09:03:55Z",
+      "language": "QML",
+      "matched_queries": [
+        "coding agent status island",
+        "dynamic island coding agents"
+      ]
+    },
+    {
+      "id": 1206666593,
+      "full_name": "bluedusk/xisland",
+      "url": "https://github.com/bluedusk/xisland",
+      "description": "Landing page for xisland — dynamic island for your coding agent. File feedback via Issues.",
+      "stars": 16,
+      "forks": 3,
+      "open_issues": 6,
+      "archived": false,
+      "created_at": "2026-04-10T06:16:45Z",
+      "pushed_at": "2026-05-02T23:27:45Z",
+      "language": "Astro",
+      "matched_queries": [
+        "dynamic island coding agents"
+      ]
+    },
+    {
+      "id": 1398789026,
+      "full_name": "GNSB/omarchy-agent-notch",
+      "url": "https://github.com/GNSB/omarchy-agent-notch",
+      "description": "Dynamic-island notch for Omarchy showing live Claude Code (and Grok Bot) agents — animated faces, alerts, ask Claude from the notch",
+      "stars": 16,
+      "forks": 1,
+      "open_issues": 1,
+      "archived": false,
+      "created_at": "2026-09-30T22:16:36Z",
+      "pushed_at": "2026-10-03T20:51:15Z",
+      "language": "QML",
+      "matched_queries": [
+        "dynamic island coding agents"
+      ]
+    },
+    {
+      "id": 1350911905,
+      "full_name": "adityarya24/agent-notch",
+      "url": "https://github.com/adityarya24/agent-notch",
+      "description": "A fuel gauge for your AI coding limits. Live quota for Claude Code, Codex, Gemini, Cursor, Grok and OpenCode on the edge of your screen.",
+      "stars": 15,
+      "forks": 1,
+      "open_issues": 0,
+      "archived": false,
+      "created_at": "2026-08-29T21:08:35Z",
+      "pushed_at": "2026-10-04T07:57:20Z",
+      "language": "JavaScript",
+      "matched_queries": [
+        "claude code notch windows"
+      ]
+    },
+    {
+      "id": 1183722491,
+      "full_name": "jiahongc/cc-companion",
+      "url": "https://github.com/jiahongc/cc-companion",
+      "description": "A desktop companion app for Claude Code — monitors multiple instances all in one view",
+      "stars": 13,
+      "forks": 1,
+      "open_issues": 0,
+      "archived": false,
+      "created_at": "2026-03-16T22:23:43Z",
+      "pushed_at": "2026-09-07T12:34:47Z",
+      "language": "JavaScript",
+      "matched_queries": [
+        "claude code companion app"
+      ]
+    },
+    {
+      "id": 1164158112,
+      "full_name": "pedrovgs/Milo",
+      "url": "https://github.com/pedrovgs/Milo",
+      "description": "🐶 Claude code companion app so you don't feel alone while waiting for claude code!",
+      "stars": 12,
+      "forks": 2,
+      "open_issues": 0,
+      "archived": false,
+      "created_at": "2026-02-22T18:15:23Z",
+      "pushed_at": "2026-02-28T16:07:48Z",
+      "language": "TypeScript",
+      "matched_queries": [
+        "claude code companion app"
+      ]
+    },
+    {
+      "id": 1360951127,
+      "full_name": "thilinaa/notch-agent-hud",
+      "url": "https://github.com/thilinaa/notch-agent-hud",
+      "description": "Notch HUD for Claude Code and Codex: sessions that need you, working agents, per-subscription usage with pace and alerts, and a scheduled 5-hour window warm-up, at the top of your Mac's screen",
+      "stars": 11,
+      "forks": 1,
+      "open_issues": 1,
+      "archived": false,
+      "created_at": "2026-09-08T05:14:48Z",
+      "pushed_at": "2026-09-25T02:47:12Z",
+      "language": "Swift",
+      "matched_queries": [
+        "claude code notch windows"
+      ]
+    },
+    {
+      "id": 1280884648,
+      "full_name": "erikqu/workbench-cli",
+      "url": "https://github.com/erikqu/workbench-cli",
+      "description": "Workbench CLI and native iPhone app for persistent coding-agent sessions, with an encrypted remote companion and relay.",
+      "stars": 10,
+      "forks": 2,
+      "open_issues": 2,
+      "archived": false,
+      "created_at": "2026-06-26T03:05:01Z",
+      "pushed_at": "2026-09-27T18:10:56Z",
+      "language": "TypeScript",
+      "matched_queries": [
+        "claude code companion app"
+      ]
+    },
+    {
+      "id": 1222961665,
+      "full_name": "jamesoleinik/launch-control",
+      "url": "https://github.com/jamesoleinik/launch-control",
+      "description": "Launch Control — a 12-episode LinkedIn series building a launch-management system on Microsoft Dataverse: data model, agents (declarative + autonomous + code-first), generative Power Apps page, and a…",
+      "stars": 10,
+      "forks": 0,
+      "open_issues": 6,
+      "archived": false,
+      "created_at": "2026-04-27T22:01:21Z",
+      "pushed_at": "2026-10-02T23:52:49Z",
+      "language": "Python",
+      "matched_queries": [
+        "claude code companion app"
+      ]
+    },
+    {
+      "id": 1302861339,
+      "full_name": "zzyyksl/voice-nook",
+      "url": "https://github.com/zzyyksl/voice-nook",
+      "description": "📞 语音小屋 — 给你的AI装上耳朵和嘴 | Telegram Mini App voice calls for your Claude Code companion",
+      "stars": 9,
+      "forks": 2,
+      "open_issues": 1,
+      "archived": false,
+      "created_at": "2026-07-16T14:11:46Z",
+      "pushed_at": "2026-07-17T03:26:21Z",
+      "language": "HTML",
+      "matched_queries": [
+        "claude code companion app"
+      ]
+    },
+    {
+      "id": 1367068959,
+      "full_name": "Cluas/moshpit",
+      "url": "https://github.com/Cluas/moshpit",
+      "description": "SSH · Mosh · tmux terminal for iPhone and iPad, built for remote AI coding agents. Vibe Island puts your agent's status on the Lock Screen.",
+      "stars": 6,
+      "forks": 0,
+      "open_issues": 1,
+      "archived": false,
+      "created_at": "2026-09-12T07:34:10Z",
+      "pushed_at": "2026-09-16T11:12:57Z",
+      "language": "Swift",
+      "matched_queries": [
+        "coding agent status island"
+      ]
+    },
+    {
+      "id": 1211346251,
+      "full_name": "codepeek-labs/codepeek",
+      "url": "https://github.com/codepeek-labs/codepeek",
+      "description": "Windows 11 Dynamic Island for AI Coding Agents — peek-edge status panel, hook-driven notifications, and one-click terminal jump for Claude Code & friends.",
+      "stars": 4,
+      "forks": 0,
+      "open_issues": 0,
+      "archived": false,
+      "created_at": "2026-04-15T09:52:30Z",
+      "pushed_at": "2026-05-21T07:10:01Z",
+      "language": "JavaScript",
+      "matched_queries": [
+        "coding agent status island"
+      ]
+    },
+    {
+      "id": 1359619601,
+      "full_name": "mrcrapto/toki",
+      "url": "https://github.com/mrcrapto/toki",
+      "description": "Your AI coding limits, on the edge of the screen. A Windows screen-edge notch for Claude Code, Codex, Cursor and GLM.",
+      "stars": 4,
+      "forks": 0,
+      "open_issues": 0,
+      "archived": false,
+      "created_at": "2026-09-07T00:59:22Z",
+      "pushed_at": "2026-09-07T01:01:06Z",
+      "language": "TypeScript",
+      "matched_queries": [
+        "claude code notch windows"
+      ]
+    },
+    {
+      "id": 1299691175,
+      "full_name": "panditfloki/matra",
+      "url": "https://github.com/panditfloki/matra",
+      "description": "Mātrā: a desktop AI usage and activity notch for Windows. Tracks Claude Code, Codex, Cursor, Antigravity, Grok and GLM.",
+      "stars": 4,
+      "forks": 0,
+      "open_issues": 0,
+      "archived": false,
+      "created_at": "2026-07-13T20:04:24Z",
+      "pushed_at": "2026-10-06T09:17:05Z",
+      "language": "Swift",
+      "matched_queries": [
+        "claude code notch windows"
+      ]
+    },
+    {
+      "id": 1306271425,
+      "full_name": "feelingsa/CodeIsland-for-Windows",
+      "url": "https://github.com/feelingsa/CodeIsland-for-Windows",
+      "description": "CodeIsland for Windows is a compact, always-on-top status panel for AI coding agents.",
+      "stars": 3,
+      "forks": 1,
+      "open_issues": 0,
+      "archived": false,
+      "created_at": "2026-07-20T06:02:29Z",
+      "pushed_at": "2026-08-06T07:01:43Z",
+      "language": "C#",
+      "matched_queries": [
+        "coding agent status island"
+      ]
+    },
+    {
+      "id": 1400384247,
+      "full_name": "aarvnd/notchbuddy",
+      "url": "https://github.com/aarvnd/notchbuddy",
+      "description": "A tiny companion in your Mac's notch (or the top of the screen on Windows) that keeps an eye on your Claude Code sessions: approve permissions, watch agents work, drop files.",
+      "stars": 2,
+      "forks": 0,
+      "open_issues": 0,
+      "archived": false,
+      "created_at": "2026-10-01T16:40:18Z",
+      "pushed_at": "2026-10-01T16:41:24Z",
+      "language": "Swift",
+      "matched_queries": [
+        "claude code notch windows"
+      ]
+    },
+    {
+      "id": 1399995809,
+      "full_name": "Abuhurera00/poupou",
+      "url": "https://github.com/Abuhurera00/poupou",
+      "description": "A bot that lives in your notch (macOS) or at the top of your screen (Windows) and keeps an eye on your Claude Code sessions.",
+      "stars": 2,
+      "forks": 0,
+      "open_issues": 0,
+      "archived": false,
+      "created_at": "2026-10-01T12:59:25Z",
+      "pushed_at": "2026-10-01T13:32:56Z",
+      "language": "TypeScript",
+      "matched_queries": [
+        "claude code notch windows"
+      ]
+    },
+    {
+      "id": 1403750975,
+      "full_name": "bereciartua/ek-bridge",
+      "url": "https://github.com/bereciartua/ek-bridge",
+      "description": "Scoped Calendar and Reminders access for scripts and AI agents on your Mac: a menu bar app with an MCP server, per-client grants and approvals.",
+      "stars": 2,
+      "forks": 0,
+      "open_issues": 0,
+      "archived": false,
+      "created_at": "2026-10-04T00:46:33Z",
+      "pushed_at": "2026-10-10T00:39:12Z",
+      "language": "Swift",
+      "matched_queries": [
+        "agent approvals menu bar"
+      ]
+    },
+    {
+      "id": 1274061630,
+      "full_name": "mathur-prerit/awesome-agent-island",
+      "url": "https://github.com/mathur-prerit/awesome-agent-island",
+      "description": "Community themes + an authoring framework for agent-island (macOS Claude Code status widget). Includes a token-aware Super Mario theme.",
+      "stars": 2,
+      "forks": 2,
+      "open_issues": 0,
+      "archived": false,
+      "created_at": "2026-06-19T06:26:58Z",
+      "pushed_at": "2026-06-22T12:07:04Z",
+      "language": "Python",
+      "matched_queries": [
+        "coding agent status island"
+      ]
+    },
+    {
+      "id": 1359791772,
+      "full_name": "wjcudalearning/quota-halo",
+      "url": "https://github.com/wjcudalearning/quota-halo",
+      "description": "Codenotch for Windows — a system-tray notch showing live usage/credit of the AI coding accounts on this machine (DSH DeepSeek, OpenRouter, Claude, Codex, Antigravity).",
+      "stars": 2,
+      "forks": 0,
+      "open_issues": 0,
+      "archived": false,
+      "created_at": "2026-09-07T05:23:07Z",
+      "pushed_at": "2026-09-07T08:50:44Z",
+      "language": "JavaScript",
+      "matched_queries": [
+        "claude code notch windows"
+      ]
+    },
+    {
+      "id": 1360790990,
+      "full_name": "billpzt/WinCodeNotch",
+      "url": "https://github.com/billpzt/WinCodeNotch",
+      "description": "A sleek, native Windows widget for Claude Code, Codex, GLM and DeepSeek usage. Portable, local-first and open source.",
+      "stars": 1,
+      "forks": 0,
+      "open_issues": 0,
+      "archived": false,
+      "created_at": "2026-09-08T01:04:51Z",
+      "pushed_at": "2026-09-18T17:02:30Z",
+      "language": "C#",
+      "matched_queries": [
+        "claude code notch windows"
+      ]
+    },
+    {
+      "id": 1230878354,
+      "full_name": "Doubixilin/agent-island-windows",
+      "url": "https://github.com/Doubixilin/agent-island-windows",
+      "description": "Windows floating island for local AI coding agent status and Claude Code approvals",
+      "stars": 1,
+      "forks": 0,
+      "open_issues": 0,
+      "archived": false,
+      "created_at": "2026-05-06T12:09:23Z",
+      "pushed_at": "2026-05-06T12:09:31Z",
+      "language": "Rust",
+      "matched_queries": [
+        "coding agent status island"
+      ]
+    },
+    {
+      "id": 1333060211,
+      "full_name": "Earr22/agent-island",
+      "url": "https://github.com/Earr22/agent-island",
+      "description": "A native Windows Dynamic Island for Codex status, quotas, and Claude Code approvals.",
+      "stars": 1,
+      "forks": 0,
+      "open_issues": 0,
+      "archived": false,
+      "created_at": "2026-08-13T11:51:00Z",
+      "pushed_at": "2026-10-03T07:13:34Z",
+      "language": "JavaScript",
+      "matched_queries": [
+        "coding agent status island"
+      ]
+    },
+    {
+      "id": 1258560931,
+      "full_name": "gatinul16-xy/hermes-mission-control",
+      "url": "https://github.com/gatinul16-xy/hermes-mission-control",
+      "description": "A local desktop companion for Hermes Agent — real-time Kanban task status, approval notifications, and a dynamic menu bar",
+      "stars": 1,
+      "forks": 0,
+      "open_issues": 0,
+      "archived": false,
+      "created_at": "2026-06-03T17:40:42Z",
+      "pushed_at": "2026-06-03T17:47:26Z",
+      "language": "TypeScript",
+      "matched_queries": [
+        "agent approvals menu bar"
+      ]
+    },
+    {
+      "id": 1247509366,
+      "full_name": "HarryB25/agentisland",
+      "url": "https://github.com/HarryB25/agentisland",
+      "description": "Dynamic-Island-style status bar for AI agents on macOS (Claude Code, Codex, Hermes, ...)",
+      "stars": 1,
+      "forks": 1,
+      "open_issues": 0,
+      "archived": false,
+      "created_at": "2026-05-23T12:12:49Z",
+      "pushed_at": "2026-05-26T15:42:24Z",
+      "language": "Swift",
+      "matched_queries": [
+        "coding agent status island"
+      ]
+    },
+    {
+      "id": 1309163337,
+      "full_name": "holdmyagent/macos",
+      "url": "https://github.com/holdmyagent/macos",
+      "description": "Hold My Agent for macOS — menu-bar approvals for the fail-closed agent approval server",
+      "stars": 1,
+      "forks": 0,
+      "open_issues": 0,
+      "archived": false,
+      "created_at": "2026-07-22T19:03:41Z",
+      "pushed_at": "2026-07-25T03:07:11Z",
+      "language": "Swift",
+      "matched_queries": [
+        "agent approvals menu bar"
+      ]
+    },
+    {
+      "id": 1362402001,
+      "full_name": "kbfx1234/CodeIsland",
+      "url": "https://github.com/kbfx1234/CodeIsland",
+      "description": "A personal fork of CodeIsland: macOS Dynamic Island status panel for AI coding agents",
+      "stars": 1,
+      "forks": 0,
+      "open_issues": 0,
+      "archived": false,
+      "created_at": "2026-09-09T08:21:46Z",
+      "pushed_at": "2026-09-09T11:19:13Z",
+      "language": "Swift",
+      "matched_queries": [
+        "coding agent status island"
+      ]
+    },
+    {
+      "id": 1400331713,
+      "full_name": "kiwi0719/keygent",
+      "url": "https://github.com/kiwi0719/keygent",
+      "description": "Hand long tasks to a local coding agent from a keystroke. macOS menu-bar app (⌥Space) on Weaver: event-ledger kernel, OS sandbox, undo, approvals queue, MCP and skills.",
+      "stars": 1,
+      "forks": 0,
+      "open_issues": 1,
+      "archived": false,
+      "created_at": "2026-10-01T16:11:59Z",
+      "pushed_at": "2026-10-08T05:13:58Z",
+      "language": "Python",
+      "matched_queries": [
+        "agent approvals menu bar"
+      ]
+    },
+    {
+      "id": 1323416711,
+      "full_name": "wndi1130-dot/codex-notch",
+      "url": "https://github.com/wndi1130-dot/codex-notch",
+      "description": "Codex와 Claude Code 상태를 한 창에서 보여주는 Windows 노치",
+      "stars": 1,
+      "forks": 0,
+      "open_issues": 0,
+      "archived": false,
+      "created_at": "2026-08-04T22:09:52Z",
+      "pushed_at": "2026-08-05T12:47:08Z",
+      "language": "TypeScript",
+      "matched_queries": [
+        "claude code notch windows"
+      ]
+    },
+    {
+      "id": 1358795902,
+      "full_name": "gittyforthehub/hermes-menubar",
+      "url": "https://github.com/gittyforthehub/hermes-menubar",
+      "description": "macOS menu-bar companion for Hermes Agent — sandal while working, checkmark when done, warning on approvals. Pure AppKit, zero deps.",
+      "stars": 0,
+      "forks": 0,
+      "open_issues": 0,
+      "archived": false,
+      "created_at": "2026-09-06T04:49:24Z",
+      "pushed_at": "2026-09-06T16:15:49Z",
+      "language": "Swift",
+      "matched_queries": [
+        "agent approvals menu bar"
+      ]
+    },
+    {
+      "id": 1391814942,
+      "full_name": "haoyangzhang99/CodingAgentStatusBar",
+      "url": "https://github.com/haoyangzhang99/CodingAgentStatusBar",
+      "description": "macOS menu bar status for OpenCode, Codex and Claude Code: see at a glance when your coding agents are working, done, or need your approval or an answer.",
+      "stars": 0,
+      "forks": 0,
+      "open_issues": 0,
+      "archived": false,
+      "created_at": "2026-09-28T04:44:21Z",
+      "pushed_at": "2026-10-07T07:13:24Z",
+      "language": "Python",
+      "matched_queries": [
+        "agent approvals menu bar"
+      ]
+    },
+    {
+      "id": 1303715142,
+      "full_name": "LouringQ/agent-beacon",
+      "url": "https://github.com/LouringQ/agent-beacon",
+      "description": "🔔 Apple Watch approval + Auto-CLI autopilot for Claude Code / Codex — risk-tiered policy, SQLite decision log, web dashboard, menu bar app",
+      "stars": 0,
+      "forks": 0,
+      "open_issues": 0,
+      "archived": false,
+      "created_at": "2026-07-17T07:40:48Z",
+      "pushed_at": "2026-07-17T07:47:44Z",
+      "language": "Python",
+      "matched_queries": [
+        "agent approvals menu bar"
+      ]
+    },
+    {
+      "id": 1403120586,
+      "full_name": "radutopala/macuse",
+      "url": "https://github.com/radutopala/macuse",
+      "description": "Let AI agents drive macOS apps: a menu bar daemon with an approval UI, an HTTP API and an MCP client",
+      "stars": 0,
+      "forks": 0,
+      "open_issues": 0,
+      "archived": false,
+      "created_at": "2026-10-03T12:12:05Z",
+      "pushed_at": "2026-10-08T12:33:44Z",
+      "language": "Go",
+      "matched_queries": [
+        "agent approvals menu bar"
+      ]
+    },
+    {
+      "id": 1306429088,
+      "full_name": "Raloch/agent-notify-plugin",
+      "url": "https://github.com/Raloch/agent-notify-plugin",
+      "description": "macOS notifications + Hammerspoon menu bar status for Claude Code & Codex — get notified on completion/approval, click to focus the right window",
+      "stars": 0,
+      "forks": 0,
+      "open_issues": 0,
+      "archived": false,
+      "created_at": "2026-07-20T09:16:55Z",
+      "pushed_at": "2026-07-29T12:34:44Z",
+      "language": "Shell",
+      "matched_queries": [
+        "agent approvals menu bar"
+      ]
+    },
+    {
+      "id": 1163871647,
+      "full_name": "tejasbbb/AgentPulse",
+      "url": "https://github.com/tejasbbb/AgentPulse",
+      "description": "macOS 15+ menu bar app for monitoring Claude Code and Codex agent activity with in-panel tool approval",
+      "stars": 0,
+      "forks": 0,
+      "open_issues": 0,
+      "archived": false,
+      "created_at": "2026-02-22T09:32:46Z",
+      "pushed_at": "2026-02-23T08:05:54Z",
+      "language": "Swift",
+      "matched_queries": [
+        "agent approvals menu bar"
+      ]
+    }
+  ],
+  "inspections": {
+    "Louis-CFM/coucou": {
+      "release_tag": "v0.2.3",
+      "release_at": "2026-10-08T17:10:31Z",
+      "release_is_prerelease": false,
+      "releases_seen": 10,
+      "asset_names": [
+        "Coucou.zip",
+        "Coucou-Windows-0.3.0-setup.exe",
+        "Coucou-Windows-0.3.0.msi",
+        "Coucou-Windows-setup.exe",
+        "Coucou-Windows.msi",
+        "Coucou-Linux-0.3.0-amd64.deb",
+        "Coucou-Linux-0.3.0-x86_64.AppImage",
+        "Coucou-Linux-0.3.0-x86_64.rpm",
+        "SHA256SUMS",
+        "Coucou-Linux-x86_64.AppImage",
+        "Coucou-Windows-0.2.0-setup.exe",
+        "Coucou-Windows-0.2.0.msi"
+      ],
+      "platforms": [
+        {
+          "platform": "windows",
+          "source": "release-asset"
+        },
+        {
+          "platform": "macos",
+          "source": "readme-heading"
+        },
+        {
+          "platform": "linux",
+          "source": "release-asset"
+        },
+        {
+          "platform": "ios",
+          "source": "readme-heading"
+        }
+      ],
+      "errors": []
+    },
+    "rohitg00/awesome-claude-code-toolkit": {
+      "release_tag": "v0.5.0",
+      "release_at": "2026-05-11T19:44:23Z",
+      "release_is_prerelease": false,
+      "releases_seen": 5,
+      "asset_names": [],
+      "platforms": [],
+      "errors": []
+    },
+    "wxtsky/CodeIsland": {
+      "release_tag": "v1.0.36",
+      "release_at": "2026-10-10T00:33:51Z",
+      "release_is_prerelease": false,
+      "releases_seen": 10,
+      "asset_names": [
+        "CodeIsland.dmg"
+      ],
+      "platforms": [
+        {
+          "platform": "macos",
+          "source": "release-asset"
+        },
+        {
+          "platform": "ios",
+          "source": "readme-heading"
+        }
+      ],
+      "errors": []
+    },
+    "nimbalyst/nimbalyst": {
+      "release_tag": "v0.80.6",
+      "release_at": "2026-10-09T07:01:50Z",
+      "release_is_prerelease": false,
+      "releases_seen": 10,
+      "asset_names": [
+        "alpha-linux.yml",
+        "alpha-mac.yml",
+        "alpha.yml",
+        "GITHUB_RELEASE_BODY.md",
+        "latest-linux.yml",
+        "latest-mac.yml",
+        "latest.yml",
+        "Nimbalyst-Linux.AppImage",
+        "Nimbalyst-Linux.deb",
+        "Nimbalyst-macOS-arm64.dmg",
+        "Nimbalyst-macOS-arm64.zip",
+        "Nimbalyst-macOS-x64.dmg",
+        "Nimbalyst-macOS-x64.zip",
+        "Nimbalyst-macOS.dmg",
+        "Nimbalyst-macOS.zip",
+        "Nimbalyst-Windows-arm64.exe",
+        "Nimbalyst-Windows-x64.exe",
+        "Nimbalyst-Windows.exe",
+        "PUBLIC_RELEASE_NOTES.md",
+        "RELEASE_NOTES.md"
+      ],
+      "platforms": [
+        {
+          "platform": "windows",
+          "source": "release-asset"
+        },
+        {
+          "platform": "macos",
+          "source": "release-asset"
+        },
+        {
+          "platform": "linux",
+          "source": "release-asset"
+        }
+      ],
+      "errors": []
+    },
+    "erha19/ping-island": {
+      "release_tag": "v0.32.1",
+      "release_at": "2026-09-26T03:23:40Z",
+      "release_is_prerelease": false,
+      "releases_seen": 10,
+      "asset_names": [
+        "appcast.xml",
+        "PingIsland-0.32.1.dmg",
+        "PingIsland-0.32.1.md",
+        "PingIsland-0.32.1.zip",
+        "PingIslandBridge-linux-musl-aarch64.zip",
+        "PingIslandBridge-linux-musl-x86_64.zip",
+        "PingIsland-0.32.0.dmg",
+        "PingIsland-0.32.0.md",
+        "PingIsland-0.32.0.zip",
+        "PingIsland-0.31.0.dmg",
+        "PingIsland-0.31.0.md",
+        "PingIsland-0.31.0.zip",
+        "PingIsland-0.30.0.dmg",
+        "PingIsland-0.30.0.md",
+        "PingIsland-0.30.0.zip",
+        "PingIsland-0.29.0.dmg",
+        "PingIsland-0.29.0.md",
+        "PingIsland-0.29.0.zip",
+        "PingIsland-0.28.3.dmg",
+        "PingIsland-0.28.3.md",
+        "PingIsland-0.28.3.zip",
+        "PingIsland-0.28.2.dmg",
+        "PingIsland-0.28.2.md",
+        "PingIsland-0.28.2.zip",
+        "PingIsland-0.28.1.dmg",
+        "PingIsland-0.28.1.md",
+        "PingIsland-0.28.1.zip",
+        "PingIsland-0.28.0.dmg",
+        "PingIsland-0.28.0.md",
+        "PingIsland-0.28.0.zip",
+        "PingIsland-0.27.4.dmg",
+        "PingIsland-0.27.4.md",
+        "PingIsland-0.27.4.zip"
+      ],
+      "platforms": [
+        {
+          "platform": "macos",
+          "source": "release-asset"
+        },
+        {
+          "platform": "linux",
+          "source": "release-asset"
+        }
+      ],
+      "errors": []
+    },
+    "sk-ruban/notchi": {
+      "release_tag": "v1.2.7",
+      "release_at": "2026-09-19T23:04:53Z",
+      "release_is_prerelease": false,
+      "releases_seen": 10,
+      "asset_names": [
+        "Notchi-1.2.7.dmg",
+        "Notchi-1.2.7.md",
+        "Notchi-1.2.7.sha256",
+        "Notchi-1.2.6.dmg",
+        "Notchi-1.2.6.md",
+        "Notchi-1.2.6.sha256",
+        "Notchi-1.2.5.dmg",
+        "Notchi-1.2.5.md",
+        "Notchi-1.2.5.sha256",
+        "Notchi-1.2.4.dmg",
+        "Notchi-1.2.4.md",
+        "Notchi-1.2.4.sha256",
+        "Notchi-1.2.3.dmg",
+        "Notchi-1.2.3.md",
+        "Notchi-1.2.3.sha256",
+        "Notchi-1.2.2.dmg",
+        "Notchi-1.2.2.md",
+        "Notchi-1.2.2.sha256",
+        "Notchi-1.2.1.dmg",
+        "Notchi-1.2.1.md",
+        "Notchi-1.2.1.sha256",
+        "Notchi-1.2.0.dmg",
+        "Notchi-1.2.0.md",
+        "Notchi-1.2.0.sha256",
+        "Notchi-1.1.4.dmg",
+        "Notchi-1.1.4.md",
+        "Notchi-1.1.4.sha256",
+        "Notchi-1.1.3.dmg",
+        "Notchi-1.1.3.md",
+        "Notchi-1.1.3.sha256"
+      ],
+      "platforms": [
+        {
+          "platform": "macos",
+          "source": "release-asset"
+        }
+      ],
+      "errors": []
+    },
+    "MioMioOS/MioIsland": {
+      "release_tag": "v3.1.3",
+      "release_at": "2026-08-13T13:58:58Z",
+      "release_is_prerelease": false,
+      "releases_seen": 10,
+      "asset_names": [
+        "MioIsland-v3.1.3.dmg",
+        "MioIsland-v3.1.3.zip",
+        "MioIsland-v3.1.2.dmg",
+        "MioIsland-v3.1.2.zip",
+        "MioIsland-v3.1.1.dmg",
+        "MioIsland-v3.1.1.zip",
+        "MioIsland-v3.1.0.dmg",
+        "MioIsland-v3.1.0.zip",
+        "MioIsland-v3.0.4.dmg",
+        "MioIsland-v3.0.4.zip",
+        "MioIsland-v3.0.3.dmg",
+        "MioIsland-v3.0.3.zip",
+        "MioIsland-v3.0.2.dmg",
+        "MioIsland-v3.0.2.zip",
+        "MioIsland-v3.0.1.dmg",
+        "MioIsland-v3.0.1.zip",
+        "MioIsland-v3.0.0.dmg",
+        "MioIsland-v3.0.0.zip",
+        "MioIsland-v2.3.0.dmg",
+        "MioIsland-v2.3.0.zip"
+      ],
+      "platforms": [
+        {
+          "platform": "macos",
+          "source": "release-asset"
+        }
+      ],
+      "errors": []
+    },
+    "ericjypark/codex-island": {
+      "release_tag": "v0.3.0",
+      "release_at": "2026-10-01T06:55:19Z",
+      "release_is_prerelease": false,
+      "releases_seen": 10,
+      "asset_names": [
+        "appcast.xml",
+        "CodexIsland-0.3.0.dmg",
+        "CodexIsland-0.2.5.dmg",
+        "CodexIsland-0.2.4.dmg",
+        "CodexIsland-0.2.3.dmg",
+        "CodexIsland-0.2.2.dmg",
+        "CodexIsland-0.2.1.dmg",
+        "CodexIsland-0.2.0.dmg",
+        "CodexIsland-0.1.23.dmg",
+        "CodexIsland-0.1.22.dmg",
+        "CodexIsland-0.1.21.dmg"
+      ],
+      "platforms": [
+        {
+          "platform": "macos",
+          "source": "release-asset"
+        }
+      ],
+      "errors": []
+    }
+  },
+  "fetch_errors": {}
+}
