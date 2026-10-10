@@ -219,6 +219,13 @@ The tests do not touch the network. One live test runs with `DEJABUILT_LIVE=1`.
 CI runs everything on Linux, Windows and macOS with Python 3.10 and 3.14. See
 [CONTRIBUTING.md](CONTRIBUTING.md).
 
+## How it was built
+
+With the help of AI coding tools. Every change went through the test suite, CI
+on three operating systems and an independent review before it was merged. The
+review log, with the nine problems it found, is in
+[pull request #3](https://github.com/maximilianfeix/dejabuilt/pull/3).
+
 ## Licence
 
 MIT. See [LICENSE](LICENSE).
