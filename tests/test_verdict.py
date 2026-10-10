@@ -170,6 +170,13 @@ class TestEvidenceGaps:
         candidate = make_candidate(inspection=Inspection(errors=("releases: server",)))
         assert evidence_gaps([], [candidate]) == ("someone/thing: releases: server",)
 
+    def test_repository_that_could_not_be_loaded_is_a_gap(self) -> None:
+        gaps = evidence_gaps([], [], {"known/rival": "server: GitHub server error 500"})
+        assert gaps == (
+            "known/rival was asked for by name and could not be loaded: "
+            "server: GitHub server error 500",
+        )
+
     def test_failed_inspection_of_an_unrelated_candidate_is_ignored(self) -> None:
         candidate = make_candidate(mark="unrelated", inspection=Inspection(errors=("x",)))
         assert evidence_gaps([], [candidate]) == ()

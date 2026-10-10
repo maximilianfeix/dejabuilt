@@ -157,12 +157,46 @@ class TestInspectCommand:
         assert data["inspections"]["big/leader"]["errors"]
         assert "big/leader" in run.err.getvalue()
 
-    def test_extra_repo_that_cannot_be_fetched(self, tmp_path: Path) -> None:
+    def test_extra_repo_that_cannot_be_fetched_is_remembered(self, tmp_path: Path) -> None:
         state = tmp_path / "state.json"
         Run(ROUTES)("search", "-q", "alpha", "--out", state)
         run = Run(ROUTES)
         assert run("inspect", "--from", state, "--top", "0", "--repo", "gone/repo") == EXIT_FAILED
         assert "gone/repo: not_found" in run.err.getvalue()
+        saved = json.loads(state.read_text(encoding="utf-8"))
+        assert saved["fetch_errors"] == {"gone/repo": "not_found: not found"}
+
+    def test_unloadable_repo_makes_an_absence_verdict_inconclusive(self, tmp_path: Path) -> None:
+        routes = {"/search/repositories": found(), "/repos/known/rival": json_response({}, 500)}
+        state = tmp_path / "state.json"
+        Run(routes)("search", "-q", "alpha", "--out", state)
+        Run(routes)("inspect", "--from", state, "--repo", "known/rival")
+        marks = write_marks(tmp_path / "marks.json", {})
+        run = Run()
+        assert run("verdict", "--from", state, "--marks", marks) == EXIT_PARTIAL
+        assert run.out.getvalue().startswith("# dejabuilt: INCONCLUSIVE")
+        assert "known/rival" in run.out.getvalue()
+
+    def test_error_is_cleared_once_the_repo_loads(self, tmp_path: Path) -> None:
+        state = tmp_path / "state.json"
+        Run({"/search/repositories": found()})("search", "-q", "alpha", "--out", state)
+        Run()("inspect", "--from", state, "--repo", "late/repo")
+        assert json.loads(state.read_text(encoding="utf-8"))["fetch_errors"]
+        routes = {
+            "/repos/late/repo": api_repo("late/repo", repo_id=9),
+            "/repos/late/repo/releases": [],
+        }
+        assert Run(routes)("inspect", "--from", state, "--repo", "late/repo") == EXIT_OK
+        saved = json.loads(state.read_text(encoding="utf-8"))
+        assert saved["fetch_errors"] == {}
+        assert "late/repo" in saved["inspections"]
+
+    def test_repo_named_twice_is_inspected_once(self, tmp_path: Path) -> None:
+        state = tmp_path / "state.json"
+        Run(ROUTES)("search", "-q", "alpha", "--out", state)
+        run = Run(ROUTES)
+        run("inspect", "--from", state, "--top", "0", "--repo", "small/try", "--repo", "small/try")
+        assert "inspected 1 repositories" in run.err.getvalue()
 
     @pytest.mark.parametrize("extra", [["--top", "31"], ["--top", "-1"], ["--repo", "not a repo"]])
     def test_invalid_arguments_exit_2(self, tmp_path: Path, extra: list[str]) -> None:

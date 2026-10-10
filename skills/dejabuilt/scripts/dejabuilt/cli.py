@@ -121,16 +121,21 @@ def _inspect(args: argparse.Namespace, deps: Deps) -> int:
     state = _read_state(args.source)
     client = deps.make_client(deps.env)
     repos = {repo.full_name.lower(): repo for repo in state.repos}
+    fetch_errors = dict(state.fetch_errors)
     problems: list[str] = []
+    named = list(dict.fromkeys(validate_full_name(name) for name in args.repo))
 
-    for name in (validate_full_name(name) for name in args.repo):
+    for name in named:
         if name.lower() not in repos:
             try:
                 repos[name.lower()] = fetch_repo(client, name)
             except GitHubError as error:
+                fetch_errors[name] = str(error)
                 problems.append(f"{name}: {error}")
+                continue
+        fetch_errors.pop(name, None)
 
-    wanted = [repos[name.lower()] for name in args.repo if name.lower() in repos]
+    wanted = [repos[name.lower()] for name in named if name.lower() in repos]
     wanted += [repo for repo in state.repos[: args.top] if repo not in wanted]
     inspections = dict(state.inspections)
     for repo in wanted:
@@ -139,7 +144,9 @@ def _inspect(args: argparse.Namespace, deps: Deps) -> int:
 
     known = {repo.id for repo in state.repos}
     added = tuple(repo for repo in repos.values() if repo.id not in known)
-    updated = replace(state, repos=(*state.repos, *added), inspections=inspections)
+    updated = replace(
+        state, repos=(*state.repos, *added), inspections=inspections, fetch_errors=fetch_errors
+    )
     text = json.dumps(updated.to_dict(), indent=2, ensure_ascii=False) + "\n"
     _emit(text, args.out or args.source, deps)
     print(f"dejabuilt: inspected {len(wanted)} repositories", file=deps.stderr)
@@ -156,7 +163,8 @@ def _verdict(args: argparse.Namespace, deps: Deps) -> int:
     policy = Policy(big_stars=args.big_stars, traction_stars=args.traction_stars)
     candidates = _candidates(state, marks)
     now = deps.now()
-    decision = decide(candidates, evidence_gaps(state.queries, candidates), now, policy)
+    gaps = evidence_gaps(state.queries, candidates, state.fetch_errors)
+    decision = decide(candidates, gaps, now, policy)
     report = Report(
         idea=idea,
         decision=decision,

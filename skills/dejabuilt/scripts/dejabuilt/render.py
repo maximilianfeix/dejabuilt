@@ -30,6 +30,15 @@ HEADLINES = {
     Verdict.INCONCLUSIVE: "The search was incomplete, so no claim can be made.",
 }
 
+OPEN_WITH_ATTEMPTS = "Only small attempts at this were found."
+
+
+def headline(decision: Decision) -> str:
+    """One sentence for the verdict. OPEN reads differently once something was found."""
+    if decision.verdict is Verdict.OPEN and decision.same_count:
+        return OPEN_WITH_ATTEMPTS
+    return HEADLINES[decision.verdict]
+
 
 @dataclass(frozen=True)
 class Report:
@@ -56,7 +65,7 @@ def to_markdown(report: Report) -> str:
         "",
         f"**Idea:** {markdown(clean(report.idea, 300))}",
         "",
-        f"**{HEADLINES[decision.verdict]}**",
+        f"**{headline(decision)}**",
         "",
         *[f"- {markdown(reason)}" for reason in decision.reasons],
         "",
@@ -135,7 +144,7 @@ def _as_dict(report: Report) -> dict[str, Any]:
         "observed_at": report.observed_at,
         "idea": clean(report.idea, 300),
         "verdict": decision.verdict.value,
-        "headline": HEADLINES[decision.verdict],
+        "headline": headline(decision),
         "reasons": list(decision.reasons),
         "warnings": list(decision.warnings),
         "leader": decision.leader,

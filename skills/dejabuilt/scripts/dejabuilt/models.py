@@ -168,6 +168,8 @@ class State:
     queries: tuple[QueryResult, ...] = ()
     repos: tuple[Repo, ...] = ()
     inspections: Mapping[str, Inspection] = field(default_factory=dict)
+    fetch_errors: Mapping[str, str] = field(default_factory=dict)
+    """Repositories that were asked for by name and could not be loaded."""
 
     def to_dict(self) -> dict[str, Any]:
         return {
@@ -176,6 +178,7 @@ class State:
             "queries": [query.to_dict() for query in self.queries],
             "repos": [repo.to_dict() for repo in self.repos],
             "inspections": {name: i.to_dict() for name, i in self.inspections.items()},
+            "fetch_errors": dict(self.fetch_errors),
         }
 
     @classmethod
@@ -193,6 +196,7 @@ class State:
             queries=tuple(QueryResult.from_dict(q) for q in _objects(data, "queries")),
             repos=tuple(Repo.from_dict(r) for r in _objects(data, "repos")),
             inspections={str(k): Inspection.from_dict(_object(v)) for k, v in inspections.items()},
+            fetch_errors={str(k): str(v) for k, v in _object(data.get("fetch_errors", {})).items()},
         )
 
 

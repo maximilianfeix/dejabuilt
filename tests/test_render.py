@@ -8,7 +8,14 @@ import pytest
 
 from dejabuilt.models import Candidate, Inspection, PlatformHint, QueryResult
 from dejabuilt.policy import Policy
-from dejabuilt.render import HEADLINES, NOT_CHECKED, Report, to_json, to_markdown
+from dejabuilt.render import (
+    HEADLINES,
+    NOT_CHECKED,
+    OPEN_WITH_ATTEMPTS,
+    Report,
+    to_json,
+    to_markdown,
+)
 from dejabuilt.verdict import Verdict, decide, evidence_gaps
 from tests.helpers import NOW, days_ago, make_candidate, make_repo, ok_query
 
@@ -110,6 +117,18 @@ class TestMarkdown:
         assert "# dejabuilt: INCONCLUSIVE" in text
         assert "## Warnings" in text
         assert "rate\\_limit" in text
+
+    def test_open_with_nothing_found_says_so(self) -> None:
+        text = to_markdown(build_report([], [ok_query()], "idea"))
+        assert HEADLINES[Verdict.OPEN] in text
+
+    def test_open_with_small_attempts_does_not_claim_nothing_was_found(self) -> None:
+        report = build_report([make_candidate(stars=10)], [ok_query()], "idea")
+        text = to_markdown(report)
+        assert report.decision.verdict is Verdict.OPEN
+        assert OPEN_WITH_ATTEMPTS in text
+        assert HEADLINES[Verdict.OPEN] not in text
+        assert json.loads(to_json(report))["headline"] == OPEN_WITH_ATTEMPTS
 
     def test_prerelease_and_archived_are_labelled(self) -> None:
         candidate = Candidate(

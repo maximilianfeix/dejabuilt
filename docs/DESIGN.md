@@ -59,8 +59,9 @@ Verdicts, evaluated in this order over the `same` candidates:
 | `OPEN` | fewer than 3 candidates, none with 200 stars |
 
 `INCONCLUSIVE` replaces `LOW_TRACTION` and `OPEN` when the evidence is
-incomplete: a query failed or was truncated by the API, or a `same` candidate
-could not be inspected. A verdict that rests on absence needs complete evidence;
+incomplete: a query failed or was truncated by the API, a `same` candidate
+could not be inspected, or a repository asked for by name could not be loaded.
+That last failure is kept in the state file until the repository loads. A verdict that rests on absence needs complete evidence;
 `TAKEN`, `CONTESTED` and `ORPHANED` rest on something that was found, so they
 stand, with the gap reported as a warning.
 

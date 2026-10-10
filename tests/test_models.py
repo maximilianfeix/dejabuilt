@@ -32,6 +32,7 @@ def sample_state() -> State:
         queries=(QueryResult("q", total_count=3, returned=1, incomplete=True, error=None),),
         repos=(repo,),
         inspections={"a/b": seen},
+        fetch_errors={"gone/repo": "not_found: not found"},
     )
 
 
@@ -56,6 +57,7 @@ def test_state_records_the_schema_version() -> None:
         {"schema_version": SCHEMA_VERSION, "observed_at": "x", "inspections": []},
         {"schema_version": SCHEMA_VERSION, "observed_at": "x", "inspections": {"a/b": 3}},
         {"schema_version": SCHEMA_VERSION, "observed_at": "x", "queries": [{"query": ""}]},
+        {"schema_version": SCHEMA_VERSION, "observed_at": "x", "fetch_errors": ["a/b"]},
     ],
 )
 def test_malformed_state_is_rejected(broken: Any) -> None:
