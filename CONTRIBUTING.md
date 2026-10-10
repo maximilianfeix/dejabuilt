@@ -30,12 +30,14 @@ CI runs the same commands on Linux, Windows and macOS.
 
 - **No runtime dependencies.** The skill folder must run with a bare Python
   install, because installers copy only that folder.
+- **`plugin/` is what gets installed.** Keep tests, examples and tooling out of
+  it. Its `LICENSE` is a copy of the one at the repository root.
 - **No network in tests.** Use the fakes in `tests/helpers.py`. The one live test
   is opt-in with `DEJABUILT_LIVE=1`.
 - **Pure modules stay pure.** `verdict`, `sanitize` and `render` do no I/O.
 - **A bug fix comes with a test** that fails without the fix.
 - **Changing the verdict policy** means bumping `POLICY_VERSION` in `policy.py`,
-  updating the tables in `README.md`, `SKILL.md` and `docs/DESIGN.md`, and
+  updating the tables in `README.md`, `plugin/README.md`, `SKILL.md` and `docs/DESIGN.md`, and
   explaining the change in the pull request. Reports must stay comparable.
 - **Changing the JSON output** in a way that breaks readers means bumping
   `SCHEMA_VERSION` in `models.py`.

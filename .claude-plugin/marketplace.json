@@ -10,7 +10,7 @@
     {
       "name": "dejabuilt",
       "description": "Checks GitHub before you build: several search phrasings, a closer look at the strongest candidates, and one verdict with the numbers behind it.",
-      "source": "./",
+      "source": "./plugin",
       "category": "productivity",
       "homepage": "https://github.com/maximilianfeix/dejabuilt"
     }

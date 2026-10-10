@@ -1,14 +1,18 @@
 {
   "name": "dejabuilt",
   "description": "Checks GitHub before you build: several search phrasings, a closer look at the strongest candidates, and one verdict with the numbers behind it.",
-  "version": "0.1.1",
+  "version": "0.2.0",
   "author": {
     "name": "maximilianfeix",
     "url": "https://github.com/maximilianfeix"
   },
   "homepage": "https://github.com/maximilianfeix/dejabuilt",
   "repository": "https://github.com/maximilianfeix/dejabuilt",
+  "documentationUrl": "https://github.com/maximilianfeix/dejabuilt#readme",
+  "supportUrl": "https://github.com/maximilianfeix/dejabuilt/issues",
+  "privacyPolicyUrl": "https://github.com/maximilianfeix/dejabuilt/blob/main/PRIVACY.md",
   "license": "MIT",
+  "icon": "./icon.svg",
   "keywords": [
     "agent-skills",
     "skills",
@@ -16,6 +20,5 @@
     "idea-validation",
     "prior-art",
     "research"
-  ],
-  "privacyPolicyUrl": "https://github.com/maximilianfeix/dejabuilt/blob/main/PRIVACY.md"
+  ]
 }
