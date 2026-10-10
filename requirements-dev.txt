@@ -1,0 +1,5 @@
+# Development tools only. The skill itself uses nothing but the standard library.
+mypy==2.4.0
+pytest==9.1.1
+pytest-cov==7.1.0
+ruff==0.17.0

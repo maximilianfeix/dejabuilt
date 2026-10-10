@@ -1,0 +1,18 @@
+{
+  "$schema": "https://anthropic.com/claude-code/marketplace.schema.json",
+  "name": "dejabuilt",
+  "description": "An agent skill that checks GitHub before you build.",
+  "owner": {
+    "name": "maximilianfeix",
+    "url": "https://github.com/maximilianfeix"
+  },
+  "plugins": [
+    {
+      "name": "dejabuilt",
+      "description": "Checks GitHub before you build: several search phrasings, a closer look at the strongest candidates, and one verdict with the numbers behind it.",
+      "source": "./",
+      "category": "productivity",
+      "homepage": "https://github.com/maximilianfeix/dejabuilt"
+    }
+  ]
+}
