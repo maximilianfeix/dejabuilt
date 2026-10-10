@@ -1,0 +1,41 @@
+{
+  "idea": "An agent skill that checks whether a project idea already exists on GitHub before any code is written",
+  "marks": {
+    "iagochavarry/who-built-this-before-me": {
+      "mark": "same",
+      "reason": "A skill that checks whether an idea has been built; one prompt file, last pushed in April 2026"
+    },
+    "Open-Dev-Society/kitbash": {
+      "mark": "same",
+      "reason": "Tells the agent which parts of an idea already exist on GitHub; works per component"
+    },
+    "Emanuelel/dont-reinvent": {
+      "mark": "adjacent",
+      "reason": "Free, build or buy for one feature while coding, not a check of a whole project idea"
+    },
+    "ReScienceLab/super-prototyping": {
+      "mark": "adjacent",
+      "reason": "Validates a product by building a prototype, does not search for existing projects"
+    },
+    "Sfedfcv/redesigned-pancake": {
+      "mark": "unrelated",
+      "reason": "A pasted copy of a GitHub page; matched the words only"
+    },
+    "RobThePCGuy/Claude-Patent-Creator": {
+      "mark": "unrelated",
+      "reason": "Patent drafting and patent prior-art search"
+    },
+    "jettbrains/-L-": {
+      "mark": "unrelated",
+      "reason": "A pasted W3C report; matched the words only"
+    },
+    "jeremykenedy/laravel-exception-notifier": {
+      "mark": "unrelated",
+      "reason": "A Laravel error notification package"
+    },
+    "aaddrick/building-with-typesafe-jev": {
+      "mark": "unrelated",
+      "reason": "A skill for building with one specific API"
+    }
+  }
+}

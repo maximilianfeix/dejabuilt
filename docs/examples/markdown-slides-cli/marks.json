@@ -1,0 +1,15 @@
+{
+  "idea": "A command-line tool, for developers and note-takers on any desktop OS, that converts Markdown note files into presentation slide decks",
+  "marks": {
+    "marp-team/marp-cli": { "mark": "same", "reason": "CLI that converts Markdown files into HTML, PDF, PPTX and image slide decks; ships Windows, macOS and Linux binaries" },
+    "slidevjs/slidev": { "mark": "same", "reason": "Slides written in Markdown, driven from a CLI that serves, builds and exports the deck" },
+    "webpro/reveal-md": { "mark": "same", "reason": "CLI that turns any Markdown file into a reveal.js deck, with static and PDF export; archived" },
+    "mfontanini/presenterm": { "mark": "same", "reason": "CLI that turns a Markdown file into a slideshow, shown in the terminal and exportable to PDF and HTML" },
+    "maaslalani/slides": { "mark": "adjacent", "reason": "CLI that presents a Markdown file as slides, but only inside the terminal; produces no deck file" },
+    "jaspervdj/patat": { "mark": "adjacent", "reason": "CLI terminal presentations from Pandoc-readable Markdown, but terminal-only; produces no deck file" },
+    "marp-team/marp-vscode": { "mark": "adjacent", "reason": "Markdown to slide decks, but as a VS Code extension rather than a command-line tool" },
+    "marp-team/marpit": { "mark": "adjacent", "reason": "Markdown-to-slides framework for developers to build on; a library, not an end-user CLI" },
+    "genspark-ai/genoffice": { "mark": "adjacent", "reason": "AI office suite with a slides editor and a CLI; a desktop app for editing office documents, not a Markdown-to-deck converter" },
+    "CatchTheTornado/text-extract-api": { "mark": "unrelated", "reason": "Extracts text from documents such as PPTX with OCR; the opposite direction" }
+  }
+}

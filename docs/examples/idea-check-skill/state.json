@@ -1,0 +1,1079 @@
+{
+  "schema_version": 1,
+  "observed_at": "2026-10-10T18:30:11Z",
+  "queries": [
+    {
+      "query": "idea already exists skill",
+      "total_count": 7,
+      "returned": 7,
+      "incomplete": false,
+      "error": null
+    },
+    {
+      "query": "check if idea already built",
+      "total_count": 9,
+      "returned": 9,
+      "incomplete": false,
+      "error": null
+    },
+    {
+      "query": "prior art agent skill",
+      "total_count": 27,
+      "returned": 10,
+      "incomplete": false,
+      "error": null
+    },
+    {
+      "query": "reinvent wheel skill",
+      "total_count": 11,
+      "returned": 10,
+      "incomplete": false,
+      "error": null
+    },
+    {
+      "query": "who built this before",
+      "total_count": 69,
+      "returned": 10,
+      "incomplete": false,
+      "error": null
+    },
+    {
+      "query": "idea validation skill claude",
+      "total_count": 83,
+      "returned": 10,
+      "incomplete": false,
+      "error": null
+    },
+    {
+      "query": "existing projects before building agent",
+      "total_count": 3,
+      "returned": 3,
+      "incomplete": false,
+      "error": null
+    }
+  ],
+  "repos": [
+    {
+      "id": 367791811,
+      "full_name": "Sfedfcv/redesigned-pancake",
+      "url": "https://github.com/Sfedfcv/redesigned-pancake",
+      "description": "Skip to content github / docs Code Issues 80 Pull requests 35 Discussions Actions Projects 2 Security Insights Merge branch 'main' into 1862-Add-Travis-CI-migration-table 1862-Add-Travis-CI-migration…",
+      "stars": 267,
+      "forks": 0,
+      "open_issues": 32,
+      "archived": false,
+      "created_at": "2021-05-16T05:22:25Z",
+      "pushed_at": "2021-05-16T05:22:26Z",
+      "language": null,
+      "matched_queries": [
+        "check if idea already built",
+        "who built this before"
+      ]
+    },
+    {
+      "id": 1096945518,
+      "full_name": "RobThePCGuy/Claude-Patent-Creator",
+      "url": "https://github.com/RobThePCGuy/Claude-Patent-Creator",
+      "description": "USPTO patent creation system with MCP server + Claude Code plugin. Hybrid RAG search over MPEP/USC/CFR, BigQuery access to 76M+ patents, automated 35 USC 112 compliance checks, prior art search, diag…",
+      "stars": 196,
+      "forks": 30,
+      "open_issues": 0,
+      "archived": false,
+      "created_at": "2025-11-15T08:34:42Z",
+      "pushed_at": "2026-10-06T17:03:22Z",
+      "language": "Python",
+      "matched_queries": [
+        "prior art agent skill"
+      ]
+    },
+    {
+      "id": 218151890,
+      "full_name": "jettbrains/-L-",
+      "url": "https://github.com/jettbrains/-L-",
+      "description": "W3C Strategic Highlights September 2019 This report was prepared for the September 2019 W3C Advisory Committee Meeting (W3C Member link). See the accompanying W3C Fact Sheet — September 2019. For the…",
+      "stars": 161,
+      "forks": 48,
+      "open_issues": 16,
+      "archived": false,
+      "created_at": "2019-10-28T21:50:26Z",
+      "pushed_at": "2021-08-18T13:41:54Z",
+      "language": null,
+      "matched_queries": [
+        "check if idea already built"
+      ]
+    },
+    {
+      "id": 91833181,
+      "full_name": "jeremykenedy/laravel-exception-notifier",
+      "url": "https://github.com/jeremykenedy/laravel-exception-notifier",
+      "description": "Laravel Exception Notifier will send an email of the error along with the stack trace to the chosen recipients. This Package includes all necessary traits, views, configs, and Mailers for email notif…",
+      "stars": 141,
+      "forks": 31,
+      "open_issues": 0,
+      "archived": false,
+      "created_at": "2017-05-19T18:12:25Z",
+      "pushed_at": "2026-10-08T20:59:03Z",
+      "language": "PHP",
+      "matched_queries": [
+        "who built this before"
+      ]
+    },
+    {
+      "id": 1388304414,
+      "full_name": "aaddrick/building-with-typesafe-jev",
+      "url": "https://github.com/aaddrick/building-with-typesafe-jev",
+      "description": "Unofficial skill that teaches coding agents to build with TypeSafe AI's Jev: typed decisions, calibrated confidence, and prior art from 150+ community projects.",
+      "stars": 136,
+      "forks": 10,
+      "open_issues": 0,
+      "archived": false,
+      "created_at": "2026-09-26T00:01:19Z",
+      "pushed_at": "2026-10-01T20:14:22Z",
+      "language": "Python",
+      "matched_queries": [
+        "prior art agent skill"
+      ]
+    },
+    {
+      "id": 1350429680,
+      "full_name": "ReScienceLab/super-prototyping",
+      "url": "https://github.com/ReScienceLab/super-prototyping",
+      "description": "A product-validation system for AI agents: idea → logo → product → brand → launch video in two hours. Desktop app + skills for Claude Code and Codex.",
+      "stars": 88,
+      "forks": 4,
+      "open_issues": 16,
+      "archived": false,
+      "created_at": "2026-08-29T08:56:54Z",
+      "pushed_at": "2026-10-08T01:01:09Z",
+      "language": "HTML",
+      "matched_queries": [
+        "idea validation skill claude"
+      ]
+    },
+    {
+      "id": 1264268237,
+      "full_name": "nelsonwerd/idea-to-ship-skills",
+      "url": "https://github.com/nelsonwerd/idea-to-ship-skills",
+      "description": "Composable Agent Skills (Claude + OpenAI Codex) for taking an idea from fuzzy → validated → sequenced build → shipped — a manual tier (ideate, deep-dive, prompt-pack) and an autonomous tier (autopilo…",
+      "stars": 85,
+      "forks": 8,
+      "open_issues": 0,
+      "archived": false,
+      "created_at": "2026-06-09T18:15:03Z",
+      "pushed_at": "2026-08-04T17:32:02Z",
+      "language": "Shell",
+      "matched_queries": [
+        "idea validation skill claude"
+      ]
+    },
+    {
+      "id": 163596751,
+      "full_name": "rramatchandran/big-o-performance-java",
+      "url": "https://github.com/rramatchandran/big-o-performance-java",
+      "description": "# big-o-performance A simple html app to demonstrate performance costs of data structures. - Clone the project - Navigate to the root of the project in a termina or command prompt - Run 'npm install'…",
+      "stars": 84,
+      "forks": 51,
+      "open_issues": 10,
+      "archived": false,
+      "created_at": "2018-12-30T15:17:31Z",
+      "pushed_at": "2023-01-10T12:20:23Z",
+      "language": "JavaScript",
+      "matched_queries": [
+        "check if idea already built"
+      ]
+    },
+    {
+      "id": 1214345282,
+      "full_name": "iagochavarry/who-built-this-before-me",
+      "url": "https://github.com/iagochavarry/who-built-this-before-me",
+      "description": "A Claude skill that checks whether your idea already exists before you build it.",
+      "stars": 75,
+      "forks": 9,
+      "open_issues": 0,
+      "archived": false,
+      "created_at": "2026-04-18T12:55:30Z",
+      "pushed_at": "2026-04-18T13:14:42Z",
+      "language": null,
+      "matched_queries": [
+        "idea already exists skill",
+        "who built this before"
+      ]
+    },
+    {
+      "id": 1304730388,
+      "full_name": "Open-Dev-Society/kitbash",
+      "url": "https://github.com/Open-Dev-Society/kitbash",
+      "description": "Tells your AI agent which parts of your idea already exist on GitHub, which to adapt, and which to just write — every repo verified live. MCP server, Claude Code plugin, and agent skill.",
+      "stars": 50,
+      "forks": 2,
+      "open_issues": 3,
+      "archived": false,
+      "created_at": "2026-07-18T08:22:41Z",
+      "pushed_at": "2026-10-04T20:13:14Z",
+      "language": "TypeScript",
+      "matched_queries": [
+        "idea already exists skill"
+      ]
+    },
+    {
+      "id": 1348527401,
+      "full_name": "Emanuelel/dont-reinvent",
+      "url": "https://github.com/Emanuelel/dont-reinvent",
+      "description": "Stop your AI coding agent from reinventing the wheel. A Claude Skill that checks Free vs. Build vs. Buy before writing code, and actually vets what it finds (license, maintenance, security) instead o…",
+      "stars": 39,
+      "forks": 1,
+      "open_issues": 0,
+      "archived": false,
+      "created_at": "2026-08-27T13:31:17Z",
+      "pushed_at": "2026-08-28T10:45:14Z",
+      "language": "HTML",
+      "matched_queries": [
+        "reinvent wheel skill"
+      ]
+    },
+    {
+      "id": 513253735,
+      "full_name": "Mdshobu/Liberty-House-Club-Whitepaper",
+      "url": "https://github.com/Mdshobu/Liberty-House-Club-Whitepaper",
+      "description": "# Liberty House Club **A Parallel Binance Chain to Enable Smart Contracts** _NOTE: This document is under development. Please check regularly for updates!_ ## Table of Contents - [Motivation](#motiva…",
+      "stars": 35,
+      "forks": 9,
+      "open_issues": 0,
+      "archived": false,
+      "created_at": "2022-07-12T18:36:00Z",
+      "pushed_at": "2022-04-22T08:27:24Z",
+      "language": null,
+      "matched_queries": [
+        "idea already exists skill",
+        "check if idea already built",
+        "who built this before"
+      ]
+    },
+    {
+      "id": 1249363406,
+      "full_name": "machinesoul11/anti-sycophant-ai-agent-skills",
+      "url": "https://github.com/machinesoul11/anti-sycophant-ai-agent-skills",
+      "description": "Skills that get AI assistants to stop agreeing with bad product ideas by default — pressure-test premises, separate hobbies from businesses, and refuse validation theater.",
+      "stars": 33,
+      "forks": 1,
+      "open_issues": 0,
+      "archived": false,
+      "created_at": "2026-05-25T16:10:15Z",
+      "pushed_at": "2026-07-20T18:35:05Z",
+      "language": null,
+      "matched_queries": [
+        "idea validation skill claude"
+      ]
+    },
+    {
+      "id": 32324932,
+      "full_name": "N30nHaCkZ/linux",
+      "url": "https://github.com/N30nHaCkZ/linux",
+      "description": "Linux kernel release 3.x <http://kernel.org/> These are the release notes for Linux version 3. Read them carefully, as they tell you what this is all about, explain how to install the kernel, and wha…",
+      "stars": 26,
+      "forks": 11,
+      "open_issues": 3,
+      "archived": false,
+      "created_at": "2015-03-16T12:58:31Z",
+      "pushed_at": "2021-07-14T12:28:54Z",
+      "language": null,
+      "matched_queries": [
+        "check if idea already built"
+      ]
+    },
+    {
+      "id": 27922641,
+      "full_name": "ideas4u/Trading-Platform",
+      "url": "https://github.com/ideas4u/Trading-Platform",
+      "description": "This project is the most awaited project in open source community where every user who belongs to Stock Trading always wanted to develop its own software. This project has been developed specifically…",
+      "stars": 22,
+      "forks": 10,
+      "open_issues": 0,
+      "archived": false,
+      "created_at": "2014-12-12T14:02:08Z",
+      "pushed_at": "2014-01-25T11:24:05Z",
+      "language": null,
+      "matched_queries": [
+        "who built this before"
+      ]
+    },
+    {
+      "id": 1162869732,
+      "full_name": "bwerneckm/startup-skills",
+      "url": "https://github.com/bwerneckm/startup-skills",
+      "description": "13 Claude Code skills for operating a startup — from idea validation to strategic planning. Frameworks, templates, and workflows for every business function.",
+      "stars": 21,
+      "forks": 1,
+      "open_issues": 0,
+      "archived": false,
+      "created_at": "2026-02-20T19:52:57Z",
+      "pushed_at": "2026-02-28T19:23:32Z",
+      "language": null,
+      "matched_queries": [
+        "idea validation skill claude"
+      ]
+    },
+    {
+      "id": 1303415892,
+      "full_name": "crealwork/ai-marketing-kit",
+      "url": "https://github.com/crealwork/ai-marketing-kit",
+      "description": "10 battle-tested marketing skills for AI agents - SEO setup, card news, decks, newsletters, cold email, CRM, meeting research, idea validation. Claude Code plugin + plain skills.",
+      "stars": 19,
+      "forks": 3,
+      "open_issues": 0,
+      "archived": false,
+      "created_at": "2026-07-17T01:20:09Z",
+      "pushed_at": "2026-09-12T23:38:55Z",
+      "language": "Python",
+      "matched_queries": [
+        "idea validation skill claude"
+      ]
+    },
+    {
+      "id": 182211058,
+      "full_name": "dia2018/What-is-the-Difference-Between-AI-and-Machine-Learning",
+      "url": "https://github.com/dia2018/What-is-the-Difference-Between-AI-and-Machine-Learning",
+      "description": "Artificial Intelligence and Machine Learning have empowered our lives to a large extent. The number of advancements made in this space has revolutionized our society and continue making society a bet…",
+      "stars": 18,
+      "forks": 0,
+      "open_issues": 0,
+      "archived": false,
+      "created_at": "2019-04-19T06:06:11Z",
+      "pushed_at": "2019-04-19T06:06:12Z",
+      "language": null,
+      "matched_queries": [
+        "who built this before"
+      ]
+    },
+    {
+      "id": 307384997,
+      "full_name": "Aryia-Behroziuan/numpy",
+      "url": "https://github.com/Aryia-Behroziuan/numpy",
+      "description": "Quickstart tutorial Prerequisites Before reading this tutorial you should know a bit of Python. If you would like to refresh your memory, take a look at the Python tutorial. If you wish to work the e…",
+      "stars": 16,
+      "forks": 3,
+      "open_issues": 0,
+      "archived": false,
+      "created_at": "2020-10-26T13:40:05Z",
+      "pushed_at": "2021-12-14T16:18:17Z",
+      "language": null,
+      "matched_queries": [
+        "who built this before"
+      ]
+    },
+    {
+      "id": 1168275512,
+      "full_name": "MorvanZhou/idea2mvp",
+      "url": "https://github.com/MorvanZhou/idea2mvp",
+      "description": "Validate your remarkable idea with Claude Skill. 用 AI Skill 验证你的好想法",
+      "stars": 16,
+      "forks": 0,
+      "open_issues": 0,
+      "archived": false,
+      "created_at": "2026-02-27T07:44:52Z",
+      "pushed_at": "2026-03-15T08:55:50Z",
+      "language": "Python",
+      "matched_queries": [
+        "idea validation skill claude"
+      ]
+    },
+    {
+      "id": 311234052,
+      "full_name": "JoyceQuinn/Best-Advertising-And-Marketing-Management",
+      "url": "https://github.com/JoyceQuinn/Best-Advertising-And-Marketing-Management",
+      "description": "As a digital marketing company, we have actually driven numerous web site hits, millions of leads as well as also millions of sales. So if you are a local business or a young expert that wants to fin…",
+      "stars": 13,
+      "forks": 2,
+      "open_issues": 0,
+      "archived": false,
+      "created_at": "2020-11-09T05:34:40Z",
+      "pushed_at": "2020-11-09T05:39:30Z",
+      "language": null,
+      "matched_queries": [
+        "idea already exists skill"
+      ]
+    },
+    {
+      "id": 363858904,
+      "full_name": "LucasHartman/MayaScript_HouseGenerator",
+      "url": "https://github.com/LucasHartman/MayaScript_HouseGenerator",
+      "description": "‘Generative House Algorithm’ was constructed for one simple reason, being one click away from creating a range of uniquely designed model houses. At the beginning of 2020, the start of the covid-19 p…",
+      "stars": 12,
+      "forks": 2,
+      "open_issues": 0,
+      "archived": false,
+      "created_at": "2021-05-03T08:05:39Z",
+      "pushed_at": "2021-05-03T08:12:31Z",
+      "language": "Python",
+      "matched_queries": [
+        "check if idea already built"
+      ]
+    },
+    {
+      "id": 35230994,
+      "full_name": "bobeezy/Video-Store-ATM-Point-Of-Sale-System",
+      "url": "https://github.com/bobeezy/Video-Store-ATM-Point-Of-Sale-System",
+      "description": "“My name is Gregory Guy. I have just purchased a video store, and I need an up to date, GUI driven system to keep track of all the stock in my store. I am not happy with the existing system where eve…",
+      "stars": 11,
+      "forks": 6,
+      "open_issues": 0,
+      "archived": false,
+      "created_at": "2015-05-07T16:28:07Z",
+      "pushed_at": "2026-10-10T16:33:23Z",
+      "language": null,
+      "matched_queries": [
+        "who built this before"
+      ]
+    },
+    {
+      "id": 168630941,
+      "full_name": "mrc1234/Liri-Bot2019",
+      "url": "https://github.com/mrc1234/Liri-Bot2019",
+      "description": "# LIRI Bot ### Overview In this assignment, you will make LIRI. LIRI is like iPhone's SIRI. However, while SIRI is a Speech Interpretation and Recognition Interface, LIRI is a _Language_ Interpretati…",
+      "stars": 11,
+      "forks": 3,
+      "open_issues": 0,
+      "archived": false,
+      "created_at": "2019-02-01T02:34:51Z",
+      "pushed_at": "2019-02-15T01:55:39Z",
+      "language": "JavaScript",
+      "matched_queries": [
+        "who built this before"
+      ]
+    },
+    {
+      "id": 391482924,
+      "full_name": "peacockbsc/whitepaper",
+      "url": "https://github.com/peacockbsc/whitepaper",
+      "description": "1 Introduction As human beings we are usually first exposed to the gift economy of our families and tight knit communities: goods and services are provided without an explicit agreement for immediate…",
+      "stars": 11,
+      "forks": 4,
+      "open_issues": 1,
+      "archived": false,
+      "created_at": "2021-07-31T23:39:41Z",
+      "pushed_at": "2022-08-25T09:52:38Z",
+      "language": null,
+      "matched_queries": [
+        "who built this before"
+      ]
+    },
+    {
+      "id": 1307605303,
+      "full_name": "fahrellgiovanny/nothing-new-under-the-sun",
+      "url": "https://github.com/fahrellgiovanny/nothing-new-under-the-sun",
+      "description": "Research-first scouting agent skill for dependency, API, SaaS, prior-art, and build-versus-buy decisions before writing code.",
+      "stars": 8,
+      "forks": 3,
+      "open_issues": 0,
+      "archived": false,
+      "created_at": "2026-07-21T11:04:53Z",
+      "pushed_at": "2026-07-24T10:12:48Z",
+      "language": null,
+      "matched_queries": [
+        "prior art agent skill"
+      ]
+    },
+    {
+      "id": 1127033492,
+      "full_name": "BorascuDan/garbageCollector",
+      "url": "https://github.com/BorascuDan/garbageCollector",
+      "description": "Trying to understand better memori management so i can elevate my curent coding skill. Is a simple (non-eficiant) garbage colector where i needed to use a lot of memory management knowledge and deepl…",
+      "stars": 5,
+      "forks": 0,
+      "open_issues": 0,
+      "archived": false,
+      "created_at": "2026-01-03T03:26:47Z",
+      "pushed_at": "2026-01-03T04:00:38Z",
+      "language": "C",
+      "matched_queries": [
+        "reinvent wheel skill"
+      ]
+    },
+    {
+      "id": 1300094314,
+      "full_name": "ANVEAI/idea-hunt-skill",
+      "url": "https://github.com/ANVEAI/idea-hunt-skill",
+      "description": "Open-source Claude skill for evidence-first AI business idea discovery & validation. Find a painful, already-paid-for workflow AI can replace — then prove willingness-to-pay before building.",
+      "stars": 4,
+      "forks": 1,
+      "open_issues": 0,
+      "archived": false,
+      "created_at": "2026-07-14T06:23:14Z",
+      "pushed_at": "2026-07-14T06:31:23Z",
+      "language": null,
+      "matched_queries": [
+        "idea validation skill claude"
+      ]
+    },
+    {
+      "id": 1285671802,
+      "full_name": "dungnotnull/patent-structure-ip-protection-agent-skill",
+      "url": "https://github.com/dungnotnull/patent-structure-ip-protection-agent-skill",
+      "description": "⚖️ A global patent structure analyzer. Scores claim defensibility, flags prior-art collisions, and maps IP protection across USPTO/EPO/WIPO. 💡",
+      "stars": 4,
+      "forks": 0,
+      "open_issues": 0,
+      "archived": false,
+      "created_at": "2026-07-01T03:26:52Z",
+      "pushed_at": "2026-07-01T03:32:52Z",
+      "language": "Python",
+      "matched_queries": [
+        "prior art agent skill"
+      ]
+    },
+    {
+      "id": 311236546,
+      "full_name": "JoyceQuinn/The-Best-Advertising-And-Marketing-Management",
+      "url": "https://github.com/JoyceQuinn/The-Best-Advertising-And-Marketing-Management",
+      "description": "As a digital marketing company, we have actually driven numerous web site hits, millions of leads as well as also millions of sales. So if you are a local business or a young expert that wants to fin…",
+      "stars": 4,
+      "forks": 0,
+      "open_issues": 0,
+      "archived": false,
+      "created_at": "2020-11-09T05:48:58Z",
+      "pushed_at": "2020-11-09T05:48:59Z",
+      "language": null,
+      "matched_queries": [
+        "idea already exists skill"
+      ]
+    },
+    {
+      "id": 1218380044,
+      "full_name": "ReturnMyTime/startup-validator",
+      "url": "https://github.com/ReturnMyTime/startup-validator",
+      "description": "End-to-end startup idea validation and launch planning skill for Claude",
+      "stars": 4,
+      "forks": 2,
+      "open_issues": 0,
+      "archived": false,
+      "created_at": "2026-04-22T20:21:34Z",
+      "pushed_at": "2026-04-22T20:42:07Z",
+      "language": "Python",
+      "matched_queries": [
+        "idea validation skill claude"
+      ]
+    },
+    {
+      "id": 1373092347,
+      "full_name": "4regab/skills",
+      "url": "https://github.com/4regab/skills",
+      "description": "Checks if your project idea already exists, so you can save tokens and time by building on top of existing open-source projects.",
+      "stars": 3,
+      "forks": 0,
+      "open_issues": 0,
+      "archived": false,
+      "created_at": "2026-09-16T13:37:53Z",
+      "pushed_at": "2026-09-16T14:35:50Z",
+      "language": null,
+      "matched_queries": [
+        "idea already exists skill"
+      ]
+    },
+    {
+      "id": 462725815,
+      "full_name": "Cashcoin123/Cashcoin123",
+      "url": "https://github.com/Cashcoin123/Cashcoin123",
+      "description": "# Application card: GitHub Copilot Chat Learn how to use GitHub Copilot Chat responsibly by understanding its purposes, capabilities, and limitations. ## What is an Application Card? <!-- Do not modi…",
+      "stars": 3,
+      "forks": 2,
+      "open_issues": 0,
+      "archived": false,
+      "created_at": "2022-02-23T12:29:50Z",
+      "pushed_at": "2026-10-05T01:50:18Z",
+      "language": null,
+      "matched_queries": [
+        "existing projects before building agent"
+      ]
+    },
+    {
+      "id": 150200080,
+      "full_name": "joynova/WheelPlan",
+      "url": "https://github.com/joynova/WheelPlan",
+      "description": "Reinventing the wheel for train our code skills",
+      "stars": 3,
+      "forks": 0,
+      "open_issues": 0,
+      "archived": false,
+      "created_at": "2018-09-25T03:05:07Z",
+      "pushed_at": "2018-09-25T10:26:54Z",
+      "language": null,
+      "matched_queries": [
+        "reinvent wheel skill"
+      ]
+    },
+    {
+      "id": 1197412094,
+      "full_name": "RiseMore-AI/startup-idea-validator",
+      "url": "https://github.com/RiseMore-AI/startup-idea-validator",
+      "description": "A free, open-source AI skill that validates startup ideas with a VC-grade 7-dimension scorecard. Compatible with Claude Code, Codex CLI, Cursor, and other AI IDEs.",
+      "stars": 3,
+      "forks": 2,
+      "open_issues": 0,
+      "archived": false,
+      "created_at": "2026-03-31T15:01:47Z",
+      "pushed_at": "2026-03-31T15:02:39Z",
+      "language": null,
+      "matched_queries": [
+        "idea validation skill claude"
+      ]
+    },
+    {
+      "id": 1348644092,
+      "full_name": "shromarketing/telegram-rich-content-skill",
+      "url": "https://github.com/shromarketing/telegram-rich-content-skill",
+      "description": "Open-source Codex & Claude Code skill: turn ideas, audio, articles and video into source-grounded Telegram posts and Rich Messages with local Whisper, strict validation and safe publishing.",
+      "stars": 3,
+      "forks": 1,
+      "open_issues": 0,
+      "archived": false,
+      "created_at": "2026-08-27T15:21:30Z",
+      "pushed_at": "2026-08-27T18:44:31Z",
+      "language": "Python",
+      "matched_queries": [
+        "idea validation skill claude"
+      ]
+    },
+    {
+      "id": 492675679,
+      "full_name": "AadilLaveena/urban-funicular",
+      "url": "https://github.com/AadilLaveena/urban-funicular",
+      "description": "Sky highways In 2004 the Colombian city of Medellin became the first place in the world to fully integrate cable cars into its existing metro system. Since then, a growing number of urban areas acros…",
+      "stars": 2,
+      "forks": 0,
+      "open_issues": 0,
+      "archived": false,
+      "created_at": "2022-05-16T03:52:05Z",
+      "pushed_at": "2022-05-16T03:52:05Z",
+      "language": null,
+      "matched_queries": [
+        "existing projects before building agent"
+      ]
+    },
+    {
+      "id": 1293059398,
+      "full_name": "eligapris/ip-detector",
+      "url": "https://github.com/eligapris/ip-detector",
+      "description": "Cursor/Claude agent skill: numbers-first IP due diligence — prior art, Gold Index, FILE/BORDERLINE/DO NOT FILE PDF dossier.",
+      "stars": 2,
+      "forks": 0,
+      "open_issues": 0,
+      "archived": false,
+      "created_at": "2026-07-08T04:40:41Z",
+      "pushed_at": "2026-07-08T14:27:39Z",
+      "language": "Python",
+      "matched_queries": [
+        "prior art agent skill"
+      ]
+    },
+    {
+      "id": 1252585915,
+      "full_name": "ShanedevPro/dont-reinvent-the-wheel-skill",
+      "url": "https://github.com/ShanedevPro/dont-reinvent-the-wheel-skill",
+      "description": "A small agent skill that asks AI coding agents to check mature existing solutions before writing custom software.",
+      "stars": 2,
+      "forks": 0,
+      "open_issues": 0,
+      "archived": false,
+      "created_at": "2026-05-28T17:05:41Z",
+      "pushed_at": "2026-05-28T17:16:03Z",
+      "language": null,
+      "matched_queries": [
+        "reinvent wheel skill"
+      ]
+    },
+    {
+      "id": 1222927597,
+      "full_name": "jcorral10/patent-prior-art-scout",
+      "url": "https://github.com/jcorral10/patent-prior-art-scout",
+      "description": "Antigravity agent skill: patent prior art scout & digest generator",
+      "stars": 1,
+      "forks": 0,
+      "open_issues": 0,
+      "archived": false,
+      "created_at": "2026-04-27T21:02:54Z",
+      "pushed_at": "2026-06-16T20:32:37Z",
+      "language": null,
+      "matched_queries": [
+        "prior art agent skill"
+      ]
+    },
+    {
+      "id": 1337246733,
+      "full_name": "kishormorol/promptalias",
+      "url": "https://github.com/kishormorol/promptalias",
+      "description": "Reusable prompts as Agent Skills for Claude Code, Codex, and Cursor. Named after a cross-tool compiler that was designed, researched, and killed — the prior-art note explains why.",
+      "stars": 1,
+      "forks": 0,
+      "open_issues": 0,
+      "archived": false,
+      "created_at": "2026-08-17T14:08:42Z",
+      "pushed_at": "2026-08-19T22:44:02Z",
+      "language": "Python",
+      "matched_queries": [
+        "prior art agent skill"
+      ]
+    },
+    {
+      "id": 1201882382,
+      "full_name": "maxihermit/gate-of-oss",
+      "url": "https://github.com/maxihermit/gate-of-oss",
+      "description": "別再重新發明輪子，讓本王替你海巡 GitHub！| Stop reinventing the wheel. Let the king patrol GitHub for you.",
+      "stars": 1,
+      "forks": 0,
+      "open_issues": 0,
+      "archived": false,
+      "created_at": "2026-04-05T09:43:35Z",
+      "pushed_at": "2026-04-05T15:33:43Z",
+      "language": null,
+      "matched_queries": [
+        "reinvent wheel skill"
+      ]
+    },
+    {
+      "id": 1376899000,
+      "full_name": "pengkangzhen/research-before-build",
+      "url": "https://github.com/pengkangzhen/research-before-build",
+      "description": "Research before build — a research-first meta-skill for AI agents: check prior art & community solutions before starting any non-trivial task",
+      "stars": 1,
+      "forks": 0,
+      "open_issues": 0,
+      "archived": false,
+      "created_at": "2026-09-19T08:03:55Z",
+      "pushed_at": "2026-09-19T08:04:05Z",
+      "language": null,
+      "matched_queries": [
+        "prior art agent skill"
+      ]
+    },
+    {
+      "id": 261593625,
+      "full_name": "amalkong/pbd-js-library",
+      "url": "https://github.com/amalkong/pbd-js-library",
+      "description": "This is essentially a jQuery clone. While not trying to reinvent the wheel, this project is geared towards increasing my development skills and logging my progress in the mean time. Most methods foun…",
+      "stars": 0,
+      "forks": 0,
+      "open_issues": 0,
+      "archived": false,
+      "created_at": "2020-05-05T22:07:23Z",
+      "pushed_at": "2020-05-05T22:10:55Z",
+      "language": "JavaScript",
+      "matched_queries": [
+        "reinvent wheel skill"
+      ]
+    },
+    {
+      "id": 1314332528,
+      "full_name": "anirbanbasu/prioris",
+      "url": "https://github.com/anirbanbasu/prioris",
+      "description": "Agent skills for reviewing prior art.",
+      "stars": 0,
+      "forks": 0,
+      "open_issues": 3,
+      "archived": false,
+      "created_at": "2026-07-27T22:40:03Z",
+      "pushed_at": "2026-10-01T20:29:43Z",
+      "language": "Python",
+      "matched_queries": [
+        "prior art agent skill"
+      ]
+    },
+    {
+      "id": 278879895,
+      "full_name": "carlhauck/folded-map-app",
+      "url": "https://github.com/carlhauck/folded-map-app",
+      "description": "Ruby on Rails backend of Folded Map app. This web app, built as a capstone project for Actualize Coding Bootcamp, was inspired by Englewood photographer/activist Tonika Lewis Johnson's Folded Map™, w…",
+      "stars": 0,
+      "forks": 0,
+      "open_issues": 8,
+      "archived": false,
+      "created_at": "2020-07-11T14:39:52Z",
+      "pushed_at": "2023-03-08T21:16:30Z",
+      "language": "Ruby",
+      "matched_queries": [
+        "check if idea already built"
+      ]
+    },
+    {
+      "id": 281484961,
+      "full_name": "carlhauck/folded-map-vue-app",
+      "url": "https://github.com/carlhauck/folded-map-vue-app",
+      "description": "Vue.js frontend of Folded Map app. This web app, built as a capstone project for Actualize Coding Bootcamp, was inspired by Englewood photographer/activist Tonika Lewis Johnson's Folded Map™, which \"…",
+      "stars": 0,
+      "forks": 0,
+      "open_issues": 36,
+      "archived": false,
+      "created_at": "2020-07-21T19:22:45Z",
+      "pushed_at": "2023-01-06T12:13:21Z",
+      "language": "CSS",
+      "matched_queries": [
+        "check if idea already built"
+      ]
+    },
+    {
+      "id": 1255591293,
+      "full_name": "Duzhenyang111/WheelWise",
+      "url": "https://github.com/Duzhenyang111/WheelWise",
+      "description": "A build-vs-buy-vs-reuse skill system that helps founders and developers avoid reinventing the wheel before building apps, websites, and SaaS products.",
+      "stars": 0,
+      "forks": 0,
+      "open_issues": 4,
+      "archived": false,
+      "created_at": "2026-06-01T01:57:59Z",
+      "pushed_at": "2026-06-04T10:59:21Z",
+      "language": "Python",
+      "matched_queries": [
+        "reinvent wheel skill"
+      ]
+    },
+    {
+      "id": 1369978198,
+      "full_name": "Hjiong123/explore-before-build-skill",
+      "url": "https://github.com/Hjiong123/explore-before-build-skill",
+      "description": "An AI agent skill that helps explore existing GitHub projects before building new solutions, avoiding duplicated work.",
+      "stars": 0,
+      "forks": 0,
+      "open_issues": 0,
+      "archived": false,
+      "created_at": "2026-09-14T13:41:47Z",
+      "pushed_at": "2026-09-14T16:11:56Z",
+      "language": null,
+      "matched_queries": [
+        "existing projects before building agent"
+      ]
+    },
+    {
+      "id": 1094848987,
+      "full_name": "Python-AI-Solutions/ai-skills-store",
+      "url": "https://github.com/Python-AI-Solutions/ai-skills-store",
+      "description": "A central store of skills so that we don't each reinvent the wheel",
+      "stars": 0,
+      "forks": 0,
+      "open_issues": 0,
+      "archived": false,
+      "created_at": "2025-11-12T08:56:48Z",
+      "pushed_at": "2026-06-13T13:37:59Z",
+      "language": null,
+      "matched_queries": [
+        "reinvent wheel skill"
+      ]
+    },
+    {
+      "id": 1358757272,
+      "full_name": "raj262007/Doesitexist",
+      "url": "https://github.com/raj262007/Doesitexist",
+      "description": "Scan Product Hunt, YC, and the live web in 5 seconds to check if your startup idea already exists. Built with Next.js, Tavily & Groq.",
+      "stars": 0,
+      "forks": 0,
+      "open_issues": 0,
+      "archived": false,
+      "created_at": "2026-09-06T03:34:15Z",
+      "pushed_at": "2026-09-06T11:01:54Z",
+      "language": "TypeScript",
+      "matched_queries": [
+        "check if idea already built"
+      ]
+    },
+    {
+      "id": 1322794758,
+      "full_name": "rianczerwinski/prior-art-skill",
+      "url": "https://github.com/rianczerwinski/prior-art-skill",
+      "description": "Agent Skill: systematic prior-art search and novelty-boundary mapping — mechanisms over slogans, disconfirmation over confirmation",
+      "stars": 0,
+      "forks": 0,
+      "open_issues": 0,
+      "archived": false,
+      "created_at": "2026-08-04T10:04:20Z",
+      "pushed_at": "2026-08-04T10:04:23Z",
+      "language": null,
+      "matched_queries": [
+        "prior art agent skill"
+      ]
+    },
+    {
+      "id": 78987502,
+      "full_name": "SenJia/Reinventing-the-wheel",
+      "url": "https://github.com/SenJia/Reinventing-the-wheel",
+      "description": "This is my personal playground. I may implement a piece of code for new algorithms or just practice my coding skill.",
+      "stars": 0,
+      "forks": 0,
+      "open_issues": 0,
+      "archived": false,
+      "created_at": "2017-01-15T02:24:12Z",
+      "pushed_at": "2018-07-03T13:59:18Z",
+      "language": "Python",
+      "matched_queries": [
+        "reinvent wheel skill"
+      ]
+    },
+    {
+      "id": 1408795425,
+      "full_name": "taerh/CryptoHack_solutions",
+      "url": "https://github.com/taerh/CryptoHack_solutions",
+      "description": "My attempt at solving CryptoHack while attempting to build every function from scratch (even the Python built-ins). Basically, I'm reinventing the wheel with my subpar stone-carving skills.",
+      "stars": 0,
+      "forks": 0,
+      "open_issues": 0,
+      "archived": false,
+      "created_at": "2026-10-07T13:02:43Z",
+      "pushed_at": "2026-10-07T13:07:14Z",
+      "language": "Python",
+      "matched_queries": [
+        "reinvent wheel skill"
+      ]
+    },
+    {
+      "id": 1298122952,
+      "full_name": "Vickywan123/hybrid-game-radar",
+      "url": "https://github.com/Vickywan123/hybrid-game-radar",
+      "description": "A Claude Code skill for hybrid-casual puzzle developers: search the iOS App Store and Google Play in one run — by concept, game name, link, or screenshot — and get a visual report of every similar pu…",
+      "stars": 0,
+      "forks": 0,
+      "open_issues": 0,
+      "archived": false,
+      "created_at": "2026-07-12T08:47:33Z",
+      "pushed_at": "2026-07-16T07:04:21Z",
+      "language": "Python",
+      "matched_queries": [
+        "idea already exists skill"
+      ]
+    }
+  ],
+  "inspections": {
+    "iagochavarry/who-built-this-before-me": {
+      "release_tag": null,
+      "release_at": null,
+      "release_is_prerelease": false,
+      "releases_seen": 0,
+      "asset_names": [],
+      "platforms": [],
+      "errors": []
+    },
+    "Open-Dev-Society/kitbash": {
+      "release_tag": null,
+      "release_at": null,
+      "release_is_prerelease": false,
+      "releases_seen": 0,
+      "asset_names": [],
+      "platforms": [],
+      "errors": []
+    },
+    "Emanuelel/dont-reinvent": {
+      "release_tag": null,
+      "release_at": null,
+      "release_is_prerelease": false,
+      "releases_seen": 0,
+      "asset_names": [],
+      "platforms": [],
+      "errors": []
+    },
+    "Sfedfcv/redesigned-pancake": {
+      "release_tag": null,
+      "release_at": null,
+      "release_is_prerelease": false,
+      "releases_seen": 0,
+      "asset_names": [],
+      "platforms": [],
+      "errors": []
+    },
+    "RobThePCGuy/Claude-Patent-Creator": {
+      "release_tag": null,
+      "release_at": null,
+      "release_is_prerelease": false,
+      "releases_seen": 0,
+      "asset_names": [],
+      "platforms": [],
+      "errors": []
+    },
+    "jettbrains/-L-": {
+      "release_tag": null,
+      "release_at": null,
+      "release_is_prerelease": false,
+      "releases_seen": 0,
+      "asset_names": [],
+      "platforms": [],
+      "errors": []
+    },
+    "jeremykenedy/laravel-exception-notifier": {
+      "release_tag": "V5.0.0",
+      "release_at": "2026-09-21T07:43:36Z",
+      "release_is_prerelease": false,
+      "releases_seen": 10,
+      "asset_names": [],
+      "platforms": [],
+      "errors": []
+    },
+    "aaddrick/building-with-typesafe-jev": {
+      "release_tag": null,
+      "release_at": null,
+      "release_is_prerelease": false,
+      "releases_seen": 0,
+      "asset_names": [],
+      "platforms": [],
+      "errors": []
+    },
+    "ReScienceLab/super-prototyping": {
+      "release_tag": "super-prototyping--v1.7.0",
+      "release_at": "2026-09-26T10:25:06Z",
+      "release_is_prerelease": false,
+      "releases_seen": 10,
+      "asset_names": [
+        "canvas-dist.tgz",
+        "latest-mac.yml",
+        "latest.yml",
+        "Super-Prototyping-1.7.0-arm64.dmg",
+        "Super-Prototyping-1.7.0-arm64.zip",
+        "Super-Prototyping-1.7.0-arm64.zip.blockmap",
+        "Super-Prototyping-1.7.0-x64.dmg",
+        "Super-Prototyping-1.7.0-x64.exe",
+        "Super-Prototyping-1.7.0-x64.exe.blockmap",
+        "Super-Prototyping-1.7.0-x64.zip",
+        "Super-Prototyping-1.7.0-x64.zip.blockmap",
+        "Super-Prototyping-1.6.4-arm64.dmg",
+        "Super-Prototyping-1.6.4-arm64.zip",
+        "Super-Prototyping-1.6.4-arm64.zip.blockmap",
+        "Super-Prototyping-1.6.4-x64.dmg",
+        "Super-Prototyping-1.6.4-x64.exe",
+        "Super-Prototyping-1.6.4-x64.exe.blockmap",
+        "Super-Prototyping-1.6.4-x64.zip",
+        "Super-Prototyping-1.6.4-x64.zip.blockmap",
+        "Super-Prototyping-1.6.3-arm64.dmg",
+        "Super-Prototyping-1.6.3-arm64.zip",
+        "Super-Prototyping-1.6.3-arm64.zip.blockmap",
+        "Super-Prototyping-1.6.3-x64.dmg",
+        "Super-Prototyping-1.6.3-x64.exe",
+        "Super-Prototyping-1.6.3-x64.exe.blockmap",
+        "Super-Prototyping-1.6.3-x64.zip",
+        "Super-Prototyping-1.6.3-x64.zip.blockmap",
+        "Super-Prototyping-1.6.2-arm64.dmg",
+        "Super-Prototyping-1.6.2-arm64.zip",
+        "Super-Prototyping-1.6.2-arm64.zip.blockmap",
+        "Super-Prototyping-1.6.2-x64.dmg",
+        "Super-Prototyping-1.6.2-x64.exe",
+        "Super-Prototyping-1.6.2-x64.exe.blockmap",
+        "Super-Prototyping-1.6.2-x64.zip",
+        "Super-Prototyping-1.6.2-x64.zip.blockmap",
+        "Super-Prototyping-1.6.1-arm64.dmg",
+        "Super-Prototyping-1.6.1-arm64.zip",
+        "Super-Prototyping-1.6.1-arm64.zip.blockmap",
+        "Super-Prototyping-1.6.1-x64.dmg",
+        "Super-Prototyping-1.6.1-x64.exe"
+      ],
+      "platforms": [
+        {
+          "platform": "windows",
+          "source": "release-asset"
+        },
+        {
+          "platform": "macos",
+          "source": "release-asset"
+        },
+        {
+          "platform": "ios",
+          "source": "readme-heading"
+        }
+      ],
+      "errors": []
+    }
+  },
+  "fetch_errors": {}
+}

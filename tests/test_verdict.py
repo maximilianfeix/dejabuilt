@@ -92,6 +92,18 @@ class TestDecide:
         assert decision.verdict is Verdict.LOW_TRACTION
         assert decision.same_count == 3
 
+    @pytest.mark.parametrize(
+        ("count", "expected"),
+        [
+            (0, "No repository doing the same thing was found, none with 200 stars."),
+            (1, "Only 1 repository doing the same thing was found, none with 200 stars."),
+            (2, "Only 2 repositories doing the same thing were found, none with 200 stars."),
+        ],
+    )
+    def test_open_reason_reads_correctly_for_each_count(self, count: int, expected: str) -> None:
+        candidates = [make_candidate(f"a/{n}", stars=5) for n in range(count)]
+        assert decide(candidates, [], NOW, POLICY).reasons[0] == expected
+
     def test_two_attempts_without_traction_is_open(self) -> None:
         candidates = [make_candidate(f"a/{n}", stars=20) for n in range(2)]
         assert decide(candidates, [], NOW, POLICY).verdict is Verdict.OPEN

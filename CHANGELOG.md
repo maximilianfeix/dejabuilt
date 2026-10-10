@@ -2,6 +2,13 @@
 
 Notable changes to this project. Versions follow [Semantic Versioning](https://semver.org).
 
+## 0.1.1 - 2026-10-10
+
+- Privacy policy (`PRIVACY.md`), linked from the plugin manifest and the README.
+- Plugin icon.
+- Two more example reports, and the install path through the skills CLI.
+- Fixed the wording of the `OPEN` reason when one or two repositories were found.
+
 ## 0.1.0 - 2026-10-10
 
 First release.

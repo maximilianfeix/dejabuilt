@@ -1,0 +1,2793 @@
+{
+  "schema_version": 1,
+  "observed_at": "2026-10-10T17:39:33Z",
+  "queries": [
+    {
+      "query": "markdown slides cli",
+      "total_count": 114,
+      "returned": 20,
+      "incomplete": false,
+      "error": null
+    },
+    {
+      "query": "markdown presentation generator",
+      "total_count": 65,
+      "returned": 20,
+      "incomplete": false,
+      "error": null
+    },
+    {
+      "query": "convert notes to presentation",
+      "total_count": 29,
+      "returned": 20,
+      "incomplete": false,
+      "error": null
+    },
+    {
+      "query": "markdown to pptx",
+      "total_count": 337,
+      "returned": 20,
+      "incomplete": false,
+      "error": null
+    },
+    {
+      "query": "markdown slide deck in:name,description",
+      "total_count": 258,
+      "returned": 20,
+      "incomplete": false,
+      "error": null
+    },
+    {
+      "query": "terminal markdown presentation",
+      "total_count": 47,
+      "returned": 20,
+      "incomplete": false,
+      "error": null
+    },
+    {
+      "query": "obsidian slides export",
+      "total_count": 6,
+      "returned": 6,
+      "incomplete": false,
+      "error": null
+    },
+    {
+      "query": "powerpoint alternative markdown",
+      "total_count": 3,
+      "returned": 3,
+      "incomplete": false,
+      "error": null
+    },
+    {
+      "query": "markdown to reveal.js",
+      "total_count": 78,
+      "returned": 20,
+      "incomplete": false,
+      "error": null
+    }
+  ],
+  "repos": [
+    {
+      "id": 364729022,
+      "full_name": "maaslalani/slides",
+      "url": "https://github.com/maaslalani/slides",
+      "description": "Terminal based presentation tool",
+      "stars": 11681,
+      "forks": 316,
+      "open_issues": 79,
+      "archived": false,
+      "created_at": "2021-05-05T23:13:42Z",
+      "pushed_at": "2026-07-08T18:44:50Z",
+      "language": "Go",
+      "matched_queries": [
+        "terminal markdown presentation"
+      ]
+    },
+    {
+      "id": 1318187016,
+      "full_name": "genspark-ai/genoffice",
+      "url": "https://github.com/genspark-ai/genoffice",
+      "description": "Free, open-source AI Office suite: Docs, Sheets, Slides, PDF, Markdown and HTML editors with a built-in AI agent, plus a `genoffice` CLI and agent skill so Claude Code, Codex and Cursor can create an…",
+      "stars": 9203,
+      "forks": 1170,
+      "open_issues": 54,
+      "archived": false,
+      "created_at": "2026-07-31T09:40:58Z",
+      "pushed_at": "2026-10-10T09:40:11Z",
+      "language": "TypeScript",
+      "matched_queries": [
+        "markdown slides cli"
+      ]
+    },
+    {
+      "id": 683837120,
+      "full_name": "mfontanini/presenterm",
+      "url": "https://github.com/mfontanini/presenterm",
+      "description": "A markdown terminal slideshow tool",
+      "stars": 8910,
+      "forks": 206,
+      "open_issues": 82,
+      "archived": false,
+      "created_at": "2023-08-27T21:15:15Z",
+      "pushed_at": "2026-05-22T15:43:27Z",
+      "language": "Rust",
+      "matched_queries": [
+        "markdown slides cli",
+        "terminal markdown presentation"
+      ]
+    },
+    {
+      "id": 144130157,
+      "full_name": "marp-team/marp-cli",
+      "url": "https://github.com/marp-team/marp-cli",
+      "description": "A CLI interface for Marp and Marpit based converters",
+      "stars": 3861,
+      "forks": 194,
+      "open_issues": 19,
+      "archived": false,
+      "created_at": "2018-08-09T09:22:36Z",
+      "pushed_at": "2026-09-08T14:24:15Z",
+      "language": "TypeScript",
+      "matched_queries": [
+        "markdown slides cli"
+      ]
+    },
+    {
+      "id": 877212130,
+      "full_name": "CatchTheTornado/text-extract-api",
+      "url": "https://github.com/CatchTheTornado/text-extract-api",
+      "description": "Document (PDF, Word, PPTX ...) extraction and parse API using state of the art modern OCRs + Ollama supported models. Anonymize documents. Remove PII. Convert any document or picture to structured JS…",
+      "stars": 3182,
+      "forks": 279,
+      "open_issues": 49,
+      "archived": false,
+      "created_at": "2024-10-23T09:27:19Z",
+      "pushed_at": "2025-12-08T21:27:14Z",
+      "language": "Python",
+      "matched_queries": [
+        "markdown to pptx"
+      ]
+    },
+    {
+      "id": 69011108,
+      "full_name": "jaspervdj/patat",
+      "url": "https://github.com/jaspervdj/patat",
+      "description": "Terminal-based presentations using Pandoc",
+      "stars": 2743,
+      "forks": 66,
+      "open_issues": 23,
+      "archived": false,
+      "created_at": "2016-09-23T09:37:28Z",
+      "pushed_at": "2026-06-25T17:50:39Z",
+      "language": "Haskell",
+      "matched_queries": [
+        "terminal markdown presentation"
+      ]
+    },
+    {
+      "id": 168885746,
+      "full_name": "marp-team/marp-vscode",
+      "url": "https://github.com/marp-team/marp-vscode",
+      "description": "Marp for VS Code: Create slide deck written in Marp Markdown on VS Code",
+      "stars": 2099,
+      "forks": 141,
+      "open_issues": 12,
+      "archived": false,
+      "created_at": "2019-02-02T22:34:32Z",
+      "pushed_at": "2026-08-11T11:46:03Z",
+      "language": "TypeScript",
+      "matched_queries": [
+        "markdown slide deck in:name,description"
+      ]
+    },
+    {
+      "id": 125661750,
+      "full_name": "marp-team/marpit",
+      "url": "https://github.com/marp-team/marpit",
+      "description": "The skinny framework for creating slide deck from Markdown",
+      "stars": 1387,
+      "forks": 72,
+      "open_issues": 20,
+      "archived": false,
+      "created_at": "2018-03-17T19:19:58Z",
+      "pushed_at": "2026-09-30T02:51:26Z",
+      "language": "JavaScript",
+      "matched_queries": [
+        "markdown slide deck in:name,description"
+      ]
+    },
+    {
+      "id": 838240603,
+      "full_name": "wbopan/moffee",
+      "url": "https://github.com/wbopan/moffee",
+      "description": "moffee: Make Markdown Ready to Present",
+      "stars": 1330,
+      "forks": 64,
+      "open_issues": 5,
+      "archived": false,
+      "created_at": "2024-08-05T08:35:12Z",
+      "pushed_at": "2026-07-27T01:43:04Z",
+      "language": "Python",
+      "matched_queries": [
+        "markdown slides cli"
+      ]
+    },
+    {
+      "id": 837805171,
+      "full_name": "wisupai/e2m",
+      "url": "https://github.com/wisupai/e2m",
+      "description": "E2M converts various file types (doc, docx, epub, html, htm, url, pdf, ppt, pptx, mp3, m4a) into Markdown. It’s easy to install, with dedicated parsers and converters, supporting custom configs. E2M…",
+      "stars": 1294,
+      "forks": 76,
+      "open_issues": 17,
+      "archived": false,
+      "created_at": "2024-08-04T04:57:09Z",
+      "pushed_at": "2024-09-08T08:18:11Z",
+      "language": "Jupyter Notebook",
+      "matched_queries": [
+        "markdown to pptx"
+      ]
+    },
+    {
+      "id": 155890755,
+      "full_name": "ssine/pptx2md",
+      "url": "https://github.com/ssine/pptx2md",
+      "description": "a pptx to markdown converter",
+      "stars": 1275,
+      "forks": 160,
+      "open_issues": 27,
+      "archived": false,
+      "created_at": "2018-11-02T16:09:54Z",
+      "pushed_at": "2026-04-21T22:23:56Z",
+      "language": "Python",
+      "matched_queries": [
+        "markdown to pptx"
+      ]
+    },
+    {
+      "id": 948533827,
+      "full_name": "k1LoW/deck",
+      "url": "https://github.com/k1LoW/deck",
+      "description": "deck is a tool for creating deck using Markdown and Google Slides.",
+      "stars": 1243,
+      "forks": 39,
+      "open_issues": 10,
+      "archived": false,
+      "created_at": "2025-03-14T14:02:26Z",
+      "pushed_at": "2026-10-04T23:04:18Z",
+      "language": "Go",
+      "matched_queries": [
+        "markdown slide deck in:name,description"
+      ]
+    },
+    {
+      "id": 87734183,
+      "full_name": "sinedied/backslide",
+      "url": "https://github.com/sinedied/backslide",
+      "description": ":sweat_drops: CLI tool for making HTML presentations with Remark.js using Markdown",
+      "stars": 777,
+      "forks": 50,
+      "open_issues": 15,
+      "archived": false,
+      "created_at": "2017-04-09T19:38:19Z",
+      "pushed_at": "2022-03-15T13:34:26Z",
+      "language": "JavaScript",
+      "matched_queries": [
+        "markdown slides cli"
+      ]
+    },
+    {
+      "id": 298847427,
+      "full_name": "MartinPacker/md2pptx",
+      "url": "https://github.com/MartinPacker/md2pptx",
+      "description": "Markdown To PowerPoint converter",
+      "stars": 514,
+      "forks": 81,
+      "open_issues": 9,
+      "archived": false,
+      "created_at": "2020-09-26T15:48:56Z",
+      "pushed_at": "2026-08-31T14:34:45Z",
+      "language": "Python",
+      "matched_queries": [
+        "markdown to pptx"
+      ]
+    },
+    {
+      "id": 1214412003,
+      "full_name": "drasimwagan/mdv",
+      "url": "https://github.com/drasimwagan/mdv",
+      "description": "MDV — a Markdown superset for documents, dashboards, and slides with embedded data and visualizations. HTML + PDF export, live preview, VS Code extension.",
+      "stars": 509,
+      "forks": 12,
+      "open_issues": 10,
+      "archived": false,
+      "created_at": "2026-04-18T14:42:02Z",
+      "pushed_at": "2026-10-10T13:24:43Z",
+      "language": "TypeScript",
+      "matched_queries": [
+        "markdown slides cli"
+      ]
+    },
+    {
+      "id": 849785913,
+      "full_name": "MartenBE/mkslides",
+      "url": "https://github.com/MartenBE/mkslides",
+      "description": "Use mkslides to easily turn markdown files into beautiful slides using the power of Reveal.js!",
+      "stars": 480,
+      "forks": 21,
+      "open_issues": 2,
+      "archived": false,
+      "created_at": "2024-08-30T08:42:14Z",
+      "pushed_at": "2026-09-30T16:27:02Z",
+      "language": "Python",
+      "matched_queries": [
+        "markdown to reveal.js"
+      ]
+    },
+    {
+      "id": 274472671,
+      "full_name": "zszszszsz/.config",
+      "url": "https://github.com/zszszszsz/.config",
+      "description": "# # Automatically generated file; DO NOT EDIT. # OpenWrt Configuration # CONFIG_MODULES=y CONFIG_HAVE_DOT_CONFIG=y # CONFIG_TARGET_sunxi is not set # CONFIG_TARGET_apm821xx is not set # CONFIG_TARGET…",
+      "stars": 361,
+      "forks": 96,
+      "open_issues": 40,
+      "archived": false,
+      "created_at": "2020-06-23T17:51:35Z",
+      "pushed_at": "2023-10-05T22:52:42Z",
+      "language": "Shell",
+      "matched_queries": [
+        "markdown slides cli"
+      ]
+    },
+    {
+      "id": 9589342,
+      "full_name": "rmcgibbo/slidedeck",
+      "url": "https://github.com/rmcgibbo/slidedeck",
+      "description": "Beautiful HTML5 slides in markdown. A easy-to-use fork of the google-io-2012 slide deck",
+      "stars": 321,
+      "forks": 46,
+      "open_issues": 12,
+      "archived": false,
+      "created_at": "2013-04-22T02:28:36Z",
+      "pushed_at": "2018-03-19T14:59:29Z",
+      "language": "CSS",
+      "matched_queries": [
+        "markdown slide deck in:name,description"
+      ]
+    },
+    {
+      "id": 464669326,
+      "full_name": "compiiile/compiiile",
+      "url": "https://github.com/compiiile/compiiile",
+      "description": "The most convenient way to render and deploy a folder containing markdown files. Previewing and searching markdown files has never been that easy. Your alternative to Notion and Obsidian. No need for…",
+      "stars": 276,
+      "forks": 18,
+      "open_issues": 0,
+      "archived": false,
+      "created_at": "2022-02-28T22:50:00Z",
+      "pushed_at": "2026-08-18T14:51:14Z",
+      "language": "Vue",
+      "matched_queries": [
+        "markdown slides cli"
+      ]
+    },
+    {
+      "id": 918092521,
+      "full_name": "bowenliang123/markdown-exporter",
+      "url": "https://github.com/bowenliang123/markdown-exporter",
+      "description": "An Agent Skill and Dify plugin to transform Markdown to files of DOCX, PPTX, XLSX, PNG, PDF, HTML, MD, CSV, JSON, XML.",
+      "stars": 272,
+      "forks": 67,
+      "open_issues": 5,
+      "archived": false,
+      "created_at": "2025-01-17T08:32:39Z",
+      "pushed_at": "2026-08-13T02:30:02Z",
+      "language": "Python",
+      "matched_queries": [
+        "markdown to pptx"
+      ]
+    },
+    {
+      "id": 5442776,
+      "full_name": "tslide/tslide",
+      "url": "https://github.com/tslide/tslide",
+      "description": "Terminal SlideDeck, supporting markdown.",
+      "stars": 216,
+      "forks": 14,
+      "open_issues": 4,
+      "archived": false,
+      "created_at": "2012-08-16T18:24:23Z",
+      "pushed_at": "2017-03-13T03:58:00Z",
+      "language": "JavaScript",
+      "matched_queries": [
+        "markdown slides cli",
+        "terminal markdown presentation"
+      ]
+    },
+    {
+      "id": 147486504,
+      "full_name": "yhatt/marp-cli-example",
+      "url": "https://github.com/yhatt/marp-cli-example",
+      "description": "The good starter for using Marp via Marp CLI, by the author of Marp",
+      "stars": 213,
+      "forks": 152,
+      "open_issues": 1,
+      "archived": false,
+      "created_at": "2018-09-05T08:37:32Z",
+      "pushed_at": "2026-10-02T15:49:40Z",
+      "language": "JavaScript",
+      "matched_queries": [
+        "markdown slides cli"
+      ]
+    },
+    {
+      "id": 7765812,
+      "full_name": "jedcn/reveal-ck",
+      "url": "https://github.com/jedcn/reveal-ck",
+      "description": "Create slides with ruby (and usually in markdown)",
+      "stars": 202,
+      "forks": 31,
+      "open_issues": 2,
+      "archived": false,
+      "created_at": "2013-01-23T01:58:15Z",
+      "pushed_at": "2026-03-17T01:33:05Z",
+      "language": "Ruby",
+      "matched_queries": [
+        "markdown slides cli"
+      ]
+    },
+    {
+      "id": 1185897433,
+      "full_name": "arpitbbhayani/deckrun",
+      "url": "https://github.com/arpitbbhayani/deckrun",
+      "description": "A local-first presentation tool for writing, editing, presenting, and exporting Markdown slides or self-contained HTML docs.",
+      "stars": 178,
+      "forks": 50,
+      "open_issues": 50,
+      "archived": false,
+      "created_at": "2026-03-19T03:42:11Z",
+      "pushed_at": "2026-09-02T16:44:43Z",
+      "language": "TypeScript",
+      "matched_queries": [
+        "markdown slide deck in:name,description"
+      ]
+    },
+    {
+      "id": 472728976,
+      "full_name": "cherfia/chromiumly",
+      "url": "https://github.com/cherfia/chromiumly",
+      "description": "A lightweight Typescript library that interacts with Gotenberg's different modules to convert a variety of document formats to PDF files.",
+      "stars": 172,
+      "forks": 15,
+      "open_issues": 8,
+      "archived": false,
+      "created_at": "2022-03-22T11:04:55Z",
+      "pushed_at": "2026-10-09T23:28:04Z",
+      "language": "TypeScript",
+      "matched_queries": [
+        "markdown to pptx"
+      ]
+    },
+    {
+      "id": 3557340,
+      "full_name": "rhiokim/haroopress",
+      "url": "https://github.com/rhiokim/haroopress",
+      "description": "A static site generator built with Node.js, \"Haroo\" means \"a day\" Support Markdown presentation, Syntax Highlight, Themes",
+      "stars": 164,
+      "forks": 32,
+      "open_issues": 111,
+      "archived": false,
+      "created_at": "2012-02-27T04:29:40Z",
+      "pushed_at": "2014-10-28T07:06:40Z",
+      "language": "JavaScript",
+      "matched_queries": [
+        "markdown presentation generator"
+      ]
+    },
+    {
+      "id": 1169798811,
+      "full_name": "yfedoseev/office_oxide",
+      "url": "https://github.com/yfedoseev/office_oxide",
+      "description": "The fastest Office document library for Python, Rust, Go, JS/TS, C# and WASM. DOCX, XLSX, PPTX, DOC, XLS, PPT. Up to 100× faster than python-docx/openpyxl/python-pptx. 100% pass rate on valid Office…",
+      "stars": 148,
+      "forks": 22,
+      "open_issues": 10,
+      "archived": false,
+      "created_at": "2026-03-01T08:23:20Z",
+      "pushed_at": "2026-10-07T15:40:03Z",
+      "language": "Rust",
+      "matched_queries": [
+        "markdown to pptx"
+      ]
+    },
+    {
+      "id": 907692189,
+      "full_name": "dead8309/markitdown-ts",
+      "url": "https://github.com/dead8309/markitdown-ts",
+      "description": "Convert various file formats to Markdown for indexing, text analysis, and other applications that benefit from structured text. TS port of the python ibrary.",
+      "stars": 143,
+      "forks": 13,
+      "open_issues": 4,
+      "archived": false,
+      "created_at": "2024-12-24T06:56:24Z",
+      "pushed_at": "2026-02-07T19:30:43Z",
+      "language": "HTML",
+      "matched_queries": [
+        "markdown to pptx"
+      ]
+    },
+    {
+      "id": 97710128,
+      "full_name": "kt3k/remarker",
+      "url": "https://github.com/kt3k/remarker",
+      "description": ":arrow_forward: Remark cli",
+      "stars": 141,
+      "forks": 26,
+      "open_issues": 4,
+      "archived": false,
+      "created_at": "2017-07-19T11:46:22Z",
+      "pushed_at": "2024-07-13T06:25:43Z",
+      "language": "JavaScript",
+      "matched_queries": [
+        "markdown slides cli"
+      ]
+    },
+    {
+      "id": 5543090,
+      "full_name": "tbfisher/sublimetext-Pandoc",
+      "url": "https://github.com/tbfisher/sublimetext-Pandoc",
+      "description": "A Sublime Text plugin that uses Pandoc to convert text from one markup format into another. Pandoc can convert documents in markdown, reStructuredText, textile, HTML, DocBook, LaTeX, MediaWiki markup…",
+      "stars": 140,
+      "forks": 25,
+      "open_issues": 24,
+      "archived": false,
+      "created_at": "2012-08-24T16:46:02Z",
+      "pushed_at": "2023-06-23T08:39:26Z",
+      "language": "Python",
+      "matched_queries": [
+        "markdown to reveal.js"
+      ]
+    },
+    {
+      "id": 946786807,
+      "full_name": "museslabs/kyma",
+      "url": "https://github.com/museslabs/kyma",
+      "description": "Presentations from markdown in the terminal with fancy transition animations",
+      "stars": 98,
+      "forks": 2,
+      "open_issues": 2,
+      "archived": false,
+      "created_at": "2025-03-11T17:12:02Z",
+      "pushed_at": "2026-09-23T13:07:05Z",
+      "language": "Go",
+      "matched_queries": [
+        "terminal markdown presentation"
+      ]
+    },
+    {
+      "id": 166133154,
+      "full_name": "wshuyi/markdown2slides",
+      "url": "https://github.com/wshuyi/markdown2slides",
+      "description": "Tools for converting Markdown Source File to Reveal.js HTML5 slides",
+      "stars": 98,
+      "forks": 19,
+      "open_issues": 8,
+      "archived": false,
+      "created_at": "2019-01-17T00:34:31Z",
+      "pushed_at": "2019-01-17T03:05:09Z",
+      "language": "JavaScript",
+      "matched_queries": [
+        "markdown to reveal.js"
+      ]
+    },
+    {
+      "id": 535056202,
+      "full_name": "decker-edu/decker",
+      "url": "https://github.com/decker-edu/decker",
+      "description": "A markdown based tool for slide deck creation.",
+      "stars": 96,
+      "forks": 21,
+      "open_issues": 48,
+      "archived": false,
+      "created_at": "2022-09-10T16:35:13Z",
+      "pushed_at": "2026-10-03T08:37:18Z",
+      "language": "JavaScript",
+      "matched_queries": [
+        "markdown slide deck in:name,description"
+      ]
+    },
+    {
+      "id": 337601940,
+      "full_name": "kslides/kslides",
+      "url": "https://github.com/kslides/kslides",
+      "description": "kslides is a Kotlin DSL wrapper for reveal.js. It is meant for people who would prefer to build presentations with IntelliJ than Powerpoint.",
+      "stars": 96,
+      "forks": 4,
+      "open_issues": 0,
+      "archived": false,
+      "created_at": "2021-02-10T03:06:25Z",
+      "pushed_at": "2026-10-08T07:04:37Z",
+      "language": "Kotlin",
+      "matched_queries": [
+        "markdown to reveal.js"
+      ]
+    },
+    {
+      "id": 52207401,
+      "full_name": "technopagan/slides-in-markdown",
+      "url": "https://github.com/technopagan/slides-in-markdown",
+      "description": "Slide deck tool for giving presentations written in MarkDown. Based on remark.js and written in plain HTML, CSS & JS. Features presenter console with speaker notes, timer, screen blanking and more. T…",
+      "stars": 91,
+      "forks": 15,
+      "open_issues": 17,
+      "archived": false,
+      "created_at": "2016-02-21T13:18:58Z",
+      "pushed_at": "2016-05-09T15:05:39Z",
+      "language": "CSS",
+      "matched_queries": [
+        "markdown slide deck in:name,description"
+      ]
+    },
+    {
+      "id": 22655164,
+      "full_name": "13protons/deckdown",
+      "url": "https://github.com/13protons/deckdown",
+      "description": "Write markdown, get a slide deck. No BS.",
+      "stars": 81,
+      "forks": 9,
+      "open_issues": 7,
+      "archived": false,
+      "created_at": "2014-08-05T18:44:01Z",
+      "pushed_at": "2020-07-30T12:23:33Z",
+      "language": "CSS",
+      "matched_queries": [
+        "markdown slide deck in:name,description"
+      ]
+    },
+    {
+      "id": 8086965,
+      "full_name": "jordanmccullough/HydeSlides",
+      "url": "https://github.com/jordanmccullough/HydeSlides",
+      "description": "Browser-based slide decks with easy-to-author content in Markdown.",
+      "stars": 70,
+      "forks": 8,
+      "open_issues": 2,
+      "archived": false,
+      "created_at": "2013-02-08T03:34:59Z",
+      "pushed_at": "2024-03-15T21:39:46Z",
+      "language": "JavaScript",
+      "matched_queries": [
+        "markdown slide deck in:name,description"
+      ]
+    },
+    {
+      "id": 210889639,
+      "full_name": "amio/eloc",
+      "url": "https://github.com/amio/eloc",
+      "description": "A CLI for presentations in markdown",
+      "stars": 67,
+      "forks": 2,
+      "open_issues": 14,
+      "archived": false,
+      "created_at": "2019-09-25T16:20:14Z",
+      "pushed_at": "2026-08-17T21:02:51Z",
+      "language": "TypeScript",
+      "matched_queries": [
+        "markdown slides cli"
+      ]
+    },
+    {
+      "id": 1339888790,
+      "full_name": "BobTheShoplifter/slidev-addon-studio",
+      "url": "https://github.com/BobTheShoplifter/slidev-addon-studio",
+      "description": "A visual editor for Slidev. Select, drag, resize, animate and compose slides directly on the canvas, the way you would in Keynote or PowerPoint, while the deck stays exactly what it was: a Markdown f…",
+      "stars": 56,
+      "forks": 1,
+      "open_issues": 0,
+      "archived": false,
+      "created_at": "2026-08-19T18:10:02Z",
+      "pushed_at": "2026-08-31T21:32:29Z",
+      "language": "TypeScript",
+      "matched_queries": [
+        "markdown slide deck in:name,description"
+      ]
+    },
+    {
+      "id": 1159988594,
+      "full_name": "developer0hye/anytomd-rs",
+      "url": "https://github.com/developer0hye/anytomd-rs",
+      "description": "Pure Rust document-to-Markdown converter for LLM workflows (DOCX, PPTX, XLSX, HTML, CSV, JSON, XML, images).",
+      "stars": 56,
+      "forks": 3,
+      "open_issues": 0,
+      "archived": false,
+      "created_at": "2026-02-17T12:09:29Z",
+      "pushed_at": "2026-09-22T00:01:34Z",
+      "language": "Rust",
+      "matched_queries": [
+        "markdown to pptx"
+      ]
+    },
+    {
+      "id": 246649095,
+      "full_name": "oknozor/unveil-rs",
+      "url": "https://github.com/oknozor/unveil-rs",
+      "description": "Unveil Rs is a tool to create presentations from markdown inspired by reveal.js, mdbook and zola.",
+      "stars": 55,
+      "forks": 10,
+      "open_issues": 13,
+      "archived": false,
+      "created_at": "2020-03-11T18:24:54Z",
+      "pushed_at": "2024-08-16T13:03:54Z",
+      "language": "Rust",
+      "matched_queries": [
+        "markdown to reveal.js"
+      ]
+    },
+    {
+      "id": 510375489,
+      "full_name": "piotrmurach/slideck",
+      "url": "https://github.com/piotrmurach/slideck",
+      "description": "Present Markdown-powered slide decks in the terminal.",
+      "stars": 54,
+      "forks": 2,
+      "open_issues": 1,
+      "archived": false,
+      "created_at": "2022-07-04T13:42:49Z",
+      "pushed_at": "2025-03-30T19:26:24Z",
+      "language": "Ruby",
+      "matched_queries": [
+        "markdown slide deck in:name,description"
+      ]
+    },
+    {
+      "id": 800338657,
+      "full_name": "magicpdf/Magic-Doc",
+      "url": "https://github.com/magicpdf/Magic-Doc",
+      "description": "conversion doc（pdf/html/doc/docx/ppt/pptx）to markdown",
+      "stars": 48,
+      "forks": 8,
+      "open_issues": 3,
+      "archived": false,
+      "created_at": "2024-05-14T06:33:05Z",
+      "pushed_at": "2024-07-23T03:07:37Z",
+      "language": "Python",
+      "matched_queries": [
+        "markdown to pptx"
+      ]
+    },
+    {
+      "id": 1328601495,
+      "full_name": "HuanLinOTO/dsh-plugin-mineru",
+      "url": "https://github.com/HuanLinOTO/dsh-plugin-mineru",
+      "description": "向模型暴露 MinerU 文档解析工具，将 PDF/图片/DOCX/PPTX/XLSX 转为结构化 Markdown/JSON | Exposes MinerU document-parsing tools to the model, converting PDF/images/DOCX/PPTX/XLSX into structured Markdown/JSON",
+      "stars": 46,
+      "forks": 2,
+      "open_issues": 4,
+      "archived": false,
+      "created_at": "2026-08-09T08:41:45Z",
+      "pushed_at": "2026-09-30T09:46:19Z",
+      "language": "TypeScript",
+      "matched_queries": [
+        "markdown to pptx"
+      ]
+    },
+    {
+      "id": 2428078,
+      "full_name": "ulf/markdown2deckjs",
+      "url": "https://github.com/ulf/markdown2deckjs",
+      "description": "Create beautiful deck.js slides directly from markdown text",
+      "stars": 44,
+      "forks": 14,
+      "open_issues": 1,
+      "archived": false,
+      "created_at": "2011-09-21T06:50:13Z",
+      "pushed_at": "2013-07-31T20:08:28Z",
+      "language": "Python",
+      "matched_queries": [
+        "markdown slide deck in:name,description"
+      ]
+    },
+    {
+      "id": 74150673,
+      "full_name": "fbedussi/reveal-js-editor",
+      "url": "https://github.com/fbedussi/reveal-js-editor",
+      "description": "A cross platform editor (build upon the electron framework) to author reveal.js presentation in markdown.",
+      "stars": 39,
+      "forks": 9,
+      "open_issues": 23,
+      "archived": false,
+      "created_at": "2016-11-18T17:11:41Z",
+      "pushed_at": "2022-12-12T00:01:06Z",
+      "language": "JavaScript",
+      "matched_queries": [
+        "markdown to reveal.js"
+      ]
+    },
+    {
+      "id": 552349700,
+      "full_name": "cherfia/jotenberg",
+      "url": "https://github.com/cherfia/jotenberg",
+      "description": "A Java library that interacts with Gotenberg's different modules to convert a variety of document formats to PDF files.",
+      "stars": 38,
+      "forks": 7,
+      "open_issues": 0,
+      "archived": false,
+      "created_at": "2022-10-16T11:50:30Z",
+      "pushed_at": "2026-03-31T15:24:41Z",
+      "language": "Java",
+      "matched_queries": [
+        "markdown to pptx"
+      ]
+    },
+    {
+      "id": 1146536591,
+      "full_name": "tristan-mcinnis/pptx-from-layouts-skill",
+      "url": "https://github.com/tristan-mcinnis/pptx-from-layouts-skill",
+      "description": "Claude Code skill for generating PowerPoint decks from markdown using template slide master layouts",
+      "stars": 36,
+      "forks": 6,
+      "open_issues": 1,
+      "archived": false,
+      "created_at": "2026-01-31T08:55:06Z",
+      "pushed_at": "2026-08-30T06:15:12Z",
+      "language": "Python",
+      "matched_queries": [
+        "markdown slide deck in:name,description"
+      ]
+    },
+    {
+      "id": 327748726,
+      "full_name": "nikku/pfwr",
+      "url": "https://github.com/nikku/pfwr",
+      "description": "Turns your Markdown file into a beautiful HTML slide deck. Batteries included.",
+      "stars": 35,
+      "forks": 2,
+      "open_issues": 0,
+      "archived": false,
+      "created_at": "2021-01-07T23:30:28Z",
+      "pushed_at": "2026-08-23T21:54:34Z",
+      "language": "HTML",
+      "matched_queries": [
+        "markdown slide deck in:name,description"
+      ]
+    },
+    {
+      "id": 1201950129,
+      "full_name": "Phlegonlabs/Powerpoint-fancy-design",
+      "url": "https://github.com/Phlegonlabs/Powerpoint-fancy-design",
+      "description": "A presentation-design skill for Codex and Claude Code that turns page-structured Markdown into styled 1600x900 HTML slides, PNG renders, and exportable PPTX decks.",
+      "stars": 34,
+      "forks": 2,
+      "open_issues": 0,
+      "archived": false,
+      "created_at": "2026-04-05T11:42:20Z",
+      "pushed_at": "2026-04-06T12:42:46Z",
+      "language": "JavaScript",
+      "matched_queries": [
+        "markdown slide deck in:name,description"
+      ]
+    },
+    {
+      "id": 1074599471,
+      "full_name": "hivellm/transmutation",
+      "url": "https://github.com/hivellm/transmutation",
+      "description": "Transmutation is a Rust-based document conversion module designed to transform various file formats into optimized text and image outputs suitable for LLM processing and vector embeddings. Built as a…",
+      "stars": 32,
+      "forks": 4,
+      "open_issues": 0,
+      "archived": false,
+      "created_at": "2025-10-12T05:24:21Z",
+      "pushed_at": "2026-08-10T02:32:24Z",
+      "language": "Rust",
+      "matched_queries": [
+        "markdown to pptx"
+      ]
+    },
+    {
+      "id": 2593361,
+      "full_name": "tmbrggmn/deck.js-markdown",
+      "url": "https://github.com/tmbrggmn/deck.js-markdown",
+      "description": "A deck.js extension that adds support for Markdown syntax in slides",
+      "stars": 32,
+      "forks": 4,
+      "open_issues": 2,
+      "archived": true,
+      "created_at": "2011-10-17T17:07:10Z",
+      "pushed_at": "2012-04-25T15:35:24Z",
+      "language": "JavaScript",
+      "matched_queries": [
+        "markdown slide deck in:name,description"
+      ]
+    },
+    {
+      "id": 28450259,
+      "full_name": "anantshri/present",
+      "url": "https://github.com/anantshri/present",
+      "description": "revealjs workflow automation: reveal.js + external markdown mixed with some bash awesomeness to automate routine presentation tasks",
+      "stars": 31,
+      "forks": 7,
+      "open_issues": 29,
+      "archived": false,
+      "created_at": "2014-12-24T13:48:17Z",
+      "pushed_at": "2025-05-09T09:37:57Z",
+      "language": "Shell",
+      "matched_queries": [
+        "markdown to reveal.js"
+      ]
+    },
+    {
+      "id": 1073785936,
+      "full_name": "thomas-villani/all2md",
+      "url": "https://github.com/thomas-villani/all2md",
+      "description": "Convert PDF, Word, PowerPoint, HTML, email & 40+ formats to clean Markdown — and back. Built for LLMs, RAG & Python pipelines, with a built-in MCP server.",
+      "stars": 31,
+      "forks": 6,
+      "open_issues": 4,
+      "archived": false,
+      "created_at": "2025-10-10T16:05:26Z",
+      "pushed_at": "2026-10-10T00:29:59Z",
+      "language": "Python",
+      "matched_queries": [
+        "markdown to pptx"
+      ]
+    },
+    {
+      "id": 16791971,
+      "full_name": "revan/pptx2md",
+      "url": "https://github.com/revan/pptx2md",
+      "description": "pptx to markdown converter",
+      "stars": 29,
+      "forks": 10,
+      "open_issues": 1,
+      "archived": false,
+      "created_at": "2014-02-13T04:39:11Z",
+      "pushed_at": "2020-05-26T08:02:43Z",
+      "language": "Shell",
+      "matched_queries": [
+        "markdown to pptx"
+      ]
+    },
+    {
+      "id": 452360543,
+      "full_name": "jmablog/simple-presentations-generator",
+      "url": "https://github.com/jmablog/simple-presentations-generator",
+      "description": "A series of templates for Quarto to convert a single Markdown input into beautiful and simple Powerpoint, HTML, and PDF presentations.",
+      "stars": 28,
+      "forks": 4,
+      "open_issues": 1,
+      "archived": false,
+      "created_at": "2022-01-26T16:52:15Z",
+      "pushed_at": "2022-02-14T13:29:34Z",
+      "language": "HTML",
+      "matched_queries": [
+        "markdown presentation generator"
+      ]
+    },
+    {
+      "id": 196603135,
+      "full_name": "Hyland/DocumentFilters",
+      "url": "https://github.com/Hyland/DocumentFilters",
+      "description": "Document Filters is an SDK for applications like content indexing, e-discovery, data migration, and feeding data into AI/ML models by extracting data from unstructured sources. It gives the ability t…",
+      "stars": 27,
+      "forks": 5,
+      "open_issues": 0,
+      "archived": false,
+      "created_at": "2019-07-12T15:30:00Z",
+      "pushed_at": "2026-09-04T19:21:59Z",
+      "language": "C++",
+      "matched_queries": [
+        "markdown to pptx"
+      ]
+    },
+    {
+      "id": 1131083908,
+      "full_name": "jakehildreth/Deck",
+      "url": "https://github.com/jakehildreth/Deck",
+      "description": "Terminal-based presentations from Markdown files using PowerShell.",
+      "stars": 27,
+      "forks": 2,
+      "open_issues": 3,
+      "archived": false,
+      "created_at": "2026-01-09T12:58:53Z",
+      "pushed_at": "2026-10-01T09:31:47Z",
+      "language": "PowerShell",
+      "matched_queries": [
+        "terminal markdown presentation"
+      ]
+    },
+    {
+      "id": 15852631,
+      "full_name": "silentbicycle/markdown_to_reveal",
+      "url": "https://github.com/silentbicycle/markdown_to_reveal",
+      "description": "minimal plumbing to convert slides in markdown to reveal.js presentations via pandoc",
+      "stars": 27,
+      "forks": 5,
+      "open_issues": 1,
+      "archived": false,
+      "created_at": "2014-01-12T22:47:08Z",
+      "pushed_at": "2017-08-13T15:16:15Z",
+      "language": "CSS",
+      "matched_queries": [
+        "markdown to reveal.js"
+      ]
+    },
+    {
+      "id": 951990331,
+      "full_name": "stvlynn/PPT-Dify-Plugin",
+      "url": "https://github.com/stvlynn/PPT-Dify-Plugin",
+      "description": "a Dify plugin to convert markdown text into .pptx file",
+      "stars": 27,
+      "forks": 12,
+      "open_issues": 5,
+      "archived": false,
+      "created_at": "2025-03-20T15:00:19Z",
+      "pushed_at": "2026-07-14T16:19:11Z",
+      "language": "Python",
+      "matched_queries": [
+        "markdown to pptx"
+      ]
+    },
+    {
+      "id": 173055861,
+      "full_name": "fdehau/deck",
+      "url": "https://github.com/fdehau/deck",
+      "description": "CLI to make HTML presentations from Markdown documents",
+      "stars": 24,
+      "forks": 6,
+      "open_issues": 0,
+      "archived": true,
+      "created_at": "2019-02-28T06:36:41Z",
+      "pushed_at": "2023-08-06T07:39:24Z",
+      "language": "Rust",
+      "matched_queries": [
+        "markdown slides cli"
+      ]
+    },
+    {
+      "id": 681954128,
+      "full_name": "liumengniu/markdown-to-pptx",
+      "url": "https://github.com/liumengniu/markdown-to-pptx",
+      "description": "在线编辑markdown生成pptx",
+      "stars": 22,
+      "forks": 3,
+      "open_issues": 0,
+      "archived": false,
+      "created_at": "2023-08-23T06:02:55Z",
+      "pushed_at": "2023-08-28T07:44:52Z",
+      "language": "JavaScript",
+      "matched_queries": [
+        "markdown to pptx"
+      ]
+    },
+    {
+      "id": 1365631097,
+      "full_name": "unitedrhino/docling",
+      "url": "https://github.com/unitedrhino/docling",
+      "description": "Get your documents ready for gen AI, in pure Go. A Go alternative to anydoc & Docling — 纯 Go 实现的文档解析库:PDF/Word/PPT/Excel/HTML/Markdown/EML/图片等 12 种格式统一解析为 Docling 协议(Markdown/JSON/content_list),表格还原·…",
+      "stars": 22,
+      "forks": 3,
+      "open_issues": 1,
+      "archived": false,
+      "created_at": "2026-09-11T08:12:16Z",
+      "pushed_at": "2026-10-10T07:05:34Z",
+      "language": "Go",
+      "matched_queries": [
+        "markdown to pptx"
+      ]
+    },
+    {
+      "id": 13346471,
+      "full_name": "blindFS/vim-reveal",
+      "url": "https://github.com/blindFS/vim-reveal",
+      "description": "vim plugin that use markdown and reveal.js to generate presentations.",
+      "stars": 21,
+      "forks": 8,
+      "open_issues": 4,
+      "archived": false,
+      "created_at": "2013-10-05T14:30:42Z",
+      "pushed_at": "2019-02-24T07:29:47Z",
+      "language": "VimL",
+      "matched_queries": [
+        "markdown to reveal.js"
+      ]
+    },
+    {
+      "id": 44932186,
+      "full_name": "13rac1/rjsmake",
+      "url": "https://github.com/13rac1/rjsmake",
+      "description": "Use Markdown to generate a Reveal.js presentation in minutes.",
+      "stars": 20,
+      "forks": 4,
+      "open_issues": 3,
+      "archived": false,
+      "created_at": "2015-10-25T22:06:53Z",
+      "pushed_at": "2016-05-16T21:55:10Z",
+      "language": "Makefile",
+      "matched_queries": [
+        "markdown to reveal.js"
+      ]
+    },
+    {
+      "id": 157854453,
+      "full_name": "cabify/deckset-slides-theme",
+      "url": "https://github.com/cabify/deckset-slides-theme",
+      "description": "A custom, on brand Cabify theme for Deckset, the app to create super nice presentations with just Markdown",
+      "stars": 20,
+      "forks": 8,
+      "open_issues": 0,
+      "archived": true,
+      "created_at": "2018-11-16T10:52:12Z",
+      "pushed_at": "2018-11-16T11:55:11Z",
+      "language": null,
+      "matched_queries": [
+        "markdown slide deck in:name,description"
+      ]
+    },
+    {
+      "id": 38859750,
+      "full_name": "Magic-Deck/ponyshow",
+      "url": "https://github.com/Magic-Deck/ponyshow",
+      "description": "An app for creating great-looking slides from simple Markdown files",
+      "stars": 19,
+      "forks": 0,
+      "open_issues": 0,
+      "archived": false,
+      "created_at": "2015-07-10T03:50:40Z",
+      "pushed_at": "2016-01-19T07:50:45Z",
+      "language": "JavaScript",
+      "matched_queries": [
+        "markdown slide deck in:name,description"
+      ]
+    },
+    {
+      "id": 62722067,
+      "full_name": "Naereen/slides",
+      "url": "https://github.com/Naereen/slides",
+      "description": "All the slides of my talks since 2016! Written in LaTeX or Markdown, compiled to pretty PDF with pandoc :sparkles:, and experiments with Marp, reveal.js, remark.js etc. PDF on https://speakerdeck.com…",
+      "stars": 18,
+      "forks": 5,
+      "open_issues": 1,
+      "archived": false,
+      "created_at": "2016-07-06T13:14:01Z",
+      "pushed_at": "2026-09-16T11:16:32Z",
+      "language": "Jupyter Notebook",
+      "matched_queries": [
+        "markdown to reveal.js"
+      ]
+    },
+    {
+      "id": 182200092,
+      "full_name": "rmorshea/slidedown",
+      "url": "https://github.com/rmorshea/slidedown",
+      "description": "Simple slide decks with Markdown and Python",
+      "stars": 17,
+      "forks": 1,
+      "open_issues": 2,
+      "archived": false,
+      "created_at": "2019-04-19T04:14:06Z",
+      "pushed_at": "2023-07-20T13:11:00Z",
+      "language": "Python",
+      "matched_queries": [
+        "markdown slide deck in:name,description"
+      ]
+    },
+    {
+      "id": 1094367829,
+      "full_name": "skeptrunedev/sherp",
+      "url": "https://github.com/skeptrunedev/sherp",
+      "description": "sherp is a CLI for building presentations from Markdown/MDX. Instant dev server, multiple themes, keyboard navigation, and PDF export.",
+      "stars": 17,
+      "forks": 1,
+      "open_issues": 1,
+      "archived": false,
+      "created_at": "2025-11-11T16:05:58Z",
+      "pushed_at": "2025-11-29T06:58:55Z",
+      "language": "TypeScript",
+      "matched_queries": [
+        "markdown slides cli"
+      ]
+    },
+    {
+      "id": 1201064886,
+      "full_name": "sunlesshalo/claude-code-md-hook",
+      "url": "https://github.com/sunlesshalo/claude-code-md-hook",
+      "description": "Claude Code hook: auto-converts PDF, DOCX, XLSX, PPTX, HTML to markdown before reading — avoids vision token overhead and indexes large files",
+      "stars": 17,
+      "forks": 2,
+      "open_issues": 0,
+      "archived": true,
+      "created_at": "2026-04-04T06:50:31Z",
+      "pushed_at": "2026-04-06T04:11:13Z",
+      "language": "Shell",
+      "matched_queries": [
+        "markdown to pptx"
+      ]
+    },
+    {
+      "id": 9813859,
+      "full_name": "rlofc/understate",
+      "url": "https://github.com/rlofc/understate",
+      "description": "make stunning terminal presentations using markdown and some ncurses magic",
+      "stars": 15,
+      "forks": 3,
+      "open_issues": 1,
+      "archived": false,
+      "created_at": "2013-05-02T13:41:33Z",
+      "pushed_at": "2015-05-09T04:32:13Z",
+      "language": "Python",
+      "matched_queries": [
+        "terminal markdown presentation"
+      ]
+    },
+    {
+      "id": 1090346192,
+      "full_name": "dannycahyo/air-deck",
+      "url": "https://github.com/dannycahyo/air-deck",
+      "description": "An all-in-one, browser-based presentation tool combining a minimalist Markdown-based slide editor with AI gesture-control system.",
+      "stars": 14,
+      "forks": 4,
+      "open_issues": 1,
+      "archived": false,
+      "created_at": "2025-11-05T14:45:50Z",
+      "pushed_at": "2025-12-28T06:19:29Z",
+      "language": "TypeScript",
+      "matched_queries": [
+        "markdown slide deck in:name,description"
+      ]
+    },
+    {
+      "id": 1199674803,
+      "full_name": "adityachauhan0/deckdown",
+      "url": "https://github.com/adityachauhan0/deckdown",
+      "description": "Markdown presentation engine for AI agents with local PDF, PNG, and PPTX output",
+      "stars": 13,
+      "forks": 3,
+      "open_issues": 0,
+      "archived": false,
+      "created_at": "2026-04-02T15:34:17Z",
+      "pushed_at": "2026-04-09T15:22:37Z",
+      "language": "JavaScript",
+      "matched_queries": [
+        "markdown slides cli"
+      ]
+    },
+    {
+      "id": 11334154,
+      "full_name": "siakas/op-bandersnatch",
+      "url": "https://github.com/siakas/op-bandersnatch",
+      "description": "Markdown file convert to Reveal.js by Pandoc",
+      "stars": 12,
+      "forks": 2,
+      "open_issues": 0,
+      "archived": true,
+      "created_at": "2013-07-11T06:04:54Z",
+      "pushed_at": "2016-12-22T05:03:16Z",
+      "language": "JavaScript",
+      "matched_queries": [
+        "markdown to reveal.js"
+      ]
+    },
+    {
+      "id": 433777539,
+      "full_name": "xieby1/markdown_revealjs",
+      "url": "https://github.com/xieby1/markdown_revealjs",
+      "description": "Converting Markdown to Reveal.js Sildes",
+      "stars": 12,
+      "forks": 0,
+      "open_issues": 1,
+      "archived": false,
+      "created_at": "2021-12-01T10:15:58Z",
+      "pushed_at": "2026-01-06T01:35:12Z",
+      "language": "JavaScript",
+      "matched_queries": [
+        "markdown to reveal.js"
+      ]
+    },
+    {
+      "id": 113316380,
+      "full_name": "GroupAYECS765P/BDP-05-Large-scale-Clustering",
+      "url": "https://github.com/GroupAYECS765P/BDP-05-Large-scale-Clustering",
+      "description": "BDP 05: CLUSTERING OF LARGE UNLABELED DATASETS OVERVIEW Real world data is frequently unlabeled and can seem completely random. In these sort of situations, unsupervised learning techniques are a gre…",
+      "stars": 11,
+      "forks": 2,
+      "open_issues": 0,
+      "archived": false,
+      "created_at": "2017-12-06T12:57:04Z",
+      "pushed_at": "2018-01-06T13:46:07Z",
+      "language": "Python",
+      "matched_queries": [
+        "convert notes to presentation"
+      ]
+    },
+    {
+      "id": 627846930,
+      "full_name": "moonslide-app/moonslide",
+      "url": "https://github.com/moonslide-app/moonslide",
+      "description": "Editor to create presentations with Markdown and Reveal.js",
+      "stars": 11,
+      "forks": 2,
+      "open_issues": 24,
+      "archived": false,
+      "created_at": "2023-04-14T10:29:34Z",
+      "pushed_at": "2023-07-07T00:24:50Z",
+      "language": "TypeScript",
+      "matched_queries": [
+        "markdown to reveal.js"
+      ]
+    },
+    {
+      "id": 1048117790,
+      "full_name": "mostage-app/mostage",
+      "url": "https://github.com/mostage-app/mostage",
+      "description": "Presentation framework based on markdown and HTML (Core Library + CLI)",
+      "stars": 11,
+      "forks": 0,
+      "open_issues": 1,
+      "archived": false,
+      "created_at": "2025-09-01T00:23:01Z",
+      "pushed_at": "2025-11-18T10:57:11Z",
+      "language": "TypeScript",
+      "matched_queries": [
+        "markdown slides cli"
+      ]
+    },
+    {
+      "id": 17924508,
+      "full_name": "ggarnier/reveal.rb",
+      "url": "https://github.com/ggarnier/reveal.rb",
+      "description": "Presentation generator using reveal.js",
+      "stars": 9,
+      "forks": 2,
+      "open_issues": 12,
+      "archived": false,
+      "created_at": "2014-03-19T23:41:45Z",
+      "pushed_at": "2020-02-28T21:52:45Z",
+      "language": "JavaScript",
+      "matched_queries": [
+        "markdown presentation generator"
+      ]
+    },
+    {
+      "id": 1215549640,
+      "full_name": "OpenPresentation/opf",
+      "url": "https://github.com/OpenPresentation/opf",
+      "description": "Open Presentation Format schemas, catalogs, TypeScript types, and validation on npm.",
+      "stars": 9,
+      "forks": 0,
+      "open_issues": 44,
+      "archived": false,
+      "created_at": "2026-04-20T02:59:15Z",
+      "pushed_at": "2026-10-10T17:37:40Z",
+      "language": "JavaScript",
+      "matched_queries": [
+        "markdown slides cli"
+      ]
+    },
+    {
+      "id": 1105664303,
+      "full_name": "ShreshtaSutar/Prastuti__PPT-Generator-from-Text",
+      "url": "https://github.com/ShreshtaSutar/Prastuti__PPT-Generator-from-Text",
+      "description": "Prastuti is a powerful, minimal, and fast AI-powered PPTX generator. Paste any text or markdown → choose your LLM (OpenAI / Claude / Gemini / AI Pipe) → optionally upload your PPTX template → downloa…",
+      "stars": 9,
+      "forks": 1,
+      "open_issues": 0,
+      "archived": false,
+      "created_at": "2025-11-28T01:13:38Z",
+      "pushed_at": "2025-12-18T01:18:27Z",
+      "language": "HTML",
+      "matched_queries": [
+        "markdown presentation generator"
+      ]
+    },
+    {
+      "id": 147009194,
+      "full_name": "tao12345666333/backslide",
+      "url": "https://github.com/tao12345666333/backslide",
+      "description": ":sweat_drops: CLI tool for making HTML presentations with Remark.js using Markdown",
+      "stars": 9,
+      "forks": 0,
+      "open_issues": 1,
+      "archived": false,
+      "created_at": "2018-09-01T15:17:00Z",
+      "pushed_at": "2018-09-04T06:29:24Z",
+      "language": "Dockerfile",
+      "matched_queries": [
+        "markdown slides cli"
+      ]
+    },
+    {
+      "id": 1174044291,
+      "full_name": "Viniciuscarvalho/slidedown",
+      "url": "https://github.com/Viniciuscarvalho/slidedown",
+      "description": "Transform Markdown files into spectacular presentations with 6 themes and AI-powered design",
+      "stars": 9,
+      "forks": 0,
+      "open_issues": 4,
+      "archived": false,
+      "created_at": "2026-03-06T02:28:48Z",
+      "pushed_at": "2026-03-06T21:24:35Z",
+      "language": "JavaScript",
+      "matched_queries": [
+        "markdown slides cli"
+      ]
+    },
+    {
+      "id": 138644454,
+      "full_name": "d3lio/mrend",
+      "url": "https://github.com/d3lio/mrend",
+      "description": "A markdown presentation generator",
+      "stars": 8,
+      "forks": 1,
+      "open_issues": 4,
+      "archived": false,
+      "created_at": "2018-06-25T20:08:32Z",
+      "pushed_at": "2024-09-08T08:57:33Z",
+      "language": "JavaScript",
+      "matched_queries": [
+        "markdown presentation generator"
+      ]
+    },
+    {
+      "id": 557429650,
+      "full_name": "leftshift/reveal-remark",
+      "url": "https://github.com/leftshift/reveal-remark",
+      "description": "use remark to generate reveal.js presentations from markdown",
+      "stars": 8,
+      "forks": 0,
+      "open_issues": 0,
+      "archived": false,
+      "created_at": "2022-10-25T17:13:31Z",
+      "pushed_at": "2022-10-26T13:22:09Z",
+      "language": "CSS",
+      "matched_queries": [
+        "markdown to reveal.js"
+      ]
+    },
+    {
+      "id": 959981261,
+      "full_name": "aman29100/GPT-Awesome-List-Generator",
+      "url": "https://github.com/aman29100/GPT-Awesome-List-Generator",
+      "description": "This is a Python program that automatically generates an \"awesome list\" for a specific keyword as a markdown file. An \"awesome list\" is a list of resources related to a specific topic. Currently, the…",
+      "stars": 7,
+      "forks": 0,
+      "open_issues": 0,
+      "archived": false,
+      "created_at": "2025-04-03T17:02:51Z",
+      "pushed_at": "2026-02-20T14:27:07Z",
+      "language": "Python",
+      "matched_queries": [
+        "markdown presentation generator"
+      ]
+    },
+    {
+      "id": 533058561,
+      "full_name": "djeada/Markdown-Image-Generator",
+      "url": "https://github.com/djeada/Markdown-Image-Generator",
+      "description": "The Markdown Image Generator is a Python-based project that transforms Markdown documents into a series of images. It aims to provide a unique way to visualize Markdown content, especially useful for…",
+      "stars": 7,
+      "forks": 1,
+      "open_issues": 0,
+      "archived": false,
+      "created_at": "2022-09-05T20:59:54Z",
+      "pushed_at": "2026-05-14T17:21:41Z",
+      "language": "Python",
+      "matched_queries": [
+        "markdown presentation generator"
+      ]
+    },
+    {
+      "id": 1219494523,
+      "full_name": "rsensui2/tekion-slide-generator",
+      "url": "https://github.com/rsensui2/tekion-slide-generator",
+      "description": "TEKION Slide Generator v4 — AI-driven presentation slide generator (OpenAI GPT-image-2 / Gemini 3.1 Flash). Markdown → 16:9 2K slides → PPTX/PDF. Provider abstraction, Visual/Balanced styles, logo in…",
+      "stars": 7,
+      "forks": 6,
+      "open_issues": 0,
+      "archived": false,
+      "created_at": "2026-04-23T23:54:08Z",
+      "pushed_at": "2026-05-25T09:39:01Z",
+      "language": "Python",
+      "matched_queries": [
+        "markdown presentation generator"
+      ]
+    },
+    {
+      "id": 97618277,
+      "full_name": "wcchin/pyreveal",
+      "url": "https://github.com/wcchin/pyreveal",
+      "description": "a python package for converting markdown to reveal.js slides.",
+      "stars": 7,
+      "forks": 3,
+      "open_issues": 2,
+      "archived": false,
+      "created_at": "2017-07-18T16:00:52Z",
+      "pushed_at": "2023-02-13T09:41:38Z",
+      "language": "JavaScript",
+      "matched_queries": [
+        "markdown to reveal.js"
+      ]
+    },
+    {
+      "id": 430415537,
+      "full_name": "drrobotk/pptx-to-video",
+      "url": "https://github.com/drrobotk/pptx-to-video",
+      "description": "Convert a powerpoint presentation (pptx) to video (mp4) using text-to-speech with the presenter notes or slide text.",
+      "stars": 6,
+      "forks": 2,
+      "open_issues": 1,
+      "archived": false,
+      "created_at": "2021-11-21T16:12:13Z",
+      "pushed_at": "2023-08-29T16:05:01Z",
+      "language": "Python",
+      "matched_queries": [
+        "convert notes to presentation"
+      ]
+    },
+    {
+      "id": 34606222,
+      "full_name": "dsebastien/presentations-revealjs",
+      "url": "https://github.com/dsebastien/presentations-revealjs",
+      "description": "This is a simple to use template for creating Reveal.js presentations using Markdown alone that comes along with a useful build script.",
+      "stars": 6,
+      "forks": 3,
+      "open_issues": 1,
+      "archived": false,
+      "created_at": "2015-04-26T09:53:03Z",
+      "pushed_at": "2018-06-02T17:12:02Z",
+      "language": "JavaScript",
+      "matched_queries": [
+        "markdown to reveal.js"
+      ]
+    },
+    {
+      "id": 6754059,
+      "full_name": "nqounet/p5-md2reveal",
+      "url": "https://github.com/nqounet/p5-md2reveal",
+      "description": "markdown to reveal.js by Mojolicious",
+      "stars": 6,
+      "forks": 1,
+      "open_issues": 0,
+      "archived": false,
+      "created_at": "2012-11-19T02:32:43Z",
+      "pushed_at": "2013-10-09T18:03:23Z",
+      "language": "Perl",
+      "matched_queries": [
+        "markdown to reveal.js"
+      ]
+    },
+    {
+      "id": 292911971,
+      "full_name": "72nd/rsmooth",
+      "url": "https://github.com/72nd/rsmooth",
+      "description": "Simple, opinionated wrapper for pandoc using YAML headers for configuration. Markdown to PDF, odt, docx and Reveal.js conversion.",
+      "stars": 5,
+      "forks": 0,
+      "open_issues": 0,
+      "archived": true,
+      "created_at": "2020-09-04T17:48:41Z",
+      "pushed_at": "2021-05-03T13:47:06Z",
+      "language": "Rust",
+      "matched_queries": [
+        "markdown to reveal.js"
+      ]
+    },
+    {
+      "id": 386852371,
+      "full_name": "AnkurNapa/Lead-Score-Case-Study",
+      "url": "https://github.com/AnkurNapa/Lead-Score-Case-Study",
+      "description": "Problem Statement An education company named X Education sells online courses to industry professionals. On any given day, many professionals who are interested in the courses land on their website a…",
+      "stars": 5,
+      "forks": 1,
+      "open_issues": 0,
+      "archived": false,
+      "created_at": "2021-07-17T06:03:45Z",
+      "pushed_at": "2021-07-17T06:05:06Z",
+      "language": "Jupyter Notebook",
+      "matched_queries": [
+        "convert notes to presentation"
+      ]
+    },
+    {
+      "id": 395374232,
+      "full_name": "ktczakutnyi/ScriptingAndProgramming-Applications-C867",
+      "url": "https://github.com/ktczakutnyi/ScriptingAndProgramming-Applications-C867",
+      "description": "WGU - Scripting and Programming - Applications – C867 COMPETENCIES 4048.2.1 : Introduction to Programming The graduate applies fundamental programming concepts in a specific programming environment.…",
+      "stars": 5,
+      "forks": 3,
+      "open_issues": 0,
+      "archived": false,
+      "created_at": "2021-08-12T16:04:06Z",
+      "pushed_at": "2021-08-12T16:36:19Z",
+      "language": "C++",
+      "matched_queries": [
+        "convert notes to presentation"
+      ]
+    },
+    {
+      "id": 60752655,
+      "full_name": "liriansu-opus/md2reveal",
+      "url": "https://github.com/liriansu-opus/md2reveal",
+      "description": "Markdown to Reveal.js",
+      "stars": 5,
+      "forks": 1,
+      "open_issues": 1,
+      "archived": true,
+      "created_at": "2016-06-09T05:49:34Z",
+      "pushed_at": "2019-06-04T07:51:49Z",
+      "language": "HTML",
+      "matched_queries": [
+        "markdown to reveal.js"
+      ]
+    },
+    {
+      "id": 159243961,
+      "full_name": "bradwood/yappt",
+      "url": "https://github.com/bradwood/yappt",
+      "description": "Yet Another PowerPoint Tool / YAPPT ain't PowerPoint",
+      "stars": 3,
+      "forks": 0,
+      "open_issues": 0,
+      "archived": false,
+      "created_at": "2018-11-26T22:56:41Z",
+      "pushed_at": "2019-02-18T17:48:47Z",
+      "language": "Python",
+      "matched_queries": [
+        "terminal markdown presentation"
+      ]
+    },
+    {
+      "id": 1134788271,
+      "full_name": "Gfddfgydddx/langchat-slides",
+      "url": "https://github.com/Gfddfgydddx/langchat-slides",
+      "description": "🛠️ Generate engaging slides effortlessly with LangChat Slides, an AI-powered tool designed to simplify your presentation creation process.",
+      "stars": 3,
+      "forks": 0,
+      "open_issues": 0,
+      "archived": false,
+      "created_at": "2026-01-15T07:50:53Z",
+      "pushed_at": "2026-10-10T07:17:12Z",
+      "language": "Vue",
+      "matched_queries": [
+        "terminal markdown presentation"
+      ]
+    },
+    {
+      "id": 1141973454,
+      "full_name": "htlin222/slides-to-video",
+      "url": "https://github.com/htlin222/slides-to-video",
+      "description": "Automated pipeline to convert PDF slides into narrated videos with Claude AI-generated speaker notes, text-to-speech audio, and video composition via ffmpeg.",
+      "stars": 3,
+      "forks": 1,
+      "open_issues": 0,
+      "archived": false,
+      "created_at": "2026-01-25T18:44:14Z",
+      "pushed_at": "2026-03-28T01:52:26Z",
+      "language": "Shell",
+      "matched_queries": [
+        "convert notes to presentation"
+      ]
+    },
+    {
+      "id": 116533302,
+      "full_name": "Mishima-syk/markdown2pptx",
+      "url": "https://github.com/Mishima-syk/markdown2pptx",
+      "description": "PowerPoint presentation generator from markdown style text file.",
+      "stars": 3,
+      "forks": 0,
+      "open_issues": 0,
+      "archived": false,
+      "created_at": "2018-01-07T03:11:55Z",
+      "pushed_at": "2019-10-12T02:21:28Z",
+      "language": "Python",
+      "matched_queries": [
+        "markdown presentation generator"
+      ]
+    },
+    {
+      "id": 874410825,
+      "full_name": "ralsina/jrsl",
+      "url": "https://github.com/ralsina/jrsl",
+      "description": "A markdown-based terminal presentation software",
+      "stars": 3,
+      "forks": 0,
+      "open_issues": 0,
+      "archived": false,
+      "created_at": "2024-10-17T19:23:47Z",
+      "pushed_at": "2026-09-04T00:50:39Z",
+      "language": "Crystal",
+      "matched_queries": [
+        "terminal markdown presentation"
+      ]
+    },
+    {
+      "id": 1171611033,
+      "full_name": "0xarcher/notely",
+      "url": "https://github.com/0xarcher/notely",
+      "description": "Notely is a Python SDK that uses ASR, OCR, and LLM technologies to automatically convert lecture videos, audio recordings, and presentations into high-quality Markdown notes.",
+      "stars": 2,
+      "forks": 0,
+      "open_issues": 0,
+      "archived": false,
+      "created_at": "2026-03-03T12:22:02Z",
+      "pushed_at": "2026-03-10T12:32:48Z",
+      "language": "Python",
+      "matched_queries": [
+        "convert notes to presentation"
+      ]
+    },
+    {
+      "id": 958129495,
+      "full_name": "dev203934/GPT-Awesome-List-Generator",
+      "url": "https://github.com/dev203934/GPT-Awesome-List-Generator",
+      "description": "This is a Python program that automatically generates an \"awesome list\" for a specific keyword as a markdown file. An \"awesome list\" is a list of resources related to a specific topic. Currently, the…",
+      "stars": 2,
+      "forks": 1,
+      "open_issues": 0,
+      "archived": false,
+      "created_at": "2025-03-31T17:34:47Z",
+      "pushed_at": "2025-03-31T17:42:23Z",
+      "language": "Python",
+      "matched_queries": [
+        "markdown presentation generator"
+      ]
+    },
+    {
+      "id": 1292733068,
+      "full_name": "devjgm/keynot",
+      "url": "https://github.com/devjgm/keynot",
+      "description": "Terminal slide presentations from a single markdown file",
+      "stars": 2,
+      "forks": 0,
+      "open_issues": 0,
+      "archived": false,
+      "created_at": "2026-07-07T19:51:41Z",
+      "pushed_at": "2026-07-10T20:24:24Z",
+      "language": "Rust",
+      "matched_queries": [
+        "terminal markdown presentation"
+      ]
+    },
+    {
+      "id": 31990914,
+      "full_name": "finnp/football",
+      "url": "https://github.com/finnp/football",
+      "description": "Markdown presentations in your terminal",
+      "stars": 2,
+      "forks": 1,
+      "open_issues": 3,
+      "archived": false,
+      "created_at": "2015-03-11T01:10:06Z",
+      "pushed_at": "2015-04-16T16:27:59Z",
+      "language": "JavaScript",
+      "matched_queries": [
+        "terminal markdown presentation"
+      ]
+    },
+    {
+      "id": 1383436686,
+      "full_name": "garvittsingla/gruber",
+      "url": "https://github.com/garvittsingla/gruber",
+      "description": "realtime markdown to presentation generator.",
+      "stars": 2,
+      "forks": 0,
+      "open_issues": 0,
+      "archived": false,
+      "created_at": "2026-09-23T12:47:47Z",
+      "pushed_at": "2026-10-07T12:13:26Z",
+      "language": "JavaScript",
+      "matched_queries": [
+        "markdown presentation generator"
+      ]
+    },
+    {
+      "id": 167840225,
+      "full_name": "HugoDF/presentation-starter",
+      "url": "https://github.com/HugoDF/presentation-starter",
+      "description": "reveal-md presentation starter generator",
+      "stars": 2,
+      "forks": 0,
+      "open_issues": 0,
+      "archived": false,
+      "created_at": "2019-01-27T17:59:49Z",
+      "pushed_at": "2019-01-27T18:00:00Z",
+      "language": "Perl 6",
+      "matched_queries": [
+        "markdown presentation generator"
+      ]
+    },
+    {
+      "id": 960926532,
+      "full_name": "LucaFoschini/lecture2ppt",
+      "url": "https://github.com/LucaFoschini/lecture2ppt",
+      "description": "Converts a video lecture to a presentation inferring slides and speakers notes from video",
+      "stars": 2,
+      "forks": 0,
+      "open_issues": 0,
+      "archived": false,
+      "created_at": "2025-04-05T11:20:52Z",
+      "pushed_at": "2025-04-05T11:25:10Z",
+      "language": "Python",
+      "matched_queries": [
+        "convert notes to presentation"
+      ]
+    },
+    {
+      "id": 901650075,
+      "full_name": "mengyang0529/md2visuals",
+      "url": "https://github.com/mengyang0529/md2visuals",
+      "description": "Md2visuals converts Markdown (MD) files into professional PowerPoint (PPTX) presentations. It’s ideal for creating hierarchical mind maps and turning structured Markdown into slides. Keywords: Markdo…",
+      "stars": 2,
+      "forks": 0,
+      "open_issues": 0,
+      "archived": false,
+      "created_at": "2024-12-11T04:01:07Z",
+      "pushed_at": "2024-12-18T01:56:03Z",
+      "language": "Python",
+      "matched_queries": [
+        "markdown presentation generator"
+      ]
+    },
+    {
+      "id": 1209465598,
+      "full_name": "mindfiredigital/mdslide",
+      "url": "https://github.com/mindfiredigital/mdslide",
+      "description": "Markdown-to-Presentation Generator",
+      "stars": 2,
+      "forks": 2,
+      "open_issues": 2,
+      "archived": false,
+      "created_at": "2026-04-13T13:05:28Z",
+      "pushed_at": "2026-09-03T11:39:51Z",
+      "language": "TypeScript",
+      "matched_queries": [
+        "markdown presentation generator"
+      ]
+    },
+    {
+      "id": 526166352,
+      "full_name": "onesquarepeg/deck-rs",
+      "url": "https://github.com/onesquarepeg/deck-rs",
+      "description": "Presentations in the terminal.",
+      "stars": 2,
+      "forks": 0,
+      "open_issues": 0,
+      "archived": false,
+      "created_at": "2022-08-18T10:36:05Z",
+      "pushed_at": "2022-08-24T02:02:17Z",
+      "language": "Rust",
+      "matched_queries": [
+        "terminal markdown presentation"
+      ]
+    },
+    {
+      "id": 1266076408,
+      "full_name": "raman0c17/mocky",
+      "url": "https://github.com/raman0c17/mocky",
+      "description": "Turn an idea or Markdown into a polished, cross-platform PowerPoint deck — no Microsoft Office required. Includes a template library, an AI-agent prompt generator (Claude, Codex, Gemini & more), a CL…",
+      "stars": 2,
+      "forks": 0,
+      "open_issues": 10,
+      "archived": false,
+      "created_at": "2026-06-11T09:54:31Z",
+      "pushed_at": "2026-07-21T07:14:01Z",
+      "language": "Python",
+      "matched_queries": [
+        "markdown presentation generator"
+      ]
+    },
+    {
+      "id": 260327887,
+      "full_name": "TimoBechtel/mdlaunch",
+      "url": "https://github.com/TimoBechtel/mdlaunch",
+      "description": "Quickly spin up a HTML presentation from any existing markdown file.",
+      "stars": 2,
+      "forks": 0,
+      "open_issues": 11,
+      "archived": false,
+      "created_at": "2020-04-30T22:04:46Z",
+      "pushed_at": "2023-01-06T04:42:40Z",
+      "language": "JavaScript",
+      "matched_queries": [
+        "markdown presentation generator"
+      ]
+    },
+    {
+      "id": 360358670,
+      "full_name": "TinyToolSH/tmdpres",
+      "url": "https://github.com/TinyToolSH/tmdpres",
+      "description": "A tiny markdown presentation generator.",
+      "stars": 2,
+      "forks": 0,
+      "open_issues": 4,
+      "archived": false,
+      "created_at": "2021-04-22T01:40:25Z",
+      "pushed_at": "2021-05-02T23:54:18Z",
+      "language": "Shell",
+      "matched_queries": [
+        "markdown presentation generator"
+      ]
+    },
+    {
+      "id": 1271226930,
+      "full_name": "Twest2/StepForge",
+      "url": "https://github.com/Twest2/StepForge",
+      "description": "Turn your clicks into step-by-step guides. A free, local-first desktop app for Windows and Linux: record a task, edit the steps, then export to PDF, Word, PowerPoint, Markdown or HTML. A free alterna…",
+      "stars": 2,
+      "forks": 0,
+      "open_issues": 0,
+      "archived": false,
+      "created_at": "2026-06-16T13:05:51Z",
+      "pushed_at": "2026-10-10T05:32:12Z",
+      "language": "JavaScript",
+      "matched_queries": [
+        "powerpoint alternative markdown"
+      ]
+    },
+    {
+      "id": 1254990513,
+      "full_name": "3289david/mdview-cli",
+      "url": "https://github.com/3289david/mdview-cli",
+      "description": "Beautiful terminal Markdown viewer — syntax highlighting, tables, images, math, Mermaid, presentation mode",
+      "stars": 1,
+      "forks": 0,
+      "open_issues": 0,
+      "archived": false,
+      "created_at": "2026-05-31T08:59:09Z",
+      "pushed_at": "2026-05-31T09:35:09Z",
+      "language": "TypeScript",
+      "matched_queries": [
+        "terminal markdown presentation"
+      ]
+    },
+    {
+      "id": 687027734,
+      "full_name": "absolutelymid/pptx-to-notes",
+      "url": "https://github.com/absolutelymid/pptx-to-notes",
+      "description": "Python program to convert PowerPoint Presentations (.pptx) into an abridged Word Document of notes",
+      "stars": 1,
+      "forks": 0,
+      "open_issues": 0,
+      "archived": false,
+      "created_at": "2023-09-04T12:55:36Z",
+      "pushed_at": "2023-09-07T18:55:01Z",
+      "language": "Python",
+      "matched_queries": [
+        "convert notes to presentation"
+      ]
+    },
+    {
+      "id": 1062879136,
+      "full_name": "apj-graham/pptx-to-video",
+      "url": "https://github.com/apj-graham/pptx-to-video",
+      "description": "A python module to convert Powerpoint presentations with Notes to narrated videos in a selection of languages",
+      "stars": 1,
+      "forks": 0,
+      "open_issues": 1,
+      "archived": false,
+      "created_at": "2025-09-23T21:26:28Z",
+      "pushed_at": "2026-02-08T01:09:25Z",
+      "language": "Python",
+      "matched_queries": [
+        "convert notes to presentation"
+      ]
+    },
+    {
+      "id": 890144330,
+      "full_name": "BrianAnakPintar/frosch",
+      "url": "https://github.com/BrianAnakPintar/frosch",
+      "description": "Markdown presentations in the terminal.",
+      "stars": 1,
+      "forks": 0,
+      "open_issues": 1,
+      "archived": false,
+      "created_at": "2024-11-18T04:09:12Z",
+      "pushed_at": "2024-11-30T02:57:39Z",
+      "language": "C++",
+      "matched_queries": [
+        "terminal markdown presentation"
+      ]
+    },
+    {
+      "id": 606147693,
+      "full_name": "gitshow-js/gitshow",
+      "url": "https://github.com/gitshow-js/gitshow",
+      "description": "Presentation maker from markdown source files",
+      "stars": 1,
+      "forks": 0,
+      "open_issues": 1,
+      "archived": false,
+      "created_at": "2023-02-24T17:55:04Z",
+      "pushed_at": "2026-09-23T19:09:45Z",
+      "language": "JavaScript",
+      "matched_queries": [
+        "markdown presentation generator"
+      ]
+    },
+    {
+      "id": 308103929,
+      "full_name": "guyvdn/SprintReviewMarkdownGenerator",
+      "url": "https://github.com/guyvdn/SprintReviewMarkdownGenerator",
+      "description": "Generate markdown presentation from Azure WorkItems query",
+      "stars": 1,
+      "forks": 0,
+      "open_issues": 0,
+      "archived": false,
+      "created_at": "2020-10-28T18:16:48Z",
+      "pushed_at": "2020-11-25T22:41:11Z",
+      "language": "C#",
+      "matched_queries": [
+        "markdown presentation generator"
+      ]
+    },
+    {
+      "id": 1349607704,
+      "full_name": "kevinkoosk/mdpresent",
+      "url": "https://github.com/kevinkoosk/mdpresent",
+      "description": "Command line tool. Markdown presentations in the terminal. Also an ebook reader and compiler.",
+      "stars": 1,
+      "forks": 0,
+      "open_issues": 0,
+      "archived": false,
+      "created_at": "2026-08-28T13:04:28Z",
+      "pushed_at": "2026-09-01T19:24:10Z",
+      "language": "Go",
+      "matched_queries": [
+        "terminal markdown presentation"
+      ]
+    },
+    {
+      "id": 1240048672,
+      "full_name": "kontrolplane/lekture",
+      "url": "https://github.com/kontrolplane/lekture",
+      "description": "A terminal based presentation tool using markdown files",
+      "stars": 1,
+      "forks": 0,
+      "open_issues": 0,
+      "archived": false,
+      "created_at": "2026-05-15T18:01:36Z",
+      "pushed_at": "2026-10-01T18:19:09Z",
+      "language": "Go",
+      "matched_queries": [
+        "terminal markdown presentation"
+      ]
+    },
+    {
+      "id": 1293462515,
+      "full_name": "KumarrPrashant/Text-to-handwriting-generator",
+      "url": "https://github.com/KumarrPrashant/Text-to-handwriting-generator",
+      "description": "Convert digital text into realistic handwritten notes with customizable handwriting styles, ink colors, paper templates, margins, and font sizes. Ideal for students, teachers, and professionals, this…",
+      "stars": 1,
+      "forks": 0,
+      "open_issues": 0,
+      "archived": false,
+      "created_at": "2026-07-08T10:44:01Z",
+      "pushed_at": "2026-07-29T17:20:41Z",
+      "language": "CSS",
+      "matched_queries": [
+        "convert notes to presentation"
+      ]
+    },
+    {
+      "id": 1329208629,
+      "full_name": "metarhia/metascope",
+      "url": "https://github.com/metarhia/metascope",
+      "description": "Metarhia terminal presentation tool 🔬",
+      "stars": 1,
+      "forks": 0,
+      "open_issues": 0,
+      "archived": false,
+      "created_at": "2026-08-09T21:34:42Z",
+      "pushed_at": "2026-09-24T20:38:30Z",
+      "language": "JavaScript",
+      "matched_queries": [
+        "terminal markdown presentation"
+      ]
+    },
+    {
+      "id": 875556711,
+      "full_name": "modanets/presentation-voiceover",
+      "url": "https://github.com/modanets/presentation-voiceover",
+      "description": "A Python tool that converts slide notes in PowerPoint presentations into voiceovers using OpenAI's text-to-speech API.",
+      "stars": 1,
+      "forks": 0,
+      "open_issues": 0,
+      "archived": false,
+      "created_at": "2024-10-20T09:57:45Z",
+      "pushed_at": "2024-11-06T11:11:08Z",
+      "language": "Python",
+      "matched_queries": [
+        "convert notes to presentation"
+      ]
+    },
+    {
+      "id": 1006896927,
+      "full_name": "mohamedalgaml/markdown-presentation-app",
+      "url": "https://github.com/mohamedalgaml/markdown-presentation-app",
+      "description": "Markdown Presentation App - A lightweight PowerPoint alternative built with React & Node.js - Create/edit slides using Markdown syntax - Multiple slide layouts (title, code, image-focused) - Real-tim…",
+      "stars": 1,
+      "forks": 0,
+      "open_issues": 0,
+      "archived": false,
+      "created_at": "2025-06-23T06:51:56Z",
+      "pushed_at": "2025-06-28T20:54:11Z",
+      "language": "JavaScript",
+      "matched_queries": [
+        "powerpoint alternative markdown"
+      ]
+    },
+    {
+      "id": 1106935486,
+      "full_name": "nikhil7591/SlideX-AI-Notes-to-PPT-Generator-and-Explanation",
+      "url": "https://github.com/nikhil7591/SlideX-AI-Notes-to-PPT-Generator-and-Explanation",
+      "description": "SlideX is an AI tool that converts notes into clean, structured PowerPoint presentations with auto-generated explanations. Fast, accurate, and perfect for students and professionals.",
+      "stars": 1,
+      "forks": 0,
+      "open_issues": 0,
+      "archived": false,
+      "created_at": "2025-11-30T08:50:04Z",
+      "pushed_at": "2025-12-19T10:08:04Z",
+      "language": "Python",
+      "matched_queries": [
+        "convert notes to presentation"
+      ]
+    },
+    {
+      "id": 1124451099,
+      "full_name": "noumanx/nbp_slides",
+      "url": "https://github.com/noumanx/nbp_slides",
+      "description": "📊 Generate professional slide decks effortlessly using AI with the Nano Banana Pro. Transform your presentations from code and assets, not just PowerPoint.",
+      "stars": 1,
+      "forks": 0,
+      "open_issues": 0,
+      "archived": false,
+      "created_at": "2025-12-29T03:36:48Z",
+      "pushed_at": "2026-10-10T07:14:14Z",
+      "language": "Python",
+      "matched_queries": [
+        "terminal markdown presentation"
+      ]
+    },
+    {
+      "id": 230464546,
+      "full_name": "priyachawlacode/Image-text-to-file-converter.",
+      "url": "https://github.com/priyachawlacode/Image-text-to-file-converter.",
+      "description": "It will be a python,Machine learning project which will extract text from images and convert it to user choosen file format. The file format can be any of the word, presentation, pdf. So, just think…",
+      "stars": 1,
+      "forks": 1,
+      "open_issues": 0,
+      "archived": false,
+      "created_at": "2019-12-27T15:10:07Z",
+      "pushed_at": "2020-10-01T06:06:44Z",
+      "language": "Python",
+      "matched_queries": [
+        "convert notes to presentation"
+      ]
+    },
+    {
+      "id": 1374630998,
+      "full_name": "SachinyadavAug20/Termdeck",
+      "url": "https://github.com/SachinyadavAug20/Termdeck",
+      "description": "Terminal presentation tool. Write slides in markdown, present full-screen in your terminal.",
+      "stars": 1,
+      "forks": 1,
+      "open_issues": 0,
+      "archived": false,
+      "created_at": "2026-09-17T15:14:30Z",
+      "pushed_at": "2026-10-06T17:16:28Z",
+      "language": "Go",
+      "matched_queries": [
+        "terminal markdown presentation"
+      ]
+    },
+    {
+      "id": 442644176,
+      "full_name": "ShahadShaikh/Lead_Score_Case_Study",
+      "url": "https://github.com/ShahadShaikh/Lead_Score_Case_Study",
+      "description": "Problem Statement An education company named X Education sells online courses to industry professionals. On any given day, many professionals who are interested in the courses land on their website a…",
+      "stars": 1,
+      "forks": 0,
+      "open_issues": 0,
+      "archived": false,
+      "created_at": "2021-12-29T03:00:24Z",
+      "pushed_at": "2022-03-17T05:29:58Z",
+      "language": "Jupyter Notebook",
+      "matched_queries": [
+        "convert notes to presentation"
+      ]
+    },
+    {
+      "id": 1315208365,
+      "full_name": "stoatworks-labs/presentation-converter",
+      "url": "https://github.com/stoatworks-labs/presentation-converter",
+      "description": "Convert Keynote, PowerPoint, Google Slides and ODP presentations to PDF with a presenter-notes sidecar — GUI, CLI, and a Nextcloud app. Downloads: https://stoatworks-labs.com/software/presentation-co…",
+      "stars": 1,
+      "forks": 0,
+      "open_issues": 3,
+      "archived": false,
+      "created_at": "2026-07-28T16:41:06Z",
+      "pushed_at": "2026-10-07T11:14:26Z",
+      "language": "TypeScript",
+      "matched_queries": [
+        "convert notes to presentation"
+      ]
+    },
+    {
+      "id": 1350402393,
+      "full_name": "theamir29/pdf-master",
+      "url": "https://github.com/theamir29/pdf-master",
+      "description": "Free offline alternative to iLovePDF and Smallpdf for macOS and Windows. 30 local PDF tools: merge, split, compress, OCR, convert to and from Word, Excel, PowerPoint, JPG and Markdown, watermark, pag…",
+      "stars": 1,
+      "forks": 0,
+      "open_issues": 0,
+      "archived": false,
+      "created_at": "2026-08-29T08:15:58Z",
+      "pushed_at": "2026-08-29T09:44:51Z",
+      "language": "JavaScript",
+      "matched_queries": [
+        "powerpoint alternative markdown"
+      ]
+    },
+    {
+      "id": 1351799015,
+      "full_name": "yut0takagi/obsidian-pptx-studio",
+      "url": "https://github.com/yut0takagi/obsidian-pptx-studio",
+      "description": "Open, edit and inspect PowerPoint (.pptx) decks natively in Obsidian: a PowerPoint-style editing surface, an OOXML property inspector, slide embeds, Markdown extraction and PNG export.",
+      "stars": 1,
+      "forks": 0,
+      "open_issues": 1,
+      "archived": false,
+      "created_at": "2026-08-30T22:51:54Z",
+      "pushed_at": "2026-10-07T21:15:10Z",
+      "language": "TypeScript",
+      "matched_queries": [
+        "obsidian slides export"
+      ]
+    },
+    {
+      "id": 63597230,
+      "full_name": "z-george-ma/generator-reveal-markdown",
+      "url": "https://github.com/z-george-ma/generator-reveal-markdown",
+      "description": "Yeoman generator for reveal.js presentation from markdown files",
+      "stars": 1,
+      "forks": 1,
+      "open_issues": 0,
+      "archived": false,
+      "created_at": "2016-07-18T11:25:57Z",
+      "pushed_at": "2016-07-18T12:31:22Z",
+      "language": "CSS",
+      "matched_queries": [
+        "markdown presentation generator"
+      ]
+    },
+    {
+      "id": 1024986801,
+      "full_name": "14mb1v45h/Cyberdudebivash_TextToPPT_Converter",
+      "url": "https://github.com/14mb1v45h/Cyberdudebivash_TextToPPT_Converter",
+      "description": "GUI-based tool built in Python that converts input text (e.g., outlines, articles, or notes) into a markdown-formatted PPT presentation structure. I",
+      "stars": 0,
+      "forks": 0,
+      "open_issues": 0,
+      "archived": false,
+      "created_at": "2025-07-23T14:45:08Z",
+      "pushed_at": "2025-07-23T14:49:07Z",
+      "language": "Python",
+      "matched_queries": [
+        "convert notes to presentation"
+      ]
+    },
+    {
+      "id": 1085073226,
+      "full_name": "facundoq/slides2vid",
+      "url": "https://github.com/facundoq/slides2vid",
+      "description": "Convert slides w/ notes to a video presentation using TTS.",
+      "stars": 0,
+      "forks": 0,
+      "open_issues": 0,
+      "archived": false,
+      "created_at": "2025-10-28T14:50:01Z",
+      "pushed_at": "2025-12-09T17:31:22Z",
+      "language": "Python",
+      "matched_queries": [
+        "convert notes to presentation"
+      ]
+    },
+    {
+      "id": 1254100835,
+      "full_name": "jiajunzou9711/paper-to-slides",
+      "url": "https://github.com/jiajunzou9711/paper-to-slides",
+      "description": "Claude Code skill: Convert academic papers into polished .pptx presentations with figure placeholders, speaker notes, and click-through animations.",
+      "stars": 0,
+      "forks": 0,
+      "open_issues": 0,
+      "archived": false,
+      "created_at": "2026-05-30T06:29:30Z",
+      "pushed_at": "2026-05-30T06:29:32Z",
+      "language": null,
+      "matched_queries": [
+        "convert notes to presentation"
+      ]
+    },
+    {
+      "id": 1282110930,
+      "full_name": "johannes-kaindl/slide-deck",
+      "url": "https://github.com/johannes-kaindl/slide-deck",
+      "description": "Turn a Markdown note into a slide deck and export it to PDF or a PNG image series, with live readability checks.",
+      "stars": 0,
+      "forks": 0,
+      "open_issues": 0,
+      "archived": false,
+      "created_at": "2026-06-27T10:38:01Z",
+      "pushed_at": "2026-10-09T20:38:32Z",
+      "language": "TypeScript",
+      "matched_queries": [
+        "obsidian slides export"
+      ]
+    },
+    {
+      "id": 1178218746,
+      "full_name": "jpr-devx/CS663_Site_Exporter",
+      "url": "https://github.com/jpr-devx/CS663_Site_Exporter",
+      "description": "Extracts Lecture/Slide/Assignment information from https://cs631-s26.cs.usfca.edu/ and stores in an Obsidian Vault, a notetaking app.",
+      "stars": 0,
+      "forks": 0,
+      "open_issues": 0,
+      "archived": false,
+      "created_at": "2026-03-10T20:09:56Z",
+      "pushed_at": "2026-03-11T02:58:29Z",
+      "language": "Python",
+      "matched_queries": [
+        "obsidian slides export"
+      ]
+    },
+    {
+      "id": 503197123,
+      "full_name": "liu-qilong/AutoBeamer",
+      "url": "https://github.com/liu-qilong/AutoBeamer",
+      "description": "Automatically convert Dynalist outline note to LaTeX-Beamer presentation",
+      "stars": 0,
+      "forks": 1,
+      "open_issues": 0,
+      "archived": true,
+      "created_at": "2022-06-14T03:36:07Z",
+      "pushed_at": "2022-12-12T14:26:25Z",
+      "language": "Python",
+      "matched_queries": [
+        "convert notes to presentation"
+      ]
+    },
+    {
+      "id": 501978807,
+      "full_name": "RemyDekor/CSS-course-beginner",
+      "url": "https://github.com/RemyDekor/CSS-course-beginner",
+      "description": "This is an export of the CSS course I made with Obsidian (Advanced Slides plugin)",
+      "stars": 0,
+      "forks": 0,
+      "open_issues": 1,
+      "archived": false,
+      "created_at": "2022-06-10T09:19:41Z",
+      "pushed_at": "2022-12-12T22:01:13Z",
+      "language": "JavaScript",
+      "matched_queries": [
+        "obsidian slides export"
+      ]
+    },
+    {
+      "id": 811833130,
+      "full_name": "robinhundt/typst-polylux-to-pptx",
+      "url": "https://github.com/robinhundt/typst-polylux-to-pptx",
+      "description": "A small script to convert a Typst polylux presentation to powerpoint .pptx including speaker notes.",
+      "stars": 0,
+      "forks": 0,
+      "open_issues": 0,
+      "archived": false,
+      "created_at": "2024-06-07T11:51:11Z",
+      "pushed_at": "2024-06-07T11:51:42Z",
+      "language": "Python",
+      "matched_queries": [
+        "convert notes to presentation"
+      ]
+    },
+    {
+      "id": 1306113919,
+      "full_name": "t-east/x-bookmarks-to-obsidian",
+      "url": "https://github.com/t-east/x-bookmarks-to-obsidian",
+      "description": "Export X bookmarks, linked articles, X Articles, and slide decks to Obsidian-ready Markdown",
+      "stars": 0,
+      "forks": 0,
+      "open_issues": 0,
+      "archived": false,
+      "created_at": "2026-07-20T01:21:23Z",
+      "pushed_at": "2026-07-20T01:21:27Z",
+      "language": "JavaScript",
+      "matched_queries": [
+        "obsidian slides export"
+      ]
+    },
+    {
+      "id": 1155887672,
+      "full_name": "WilsonQ1n/webpage-HTML-export2",
+      "url": "https://github.com/WilsonQ1n/webpage-HTML-export2",
+      "description": "Obsidian 插件 webpage-HTML-export 的升级版， 可以支持 tab 插件， 支持advanced slides嵌入页面的导出。",
+      "stars": 0,
+      "forks": 0,
+      "open_issues": 0,
+      "archived": false,
+      "created_at": "2026-02-12T02:37:27Z",
+      "pushed_at": "2026-03-18T13:47:36Z",
+      "language": "JavaScript",
+      "matched_queries": [
+        "obsidian slides export"
+      ]
+    },
+    {
+      "id": 361044034,
+      "full_name": "slidevjs/slidev",
+      "url": "https://github.com/slidevjs/slidev",
+      "description": "Presentation Slides for Developers",
+      "stars": 48999,
+      "forks": 2220,
+      "open_issues": 231,
+      "archived": false,
+      "created_at": "2021-04-24T01:25:23Z",
+      "pushed_at": "2026-10-02T07:30:24Z",
+      "language": "TypeScript",
+      "matched_queries": []
+    },
+    {
+      "id": 10906757,
+      "full_name": "webpro/reveal-md",
+      "url": "https://github.com/webpro/reveal-md",
+      "description": "reveal.js on steroids! Get beautiful reveal.js presentations from any Markdown file",
+      "stars": 3912,
+      "forks": 414,
+      "open_issues": 12,
+      "archived": true,
+      "created_at": "2013-06-24T11:49:43Z",
+      "pushed_at": "2026-02-14T03:48:51Z",
+      "language": "JavaScript",
+      "matched_queries": []
+    }
+  ],
+  "inspections": {
+    "maaslalani/slides": {
+      "release_tag": "v0.9.0",
+      "release_at": "2022-09-13T14:32:18Z",
+      "release_is_prerelease": false,
+      "releases_seen": 10,
+      "asset_names": [
+        "slides_0.9.0_checksums.txt",
+        "slides_0.9.0_darwin_amd64.tar.gz",
+        "slides_0.9.0_darwin_arm64.tar.gz",
+        "slides_0.9.0_linux_386.tar.gz",
+        "slides_0.9.0_linux_amd64.tar.gz",
+        "slides_0.9.0_linux_arm64.tar.gz",
+        "slides_0.8.0_checksums.txt",
+        "slides_0.8.0_darwin_amd64.tar.gz",
+        "slides_0.8.0_darwin_arm64.tar.gz",
+        "slides_0.8.0_linux_386.tar.gz",
+        "slides_0.8.0_linux_amd64.tar.gz",
+        "slides_0.8.0_linux_arm64.tar.gz",
+        "slides_0.7.3_checksums.txt",
+        "slides_0.7.3_darwin_amd64.tar.gz",
+        "slides_0.7.3_darwin_arm64.tar.gz",
+        "slides_0.7.3_linux_386.tar.gz",
+        "slides_0.7.3_linux_amd64.tar.gz",
+        "slides_0.7.3_linux_arm64.tar.gz",
+        "slides_0.7.2_checksums.txt",
+        "slides_0.7.2_darwin_amd64.tar.gz",
+        "slides_0.7.2_darwin_arm64.tar.gz",
+        "slides_0.7.2_linux_386.tar.gz",
+        "slides_0.7.2_linux_amd64.tar.gz",
+        "slides_0.7.2_linux_arm64.tar.gz",
+        "slides_0.7.1_checksums.txt",
+        "slides_0.7.1_darwin_amd64.tar.gz",
+        "slides_0.7.1_darwin_arm64.tar.gz",
+        "slides_0.7.1_linux_386.tar.gz",
+        "slides_0.7.1_linux_amd64.tar.gz",
+        "slides_0.7.1_linux_arm64.tar.gz",
+        "slides_0.7.0_checksums.txt",
+        "slides_0.7.0_darwin_amd64.tar.gz",
+        "slides_0.7.0_darwin_arm64.tar.gz",
+        "slides_0.7.0_linux_386.tar.gz",
+        "slides_0.7.0_linux_amd64.tar.gz",
+        "slides_0.7.0_linux_arm64.tar.gz",
+        "slides_0.6.2_checksums.txt",
+        "slides_0.6.2_darwin_amd64.tar.gz",
+        "slides_0.6.2_darwin_arm64.tar.gz",
+        "slides_0.6.2_linux_386.tar.gz"
+      ],
+      "platforms": [
+        {
+          "platform": "macos",
+          "source": "release-asset"
+        },
+        {
+          "platform": "linux",
+          "source": "release-asset"
+        }
+      ],
+      "errors": []
+    },
+    "genspark-ai/genoffice": {
+      "release_tag": "v0.11.505",
+      "release_at": "2026-10-09T13:33:48Z",
+      "release_is_prerelease": false,
+      "releases_seen": 10,
+      "asset_names": [
+        "GenOffice-0.11.505-arm64.dmg",
+        "GenOffice-0.11.505.dmg",
+        "GenOffice-0.11.505.AppImage",
+        "GenOfficeSetup-v0.11.505-x64.exe",
+        "genoffice-0.11.505.x86_64.rpm",
+        "GenOfficeSetup-v0.11.505-arm64.exe",
+        "genoffice_0.11.505_amd64.deb",
+        "GenOffice-0.11.411-arm64.dmg",
+        "GenOffice-0.11.411.dmg",
+        "GenOfficeSetup-v0.11.411-arm64.exe",
+        "GenOffice-0.11.411.AppImage",
+        "GenOfficeSetup-v0.11.411-x64.exe",
+        "genoffice_0.11.411_amd64.deb",
+        "genoffice-0.11.411.x86_64.rpm",
+        "GenOffice-0.11.0.dmg",
+        "GenOfficeSetup-v0.11.0-arm64.exe",
+        "GenOfficeSetup-v0.11.0-x64.exe",
+        "GenOffice-0.11.0-arm64.dmg",
+        "GenOffice-0.11.0.AppImage",
+        "genoffice-0.11.0.x86_64.rpm",
+        "genoffice_0.11.0_amd64.deb",
+        "GenOffice-0.10.1467.AppImage",
+        "GenOfficeSetup-v0.10.1467-x64.exe",
+        "GenOfficeSetup-v0.10.1467-arm64.exe",
+        "GenOffice-0.10.1467-arm64.dmg",
+        "GenOffice-0.10.1467.dmg",
+        "genoffice-0.10.1467.x86_64.rpm",
+        "genoffice_0.10.1467_amd64.deb",
+        "GenOffice-0.10.1038-arm64.dmg",
+        "GenOffice-0.10.1038.AppImage",
+        "GenOffice-0.10.1038.dmg",
+        "genoffice-0.10.1038.x86_64.rpm",
+        "genoffice_0.10.1038_amd64.deb",
+        "GenOfficeSetup-v0.10.1038-arm64.exe",
+        "GenOfficeSetup-v0.10.1038-x64.exe",
+        "genoffice_0.10.915_amd64.deb",
+        "genoffice-0.10.915.x86_64.rpm",
+        "GenOfficeSetup-v0.10.915-arm64.exe",
+        "GenOfficeSetup-v0.10.915-x64.exe",
+        "GenOffice-0.10.915.dmg"
+      ],
+      "platforms": [
+        {
+          "platform": "windows",
+          "source": "release-asset"
+        },
+        {
+          "platform": "macos",
+          "source": "release-asset"
+        },
+        {
+          "platform": "linux",
+          "source": "release-asset"
+        }
+      ],
+      "errors": []
+    },
+    "mfontanini/presenterm": {
+      "release_tag": "v0.16.1",
+      "release_at": "2026-02-20T01:51:07Z",
+      "release_is_prerelease": false,
+      "releases_seen": 10,
+      "asset_names": [
+        "presenterm-0.16.1-aarch64-apple-darwin.tar.gz",
+        "presenterm-0.16.1-aarch64-apple-darwin.tar.gz.sha512",
+        "presenterm-0.16.1-aarch64-unknown-linux-gnu.tar.gz",
+        "presenterm-0.16.1-aarch64-unknown-linux-gnu.tar.gz.sha512",
+        "presenterm-0.16.1-aarch64-unknown-linux-musl.tar.gz",
+        "presenterm-0.16.1-aarch64-unknown-linux-musl.tar.gz.sha512",
+        "presenterm-0.16.1-armv5te-unknown-linux-gnueabi.tar.gz",
+        "presenterm-0.16.1-armv5te-unknown-linux-gnueabi.tar.gz.sha512",
+        "presenterm-0.16.1-armv7-unknown-linux-gnueabihf.tar.gz",
+        "presenterm-0.16.1-armv7-unknown-linux-gnueabihf.tar.gz.sha512",
+        "presenterm-0.16.1-i686-pc-windows-msvc.zip",
+        "presenterm-0.16.1-i686-pc-windows-msvc.zip.sha512",
+        "presenterm-0.16.1-i686-unknown-linux-gnu.tar.gz",
+        "presenterm-0.16.1-i686-unknown-linux-gnu.tar.gz.sha512",
+        "presenterm-0.16.1-i686-unknown-linux-musl.tar.gz",
+        "presenterm-0.16.1-i686-unknown-linux-musl.tar.gz.sha512",
+        "presenterm-0.16.1-x86_64-apple-darwin.tar.gz",
+        "presenterm-0.16.1-x86_64-apple-darwin.tar.gz.sha512",
+        "presenterm-0.16.1-x86_64-pc-windows-msvc.zip",
+        "presenterm-0.16.1-x86_64-pc-windows-msvc.zip.sha512",
+        "presenterm-0.16.1-x86_64-unknown-linux-gnu.tar.gz",
+        "presenterm-0.16.1-x86_64-unknown-linux-gnu.tar.gz.sha512",
+        "presenterm-0.16.1-x86_64-unknown-linux-musl.tar.gz",
+        "presenterm-0.16.1-x86_64-unknown-linux-musl.tar.gz.sha512",
+        "presenterm-0.16.0-aarch64-apple-darwin.tar.gz",
+        "presenterm-0.16.0-aarch64-apple-darwin.tar.gz.sha512",
+        "presenterm-0.16.0-aarch64-unknown-linux-gnu.tar.gz",
+        "presenterm-0.16.0-aarch64-unknown-linux-gnu.tar.gz.sha512",
+        "presenterm-0.16.0-aarch64-unknown-linux-musl.tar.gz",
+        "presenterm-0.16.0-aarch64-unknown-linux-musl.tar.gz.sha512",
+        "presenterm-0.16.0-armv5te-unknown-linux-gnueabi.tar.gz",
+        "presenterm-0.16.0-armv5te-unknown-linux-gnueabi.tar.gz.sha512",
+        "presenterm-0.16.0-armv7-unknown-linux-gnueabihf.tar.gz",
+        "presenterm-0.16.0-armv7-unknown-linux-gnueabihf.tar.gz.sha512",
+        "presenterm-0.16.0-i686-pc-windows-msvc.zip",
+        "presenterm-0.16.0-i686-pc-windows-msvc.zip.sha512",
+        "presenterm-0.16.0-i686-unknown-linux-gnu.tar.gz",
+        "presenterm-0.16.0-i686-unknown-linux-gnu.tar.gz.sha512",
+        "presenterm-0.16.0-i686-unknown-linux-musl.tar.gz",
+        "presenterm-0.16.0-i686-unknown-linux-musl.tar.gz.sha512"
+      ],
+      "platforms": [
+        {
+          "platform": "windows",
+          "source": "release-asset"
+        },
+        {
+          "platform": "macos",
+          "source": "release-asset"
+        },
+        {
+          "platform": "linux",
+          "source": "release-asset"
+        }
+      ],
+      "errors": []
+    },
+    "marp-team/marp-cli": {
+      "release_tag": "v4.5.1",
+      "release_at": "2026-09-06T00:33:58Z",
+      "release_is_prerelease": false,
+      "releases_seen": 10,
+      "asset_names": [
+        "marp-cli-v4.5.1-linux-arm64.tar.gz",
+        "marp-cli-v4.5.1-linux.tar.gz",
+        "marp-cli-v4.5.1-mac.tar.gz",
+        "marp-cli-v4.5.1-win.zip",
+        "marp-cli-v4.5.0-linux-arm64.tar.gz",
+        "marp-cli-v4.5.0-linux.tar.gz",
+        "marp-cli-v4.5.0-mac.tar.gz",
+        "marp-cli-v4.5.0-win.zip",
+        "marp-cli-v4.4.1-linux-arm64.tar.gz",
+        "marp-cli-v4.4.1-linux.tar.gz",
+        "marp-cli-v4.4.1-mac.tar.gz",
+        "marp-cli-v4.4.1-win.zip",
+        "marp-cli-v4.4.0-linux-arm64.tar.gz",
+        "marp-cli-v4.4.0-linux.tar.gz",
+        "marp-cli-v4.4.0-mac.tar.gz",
+        "marp-cli-v4.4.0-win.zip",
+        "marp-cli-v4.3.1-linux.tar.gz",
+        "marp-cli-v4.3.1-mac.tar.gz",
+        "marp-cli-v4.3.1-win.zip",
+        "marp-cli-v4.3.0-linux.tar.gz",
+        "marp-cli-v4.3.0-mac.tar.gz",
+        "marp-cli-v4.3.0-win.zip",
+        "marp-cli-v4.2.3-linux.tar.gz",
+        "marp-cli-v4.2.3-mac.tar.gz",
+        "marp-cli-v4.2.3-win.zip",
+        "marp-cli-v4.2.2-linux.tar.gz",
+        "marp-cli-v4.2.2-mac.tar.gz",
+        "marp-cli-v4.2.2-win.zip",
+        "marp-cli-v4.2.1-linux.tar.gz",
+        "marp-cli-v4.2.1-mac.tar.gz",
+        "marp-cli-v4.2.1-win.zip",
+        "marp-cli-v4.2.0-linux.tar.gz",
+        "marp-cli-v4.2.0-mac.tar.gz",
+        "marp-cli-v4.2.0-win.zip"
+      ],
+      "platforms": [
+        {
+          "platform": "windows",
+          "source": "release-asset"
+        },
+        {
+          "platform": "macos",
+          "source": "release-asset"
+        },
+        {
+          "platform": "linux",
+          "source": "release-asset"
+        }
+      ],
+      "errors": []
+    },
+    "CatchTheTornado/text-extract-api": {
+      "release_tag": "v0.3.0",
+      "release_at": "2025-04-29T01:58:02Z",
+      "release_is_prerelease": false,
+      "releases_seen": 3,
+      "asset_names": [],
+      "platforms": [],
+      "errors": []
+    },
+    "jaspervdj/patat": {
+      "release_tag": "v0.15.2.0",
+      "release_at": "2025-08-06T18:14:35Z",
+      "release_is_prerelease": false,
+      "releases_seen": 10,
+      "asset_names": [
+        "patat-v0.15.2.0-darwin-arm64.zip",
+        "patat-v0.15.2.0-linux-x86_64.tar.gz",
+        "patat-v0.15.1.0-darwin-arm64.zip",
+        "patat-v0.15.1.0-linux-x86_64.tar.gz",
+        "patat-v0.15.0.0-darwin-arm64.zip",
+        "patat-v0.15.0.0-linux-x86_64.tar.gz",
+        "patat-v0.14.2.0-darwin-arm64.zip",
+        "patat-v0.14.2.0-linux-x86_64.tar.gz",
+        "patat-v0.14.1.0-darwin-arm64.zip",
+        "patat-v0.14.1.0-linux-x86_64.tar.gz",
+        "patat-v0.14.0.0-darwin-arm64.zip",
+        "patat-v0.14.0.0-linux-x86_64.tar.gz",
+        "patat-v0.13.0.0-darwin-arm64.zip",
+        "patat-v0.13.0.0-linux-x86_64.tar.gz",
+        "patat-v0.12.0.1-darwin-arm64.zip",
+        "patat-v0.12.0.1-linux-x86_64.tar.gz",
+        "patat-v0.12.0.0-darwin-x86_64.zip",
+        "patat-v0.12.0.0-linux-x86_64.tar.gz",
+        "patat-v0.11.0.0-darwin-x86_64.zip",
+        "patat-v0.11.0.0-linux-x86_64.tar.gz"
+      ],
+      "platforms": [
+        {
+          "platform": "macos",
+          "source": "release-asset"
+        },
+        {
+          "platform": "linux",
+          "source": "release-asset"
+        }
+      ],
+      "errors": []
+    },
+    "marp-team/marp-vscode": {
+      "release_tag": "v3.6.1",
+      "release_at": "2026-08-11T11:46:00Z",
+      "release_is_prerelease": false,
+      "releases_seen": 10,
+      "asset_names": [
+        "marp-vscode-3.6.1.vsix",
+        "marp-vscode-3.6.0.vsix",
+        "marp-vscode-3.5.2.vsix",
+        "marp-vscode-3.5.1.vsix",
+        "marp-vscode-3.5.0.vsix",
+        "marp-vscode-3.4.1.vsix",
+        "marp-vscode-3.4.0.vsix",
+        "marp-vscode-3.3.0.vsix",
+        "marp-vscode-3.2.1.vsix",
+        "marp-vscode-3.2.0.vsix"
+      ],
+      "platforms": [],
+      "errors": []
+    },
+    "marp-team/marpit": {
+      "release_tag": "v3.2.3",
+      "release_at": "2026-09-04T22:46:38Z",
+      "release_is_prerelease": false,
+      "releases_seen": 10,
+      "asset_names": [],
+      "platforms": [],
+      "errors": []
+    },
+    "slidevjs/slidev": {
+      "release_tag": "v53.0.0",
+      "release_at": "2026-09-16T04:21:11Z",
+      "release_is_prerelease": false,
+      "releases_seen": 10,
+      "asset_names": [],
+      "platforms": [],
+      "errors": []
+    },
+    "webpro/reveal-md": {
+      "release_tag": "6.1.4",
+      "release_at": "2024-11-27T04:40:57Z",
+      "release_is_prerelease": false,
+      "releases_seen": 10,
+      "asset_names": [],
+      "platforms": [],
+      "errors": []
+    }
+  },
+  "fetch_errors": {}
+}
