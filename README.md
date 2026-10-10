@@ -107,6 +107,13 @@ The design and the reasons behind it are in [docs/DESIGN.md](docs/DESIGN.md).
 /plugin install dejabuilt@dejabuilt
 ```
 
+**With the [skills CLI](https://skills.sh)**, into the current project (add `-g`
+for a global install):
+
+```bash
+npx skills add maximilianfeix/dejabuilt
+```
+
 **By hand**, for Claude Code or any agent that loads skill folders:
 
 ```bash
