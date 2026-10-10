@@ -276,6 +276,24 @@ class TestVerdictCommand:
         run("verdict", "--from", state, "--marks", marks, "--big-stars", "9000")
         assert run.out.getvalue().startswith("# dejabuilt: CONTESTED")
 
+    def test_results_that_nobody_looked_at_cannot_support_open(self, tmp_path: Path) -> None:
+        state = tmp_path / "state.json"
+        Run(ROUTES)("search", "-q", "alpha", "--out", state)
+        marks = write_marks(tmp_path / "marks.json", {})
+        run = Run()
+        assert run("verdict", "--from", state, "--marks", marks) == EXIT_PARTIAL
+        text = run.out.getvalue()
+        assert text.startswith("# dejabuilt: INCONCLUSIVE")
+        assert "3 repositories were returned but none was inspected" in text
+
+    def test_search_that_found_nothing_is_open(self, tmp_path: Path) -> None:
+        state = tmp_path / "state.json"
+        Run({"/search/repositories": found()})("search", "-q", "alpha", "--out", state)
+        marks = write_marks(tmp_path / "marks.json", {})
+        run = Run()
+        assert run("verdict", "--from", state, "--marks", marks) == EXIT_OK
+        assert run.out.getvalue().startswith("# dejabuilt: OPEN")
+
     def test_inconclusive_exits_3(self, tmp_path: Path) -> None:
         routes = {**ROUTES, "/search/repositories": Seq(found(), json_response({}, 422))}
         state = tmp_path / "state.json"

@@ -164,6 +164,9 @@ def _verdict(args: argparse.Namespace, deps: Deps) -> int:
     candidates = _candidates(state, marks)
     now = deps.now()
     gaps = evidence_gaps(state.queries, candidates, state.fetch_errors)
+    if state.repos and not state.inspections:
+        found = len(state.repos)
+        gaps = (*gaps, f"{found} repositories were returned but none was inspected or judged")
     decision = decide(candidates, gaps, now, policy)
     report = Report(
         idea=idea,
